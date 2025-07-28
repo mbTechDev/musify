@@ -23,10 +23,9 @@ let originalVideos = [
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
-    title:
-      "6 AM (Official Video): YO YO HONEY SINGH | HEERA SOHAL | GLORY | BHUSHAN KUMAR",
-    thumbnail: "https://img.youtube.com/vi/I5iCw4CIpAU/mqdefault.jpg",
-    videoId: "I5iCw4CIpAU",
+    title: "Anuv Jain - HUSN (Official Video)",
+    thumbnail: "https://img.youtube.com/vi/gJLVTKhTnog/mqdefault.jpg",
+    videoId: "gJLVTKhTnog",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
@@ -90,9 +89,11 @@ let originalVideos = [
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
-    title: "Bhool Na Jaana Lyrics - Tanveer Evan | Memories Are Forever",
-    thumbnail: "https://i.ytimg.com/vi/ZkOOCQ-FQt0/mqdefault.jpg",
+    title:
+      "Tanveer Evan - Bhool Na Jaana ( Slowed & Revarb ) Memories Are Forever | HR Lofi",
+    thumbnail: "https://i.ytimg.com/vi/MYVATDyAU_M/mqdefault.jpg",
     videoId: "ZkOOCQ-FQt0",
+
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
@@ -121,22 +122,22 @@ let originalVideos = [
   },
   {
     title: "Afusic - Pal Pal (Official Music Video) Prod. @AliSoomroMusic",
-    thumbnail: "https://i.ytimg.com/vi/8of5w7RgcTc/mqdefault.jpg",
-    videoId: "8of5w7RgcTc",
+    thumbnail: "https://i.ytimg.com/vi/KkIxm6TQdzU/mqdefault.jpg",
+    videoId: "KkIxm6TQdzU",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
     title:
-      "Housefull 5: Laal Pari (Full Video) | Yo Yo Honey Singh | Sajid Nadiadwala | Tarun Mansukhani",
-    thumbnail: "https://i.ytimg.com/vi/rcPuG_PkAf8/mqdefault.jpg",
-    videoId: "rcPuG_PkAf8",
+      "Laal Pari (Full Video) | Yo Yo Honey Singh | Sajid Nadiadwala | Tarun Mansukhani",
+    thumbnail: "https://i.ytimg.com/vi/DtXoMZAvWyo/mqdefault.jpg",
+    videoId: "DtXoMZAvWyo",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
     title:
       "Aaj Ki Raat Lyrics - Stree 2 | Sachin-Jigar, Madhubanti Bagchi, Divya Kumar",
-    thumbnail: "https://i.ytimg.com/vi/G-FjwlwvK24/mqdefault.jpg",
-    videoId: "G-FjwlwvK24",
+    thumbnail: "https://i.ytimg.com/vi/xUa4uhD7e0A/mqdefault.jpg",
+    videoId: "xUa4uhD7e0A",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
@@ -147,16 +148,28 @@ let originalVideos = [
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
-    title: "Karan Aujla - Tauba Tauba (Lyrics)",
-    thumbnail: "https://i.ytimg.com/vi/hZrJxT9mGU4/mqdefault.jpg",
-    videoId: "hZrJxT9mGU4",
+    title: "Purnota || পূর্ণতা || Warfaze ||Album: Shotto",
+    thumbnail: "https://i.ytimg.com/vi/KmDLj7i06KY/mqdefault.jpg",
+    videoId: "KmDLj7i06KY",
+    favorite: `<ion-icon name="heart-outline"></ion-icon>`,
+  },
+  {
+    title: "Bikhra (Lyrics)| AW LYRICS #abdulhannan #lyrics #bikhra",
+    thumbnail: "https://i.ytimg.com/vi/lLSS4Kj3gCc/mqdefault.jpg",
+    videoId: "lLSS4Kj3gCc",
+    favorite: `<ion-icon name="heart-outline"></ion-icon>`,
+  },
+  {
+    title: "Tanveer Evan - Jaane Kyun (Reprise Version)",
+    thumbnail: "https://i.ytimg.com/vi/kK38gWsXQ_0/mqdefault.jpg",
+    videoId: "kK38gWsXQ_0",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
     title:
-      "Rovalio & Abdul Hannan- Bikhra (Lyrics)| AW LYRICS #abdulhannan #lyrics #bikhra",
-    thumbnail: "https://i.ytimg.com/vi/AdTQLpnMx-U/mqdefault.jpg",
-    videoId: "AdTQLpnMx-U",
+      "Raanjhan | Do Patti | Kriti Sanon, Shaheer Sheikh | Parampara Tandon | Sachet-Parampara",
+    thumbnail: "https://i.ytimg.com/vi/lBvbNxiVmZA/mqdefault.jpg",
+    videoId: "lBvbNxiVmZA",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
@@ -164,6 +177,12 @@ let originalVideos = [
       "Shaky Shaky - Sanju Rathod FT. Isha Malviya (Lyrics) | Lyrical Bam Marathi",
     thumbnail: "https://i.ytimg.com/vi/zMkb2_XpT_E/mqdefault.jpg",
     videoId: "zMkb2_XpT_E",
+    favorite: `<ion-icon name="heart-outline"></ion-icon>`,
+  },
+  {
+    title: "Samjho Na - Aditya Rikhari ||",
+    thumbnail: "https://i.ytimg.com/vi/JnsdxAZel-Y/mqdefault.jpg",
+    videoId: "JnsdxAZel-Y",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
 ];
