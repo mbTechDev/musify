@@ -23,9 +23,10 @@ let originalVideos = [
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
-    title: "Saanson Mein Tum Ho – AI BeatFusion Studio",
-    thumbnail: "https://img.youtube.com/vi/bD_v9o4aYGA/mqdefault.jpg",
-    videoId: "bD_v9o4aYGA",
+    title:
+      "6 AM (Official Video): YO YO HONEY SINGH | HEERA SOHAL | GLORY | BHUSHAN KUMAR",
+    thumbnail: "https://img.youtube.com/vi/I5iCw4CIpAU/mqdefault.jpg",
+    videoId: "I5iCw4CIpAU",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
@@ -70,9 +71,9 @@ let originalVideos = [
   },
   {
     title:
-      "Rater Akasher Chader Alo | রাতের আকাশের চাঁদের আলো | AI BeatFusion Studio | 2.2M+ Views",
-    thumbnail: "https://i.ytimg.com/vi/iPmBJ3tT-xU/mqdefault.jpg",
-    videoId: "iPmBJ3tT-xU",
+      "Badnaamiyan (Lyrical) | Hate Story IV | Urvashi Rautela | Karan Wahi | Armaan Malik 5 minutes, 27 seconds",
+    thumbnail: "https://i.ytimg.com/vi/4A8MeLhIVNk/mqdefault.jpg",
+    videoId: "4A8MeLhIVNk",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
@@ -104,12 +105,6 @@ let originalVideos = [
     title: "Xefer x Muza - Jhumka (Official Music Video)",
     thumbnail: "https://i.ytimg.com/vi/LolUVl3nSu4/mqdefault.jpg",
     videoId: "LolUVl3nSu4",
-    favorite: `<ion-icon name="heart-outline"></ion-icon>`,
-  },
-  {
-    title: "Tomake Cay | তোমাকে চায় | AI BeatFusion Studio | 2.5M+ Views",
-    thumbnail: "https://i.ytimg.com/vi/Aa-TuioCBYo/mqdefault.jpg",
-    videoId: "Aa-TuioCBYo",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
@@ -164,6 +159,13 @@ let originalVideos = [
     videoId: "AdTQLpnMx-U",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
+  {
+    title:
+      "Shaky Shaky - Sanju Rathod FT. Isha Malviya (Lyrics) | Lyrical Bam Marathi",
+    thumbnail: "https://i.ytimg.com/vi/zMkb2_XpT_E/mqdefault.jpg",
+    videoId: "zMkb2_XpT_E",
+    favorite: `<ion-icon name="heart-outline"></ion-icon>`,
+  },
 ];
 
 let fav = JSON.parse(localStorage.getItem("fav")) || [];
@@ -179,7 +181,7 @@ originalVideos.sort(() => Math.random() - 0.5);
 
 function fetchFunction() {
   fetch(
-    `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=100&q=${searchBar.value}+"official song full"+music&videoCategoryId=10&key=`
+    `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=100&q=${searchBar.value}+"official song full"+music&videoCategoryId=10&key=AIzaSyDUR8uyyL2l56apdcSB7RQBs7Kr20k-hUM`
   )
     .then((res) => res.json())
 
@@ -216,7 +218,7 @@ function fetchFunction() {
     });
 }
 
-fetchFunction();
+// fetchFunction();
 search.onclick = function () {
   if (searchBar.value !== "") {
     fetchFunction();
