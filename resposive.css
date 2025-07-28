@@ -73,7 +73,7 @@
 /* Small phones */
 @media screen and (max-width: 500px) {
   #logo {
-    width: 58px;
+    width: 55px;
   }
 
   #musicBox {
@@ -94,7 +94,7 @@
 /* Extra small phones */
 @media screen and (max-width: 375px) {
   #headPhone img {
-    width: 100px !important;
+    width: 150px !important;
   }
 
   #headPhone h2 {
