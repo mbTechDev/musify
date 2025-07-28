@@ -71,9 +71,9 @@ let originalVideos = [
   },
   {
     title:
-      "Badnaamiyan (Lyrical) | Hate Story IV | Urvashi Rautela | Karan Wahi | Armaan Malik 5 minutes, 27 seconds",
-    thumbnail: "https://i.ytimg.com/vi/4A8MeLhIVNk/mqdefault.jpg",
-    videoId: "4A8MeLhIVNk",
+      "Badnaamiyan (Lyrical) | Hate Story IV | Urvashi Rautela | Karan Wahi | Armaan Malik",
+    thumbnail: "https://i.ytimg.com/vi/cR9FSU29qqc/mqdefault.jpg",
+    videoId: "cR9FSU29qqc",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
