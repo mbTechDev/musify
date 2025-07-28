@@ -161,8 +161,8 @@ let originalVideos = [
   },
   {
     title: "Tanveer Evan - Jaane Kyun (Reprise Version)",
-    thumbnail: "https://i.ytimg.com/vi/kK38gWsXQ_0/mqdefault.jpg",
-    videoId: "kK38gWsXQ_0",
+    thumbnail: "https://i.ytimg.com/vi/EX9EqrYr8Zo/mqdefault.jpg",
+    videoId: "EX9EqrYr8Zo",
     favorite: `<ion-icon name="heart-outline"></ion-icon>`,
   },
   {
