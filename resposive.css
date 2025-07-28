@@ -1,0 +1,115 @@
+/* Tablet and small devices */
+@media screen and (max-width: 780px) {
+  #musicList {
+    padding-top: 20px !important;
+  }
+
+  /* adjusting Music Box */
+  #musicBox {
+    margin-left: 0px !important;
+  }
+
+  /* Logo positioning */
+  #logo {
+    top: 10px !important;
+    left: 13px !important;
+  }
+
+  /* Center music box */
+  .musicBoxCentering {
+    left: 50% !important;
+  }
+
+  /* Headphone margin reset */
+  #headPhone {
+    margin-left: 0px !important;
+  }
+
+  /* Hide song players by default */
+  #songPlayers {
+    width: 100% !important;
+    display: none;
+    margin-right: 0px !important;
+  }
+
+  /* Show menu button */
+  #menu {
+    display: block;
+    top: -35px;
+    right: 3px;
+  }
+
+  /* Hide music tabs */
+  #allMusics,
+  #favoriteMusics {
+    display: none;
+    border: 1px solid #ccc !important;
+  }
+
+  /* Navigation header spacing */
+  #navHeader {
+    margin-bottom: 15px !important;
+    margin-left: 13px !important;
+  }
+
+  /* Show close menu button */
+  #closeMenu {
+    display: block;
+  }
+
+  /* Search bar positioning */
+  #search {
+    right: 43px !important;
+  }
+
+  /* Nav bar absolute positioning */
+  #nav {
+    position: absolute;
+    top: 53px;
+    right: -1px;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 500px) {
+  #logo {
+    width: 58px;
+  }
+
+  #musicBox {
+    width: 290px !important;
+  }
+
+  #nav li {
+    font-size: xx-small;
+    padding: 7px 9px !important;
+  }
+
+  #menu {
+    top: -45px !important;
+    right: -9px !important;
+  }
+}
+
+/* Extra small phones */
+@media screen and (max-width: 375px) {
+  #headPhone img {
+    width: 100px !important;
+  }
+
+  #headPhone h2 {
+    font-size: large !important;
+  }
+}
+
+/* Very small phones */
+@media screen and (max-width: 320px) {
+  #musicList {
+    height: 77vh !important;
+  }
+
+  /* adjusting Music Box */
+  #musicBox {
+    margin-top: 40px;
+  }
+}
