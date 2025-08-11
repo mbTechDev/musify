@@ -1,0 +1,228 @@
+/* Container width adjustments */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .container {
+    max-width: 100%;
+    padding: 0 8px;
+  }
+  .musicsLi small {
+    font-size: 9px;
+    padding-right: 15px !important;
+  }
+  #newBadge {
+    font-size: 8px;
+    background: #00eaffc2;
+  }
+  .musicFilterLi {
+    width: 46% !important;
+    font-size: small !important;
+    margin: 6px !important;
+  }
+}
+
+/* Tablet and small devices */
+
+@media screen and (max-width: 1070px) {
+  #wrapper {
+    height: fit-content !important;
+  }
+
+  #sideBar {
+    width: 100% !important;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: 0.6s !important;
+    opacity: 0;
+  }
+  .musicsLi {
+    justify-content: space-between !important;
+  }
+
+  #searchBar {
+    padding: 11px 50px 11px 10px !important;
+  }
+  #micBtn {
+    right: 58px !important;
+  }
+
+  #closeMenu,
+  #menu {
+    display: block;
+  }
+
+  #submit {
+    margin-right: 26px;
+  }
+
+  #newBadge {
+    font-size: 8px;
+    background: #00afff;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .musicFilterLi {
+    width: 215px;
+    margin: 10px;
+  }
+}
+
+/* Smaller device adjustments */
+
+@media screen and (max-width: 600px) {
+  .owlImgContainer {
+    width: 100%;
+    margin: auto !important;
+  }
+  .item {
+    text-align: center;
+    display: block;
+  }
+  .item h4 {
+    margin-top: 15px;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .item {
+    margin: 2px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+}
+
+/* Very small devices */
+
+@media screen and (max-width: 500px) {
+  .playOptions button {
+    width: fit-content;
+  }
+
+  .playOptions ion-icon,
+  #muteOrUnmute ion-icon,
+  #loop ion-icon {
+    font-size: 17px;
+    margin: 7px;
+  }
+
+  #playOrPause ion-icon {
+    font-size: 35px !important;
+    margin: 7px;
+  }
+
+  .volumeBar input {
+    display: none;
+  }
+
+  .volumeBar:hover input {
+    visibility: visible !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .heading {
+    font-size: 18px;
+  }
+
+  #nav span li {
+    color: #747474;
+  }
+
+  .playOptions ion-icon,
+  #muteOrUnmute ion-icon {
+    font-size: 17px;
+  }
+
+  #loop ion-icon {
+    font-size: 20px;
+  }
+
+  #playBox img {
+    width: 60px;
+    height: 45px;
+  }
+
+  #muteOrUnmute,
+  #muteOrUnmute ion-icon {
+    margin-right: 0 !important;
+  }
+}
+
+/* Miscellaneous */
+
+@media screen and (max-width: 1390px) {
+  #sideBar {
+    width: 290px;
+  }
+
+  .headphone {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .headphone {
+    width: 230px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nowplaying {
+    margin: auto !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  #playBox {
+    width: fit-content;
+  }
+
+  .playboxSongName {
+    display: none;
+  }
+
+  .volumeBar input {
+    width: 64px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .nowplaying {
+    width: 262px !important;
+  }
+
+  .headphone {
+    width: 150px !important;
+    margin-bottom: 0px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  #musicList {
+    height: 77vh !important;
+  }
+
+  #home h1 {
+    font-size: 25px;
+  }
+
+  #home h2 {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .item {
+    padding: 15px;
+  }
+
+  #musicList {
+    padding-top: 10px !important;
+  }
+}
