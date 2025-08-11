@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/res.css" />
+    <link rel="icon" href="./img/icons8-musi-120.png" type="image/icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>mb Tech - Musify</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body>
+    <!-- Whole-Container-Div -->
+
+    <div class="flex">
+      <div
+        id="modalOfSpeach"
+        class="hidden w-full h-screen bg-[#fff] fixed top-0 z-99 flex justify-center items-center"
+      >
+        <div class="p-4 bg-white">
+          <div style="width: fit-content" class="mb-4 mx-auto" id="speakingDiv">
+            <div>
+              <div
+                style="animation: animatedVoice 2s infinite"
+                class="shadow-inner shadow-xl border border-cyan-500 rounded-full"
+              >
+                <img
+                  class="w-[100px] border border-cyan-500 shadow-inner shadow-xl rounded-full"
+                  src="./img/speak.png"
+                  alt=""
+                />
+              </div>
+              <h1 class="mt-6 text-center">Listening...</h1>
+            </div>
+          </div>
+          <div
+            id="speakingText"
+            class="text-center p-4 text-gray-400 text-xl h-[100px] mb-4"
+          >
+            Your Text Will Show Here.
+          </div>
+          <div class="flex justify-center gap-4 text-xs">
+            <button
+              id="search"
+              class="hidden bg-cyan-500 shadow-md shadow-cyan-500/50 text-white px-3 py-2 rounded-sm"
+            >
+              Search
+            </button>
+            <button
+              id="speakAgainBtn"
+              class="hidden speak bg-indigo-500 shadow-md shadow-indigo-500/50 text-white px-3 py-2 rounded-sm"
+            >
+              Speak again
+            </button>
+            <button
+              id="stopSpeking"
+              class="bg-gray-600 shadow-md shadow-gray-500/50 text-white px-3 py-2 rounded-sm"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+        <a href="#">
+          <img
+            class="absolute bottom-[15px] right-[15px]"
+            src="./img/logo.jpg"
+            alt=""
+          />
+        </a>
+      </div>
+
+      <!-- Side-Bar -->
+
+      <div
+        id="sideBar"
+        class="relative block h-screen bg-white z-[99] w-[340px] flex-none shadow-lg overflow-hidden"
+      >
+        <div
+          class="flex sticky top-0 bg-white z-[99] py-[5px] px-[10px] mb-[17px] border-b border-[#e5e5e5] shadow-sm shadow-[#f3f3f3]"
+        >
+          <input
+            id="searchBar"
+            type="search"
+            autocomplete="off"
+            placeholder="Search Music..."
+            style="padding: 11px 40px 11px 10px"
+            class="w-screen text-xs outline-none"
+          />
+          <div class="flex justify-between items-center text-lg">
+            <button
+              type="submit"
+              id="submit"
+              class="absolute top-[14px] right-[10px] text-[#007f92]"
+            >
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+            <button
+              id="micBtn"
+              class="speak absolute top-[14px] right-[30px] text-gray-500"
+            >
+              <ion-icon name="mic-outline"></ion-icon>
+            </button>
+          </div>
+
+          <button
+            id="closeMenu"
+            class="hidden mt-[8px] text-[20px] text-gray-500"
+          >
+            <ion-icon name="arrow-back-circle-outline"></ion-icon>
+          </button>
+        </div>
+
+        <!-- Menu Header -->
+
+        <div>
+          <div class="flex justify-between items-center mb-[15px] mx-4">
+            <h5 id="menuHeader" class="text-xs flex items-center">
+              <img class="w-[24px] mr-[7px]" src="./img/music.gif" />
+              All Musics
+            </h5>
+            <ul class="flex">
+              <li
+                style="
+                  box-shadow: inset 0 5px 20px #0009800a, 0 7px 18px #0009800d;
+                "
+                id="allMusics"
+                class="rounded-xs py-[6px] px-[7px] bg-white text-[9px] cursor-pointer mr-[13px] border border-[#ccc]"
+              >
+                All Musics
+              </li>
+              <li
+                style="
+                  box-shadow: inset 0 5px 20px rgb(0 9 128 / 4%),
+                    0 7px 18px rgb(0 9 128 / 5%);
+                "
+                id="favoriteMusics"
+                class="rounded-xs py-[6px] px-[7px] bg-white text-[9px] cursor-pointer mr-0 border border-[#ccc]"
+              >
+                Favorites
+              </li>
+            </ul>
+          </div>
+
+          <div
+            id="message"
+            style="transform: translate(-50%, -50%)"
+            class="hidden text-center w-max absolute top-[50%] left-[50%]"
+          >
+            <img width="150px" class="mx-auto" src="./img/sadFace.png" alt="" />
+            <h3 class="font-bold">
+              Sorry! <br />
+              You have no musics
+            </h3>
+          </div>
+
+          <ul
+            id="musicList"
+            class="h-[83vh] overflow-x-hidden overflow-y-scroll"
+          ></ul>
+        </div>
+      </div>
+
+      <!-- Wrapper -->
+
+      <div
+        id="wrapper"
+        class="bg-white w-screen h-screen overflow-x-hidden overflow-y-scroll flex-auto"
+      >
+        <div id="player" class="hidden"></div>
+        <div>
+          <!-- Header -->
+
+          <header
+            style="width: -webkit-fill-available"
+            id="header"
+            class="fixed top-0 inset-shadow-sm z-10 px-[8px] py-[3px] text-xs border-[#e5e5e5]"
+          >
+            <div class="container flex justify-between items-center">
+              <a href="#">
+                <img
+                  class="w-[60px] sm:w-[65px] mb-[3px]"
+                  src="./img/logo.jpg"
+                  alt=""
+                />
+              </a>
+
+              <ul id="nav" class="flex items-center">
+                <span class="flex">
+                  <li
+                    class="hover:text-cyan-500 transition my-[5px] ml-[15px] cursor-pointer"
+                  >
+                    <a href="#home">Home</a>
+                  </li>
+                  <li
+                    class="hover:text-cyan-500 transition my-[5px] ml-[15px] cursor-pointer"
+                  >
+                    <a href="#genres">Genres</a>
+                  </li>
+                  <li
+                    class="hover:text-cyan-500 transition my-[5px] ml-[15px] cursor-pointer"
+                  >
+                    <a href="#artists">Artists</a>
+                  </li>
+                </span>
+                <li
+                  id="menu"
+                  class="hover:text-cyan-500 transition hidden mt-[8px] text-[21px] ml-[15px] cursor-pointer"
+                >
+                  <ion-icon name="options-outline"></ion-icon>
+                </li>
+              </ul>
+            </div>
+          </header>
+
+          <!-- Home -->
+
+          <section
+            id="home"
+            class="container h-screen w-full flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between overflow-hidden"
+          >
+            <div
+              class="font-[cursive] space-y-4 text-center lg:text-left mx-4 mt-6 lg:mt-0"
+            >
+              <div class="font-[poppins]">
+                <h1
+                  class="text-[#404852] text-shadow-lg sm:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold"
+                >
+                  Hear What You <span class="text-cyan-400">Love</span>
+                </h1>
+                <h2
+                  class="text-base md:text-lg font-semibold text-gray-600 mt-2"
+                >
+                  Discover music that matches your vibe!
+                </h2>
+              </div>
+
+              <p
+                class="text-gray-400 text-xs sm:text-sm max-w-md mx-auto lg:mx-0 leading-relaxed font-light"
+              >
+                Stream unlimited songs, create playlists, and explore trending
+                artists from around the world — all in one place.
+              </p>
+
+              <button
+                class="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-3 rounded-full text-xs sm:text-sm shadow-lg shadow-cyan-500/50 transition-all"
+                onclick="if(window.innerWidth <= 1070){sideBar.classList.add(`sideActive`);}"
+              >
+                Start Listening
+              </button>
+            </div>
+
+            <img
+              class="headphone max-w-[550px] mx-auto lg:mx-8 animate-float"
+              src="./img/headphone.png"
+              alt="Headphone"
+            />
+          </section>
+
+          <br />
+          <br />
+
+          <!-- nowPlayingSection -->
+
+          <section id="nowPlayingSection" class="container hidden">
+            <div
+              class="px-2 lg:px-0 grid grid-cols-1 md:grid-cols-2 items-center mb-[85px]"
+            >
+              <div
+                style="box-shadow: -9px 9px 10px #979797c9"
+                class="relative border-3 bg-black rounded-lg mt-4 ml-[30px] mr-[50px] nowplaying"
+              >
+                <div id="nowPlayingImg"></div>
+                <div id="overlay">
+                  <img class="mt-[-20px]" src="./img/wave.gif" alt="" />
+                </div>
+              </div>
+
+              <div class="mt-[60px] md:mt-[20px] text-gray-600">
+                <div class="flex items-center space-x-3">
+                  <span class="text-white text-2xl">
+                    <button
+                      class="modalbtn"
+                      style="
+                        animation: animatedplay 2s infinite;
+                        padding: 2px 9px;
+                        background: linear-gradient(
+                          45deg,
+                          #4289ff 0%,
+                          #07f8c3 100%
+                        );
+                        border-radius: 100%;
+                      "
+                    >
+                      <ion-icon
+                        name="play-circle-outline"
+                        style="
+                          font-size: 18px;
+                          position: relative;
+                          bottom: -1px;
+                          z-index: 9;
+                          animation: animatedplayicon 4s infinite;
+                        "
+                      ></ion-icon>
+                    </button>
+                  </span>
+
+                  <h2
+                    class="text-cyan-950 text-shadow-2xs text-shadow-cyan-300 text-3xl font-semibold leading-tight"
+                  >
+                    Now Playing
+                  </h2>
+                </div>
+
+                <br />
+
+                <p class="max-w-2xl text-xs leading-relaxed">
+                  <b class="mr-1">Song :</b>
+                  <span id="song" class="text-gray-500"></span>
+                  <br /><br />
+                  <b class="mr-1">Description :</b>
+                  <span id="description" class="text-gray-500"></span>
+                  <br /><br />
+                  <b class="mr-1">From :</b>
+                  <span id="from" class="underline text-cyan-500 cursor-pointer"
+                    >AI beat fusion studio</span
+                  >
+                  <br /><br />
+                  <b class="mr-1">Publish Time :</b>
+                  <span id="publishedAt" class="text-gray-500"></span>
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Bottom playerSection -->
+
+          <section id="playerSection" class="hidden">
+            <div
+              style="width: -webkit-fill-available"
+              class="fixed bottom-0 inset-shadow-sm bg-white z-10 py-[12px] px-2 lg:px-0 lg:py-[5px] border-t-1 text-xs border-[#e5e5e5]"
+            >
+              <div class="container flex justify-between items-center">
+                <a
+                  href="#nowPlayingSection"
+                  id="playBox"
+                  class="w-[260px] flex"
+                ></a>
+
+                <div class="ml-0 md:ml-[-100px] lg:mt-4">
+                  <input type="range" id="musicSlider" value="0" />
+
+                  <div
+                    id="musicBox"
+                    class="playOptions flex items-center text-[20px]"
+                  >
+                    <button id="favorite" class="favorite w-[50px] h-[50px]">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+                    <button id="previous" class="w-[50px] h-[50px]">
+                      <ion-icon name="play-skip-back-sharp"></ion-icon>
+                    </button>
+                    <button id="playOrPause" class="w-[50px] h-[50px]">
+                      <ion-icon name="play-circle"></ion-icon>
+                    </button>
+                    <button id="next" class="w-[50px] h-[50px]">
+                      <ion-icon name="play-skip-forward-sharp"></ion-icon>
+                    </button>
+                    <button id="loop" class="w-[50px] h-[50px] text-[23px]">
+                      <ion-icon name="infinite-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="volumeBar">
+                  <button id="muteOrUnmute" class="text-lg mr-[8px]">
+                    <ion-icon name="volume-high" class="mb-[-6px]"></ion-icon>
+                  </button>
+                  <input
+                    type="range"
+                    class="w-[80px] h-[4px] cursor-pointer"
+                    value="100"
+                    onchange="if(window.innerWidth<= 500){player.setVolume(100)} else{player.setVolume(this.value)}"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Genres -->
+
+          <section id="genres" class="container">
+            <h2 class="container heading">Genres</h2>
+            <ul
+              class="flex flex-wrap justify-center lg:justify-start"
+              id="musicFilterUl"
+            ></ul>
+          </section>
+
+          <br /><br /><br /><br />
+
+          <!-- Artists -->
+
+          <section id="artists" class="container">
+            <h2 class="container heading">Popular Artists</h2>
+            <div
+              id="owlDiv"
+              class="owl-carousel owl-theme flex flex-wrap justify-center lg:justify-start"
+            ></div>
+          </section>
+
+          <br /><br />
+
+          <!-- Footer  -->
+
+          <footer class="bg-white shadow-inner mt-8">
+            <div class="container">
+              <div
+                class="text-gray-600 font-light px-3 py-4 md:py-10 md:flex justify-between space-y-10"
+              >
+                <div class="max-w-[300px]">
+                  <img
+                    class="w-[60px] sm:w-[65px] mb-[3px]"
+                    src="./img/logo.jpg"
+                    alt=""
+                  />
+                  <br />
+                  <p class="text-xs">
+                    Your ultimate music destination — stream your favorites,
+                    explore genres, and enjoy endless beats.
+                  </p>
+                </div>
+
+                <!-- Quick Links -->
+
+                <div>
+                  <h3 class="text-gray-900 text-sm font-semibold mb-3">
+                    Quick Links
+                  </h3>
+                  <ul class="space-y-2 text-xs">
+                    <li>
+                      <a href="#home" class="hover:text-cyan-500 transition"
+                        >Home</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#genres" class="hover:text-cyan-500 transition"
+                        >Genres</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#artists" class="hover:text-cyan-500 transition"
+                        >Artists</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Social Media -->
+
+                <div>
+                  <h3 class="text-gray-900 text-sm font-semibold mb-3">
+                    Follow
+                  </h3>
+                  <div class="flex space-x-4 text-lg text-gray-600">
+                    <a href="#" class="hover:text-cyan-500 transition"
+                      ><ion-icon name="logo-facebook"></ion-icon
+                    ></a>
+                    <a href="#" class="hover:text-cyan-500 transition"
+                      ><ion-icon name="logo-google"></ion-icon
+                    ></a>
+                    <a href="#" class="hover:text-cyan-500 transition"
+                      ><ion-icon name="logo-github"></ion-icon
+                    ></a>
+
+                    <a href="#" class="hover:text-cyan-500 transition"
+                      ><ion-icon name="logo-youtube"></ion-icon
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br />
+            <div
+              class="border-t border-gray-200 text-center py-4 text-xs text-gray-400"
+            >
+              © 2025 Musify. All rights reserved.
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ionicons -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- YouTube IFrame API -->
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- Your Script -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./js/script.js"></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        dots: false,
+        autoplayHoverilause: false,
+        responsive: {
+          0: { items: 2 },
+          530: { items: 3 },
+          1280: { items: 4 },
+          1920: { items: 5 },
+        },
+      });
+    </script>
+  </body>
+</html>
