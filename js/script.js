@@ -408,6 +408,17 @@ let originalVideos = [
   },
   {
     title:
+      "Tu Ishq Hai Toh Main Baahon Mein Hoon (Lyrics) Tu Hain Toh Main Hoon - Arijit Singh, Afsana Khan",
+    thumbnail: "https://i.ytimg.com/vi/44jQh6vAl-4/mqdefault.jpg",
+    videoId: "44jQh6vAl-4",
+    description:
+      "Subscribe and press ( ) to join the Notification Squad and stay updated with new uploads Follow Me: ...",
+    publishedAt: "1/31/2025",
+    channelTitle: "Good Vibes",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
       "Shaky Shaky - Sanju Rathod FT. Isha Malviya (Lyrics) | Lyrical Bam Marathi",
     thumbnail: "https://i.ytimg.com/vi/zMkb2_XpT_E/mqdefault.jpg",
     videoId: "zMkb2_XpT_E",
@@ -629,6 +640,7 @@ function boxPlayer() {
 function createPlayer(videoId) {
   player = new YT.Player("player", {
     videoId: videoId,
+
     events: {
       onReady: () => {
         duration = player.getDuration();
@@ -1055,4 +1067,3 @@ search.onclick = function () {
     `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
   );
 };
-
