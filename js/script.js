@@ -17,7 +17,7 @@ let musicFilter = [
     icon: "./img/in-love.gif",
   },
   { category: "Hip Hop Rap Songs", icon: "./img/hipHop.gif" },
-  { category: "Lo-Fi Chill Beats", icon: "./img/relaxed.gif" },
+  { category: "Lo-Fi", icon: "./img/relaxed.gif" },
   { category: "Bollywood Remix Hits", icon: "./img/crown.gif" },
   {
     category: `Heartbreak Mashup ${new Date().getFullYear()}`,
@@ -1055,3 +1055,4 @@ search.onclick = function () {
     `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
   );
 };
+
