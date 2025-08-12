@@ -187,13 +187,14 @@ let originalVideos = [
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title: "NISSHASH - নিঃশ্বাস | VIDEO SONG | BORBAAD | SHAKIB KHAN",
-    thumbnail: "https://i.ytimg.com/vi/VHz3srJjAV4/mqdefault.jpg",
-    videoId: "VHz3srJjAV4",
+    title:
+      " Taandob Title Track | SHAKIB KHAN | SHIFAT ABDULLAH ABIR | TANVIR AHMED|SVF Alpha-i |Deepto| Chorki",
+    thumbnail: "https://i.ytimg.com/vi/UtynhHq7uHU/mqdefault.jpg",
+    videoId: "UtynhHq7uHU",
     description:
-      "This is the official video song for 'Nisshash' from the movie 'Borbaad' starring Shakib Khan. It is a popular track with more than 40 million views and a high like count.",
-    publishedAt: "2025-03-24",
-    channelTitle: "Real Energy Production",
+      "মেগাস্টার শাকিব খানের ক্যারিয়ারের ২৬ বছর পূর্তিতে এলো তান্ডবের ...",
+    publishedAt: "5/28/2025",
+    channelTitle: "Chorki",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
@@ -313,13 +314,210 @@ let originalVideos = [
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title: "Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X Nandita",
-    thumbnail: "https://i.ytimg.com/vi/9c1NIrAqXe4/mqdefault.jpg",
-    videoId: "9c1NIrAqXe4",
+    title:
+      "Dhun Song | Saiyaara | Ahaan Panday, Aneet Padda | Mithoon | Arijit Singh | In cinemas now",
+    thumbnail: "https://i.ytimg.com/vi/cUmUOb7j3dc/mqdefault.jpg",
+    videoId: "cUmUOb7j3dc",
     description:
-      "This is a live performance of the song 'Bulbuli' from Coke Studio Bangla Season One. It features Ritu Raj and Nandita. The song is a fan favorite, with over 80 million views, showcasing a unique blend of traditional and modern sounds.",
-    publishedAt: "2022-04-14",
-    channelTitle: "Coke Studio Bangla",
+      "Book your tickets now: https://bookmy.show/Saiyaara | https://link.district.in/DSTRKT/psaiyaara When love hurts, music heals.",
+    publishedAt: "7/1/2025",
+    channelTitle: "YRF",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "Barbaad Song | Saiyaara | Ahaan Panday, Aneet Padda | The Rish | Jubin Nautiyal | In Cinemas Now",
+    thumbnail: "https://i.ytimg.com/vi/0v5eHPfy5Lk/mqdefault.jpg",
+    videoId: "0v5eHPfy5Lk",
+    description:
+      "Book your tickets now: https://bookmy.show/Saiyaara | https://link.district.in/DSTRKT/psaiyaara Who says love can't consume you ...",
+    publishedAt: "6/10/2025",
+    channelTitle: "YRF",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title: "Khoobsurat Lyrics - Stree 2 | Sachin-Jigar, Vishal Mishra",
+    thumbnail: "https://i.ytimg.com/vi/spl0PfQDRjk/mqdefault.jpg",
+    videoId: "spl0PfQDRjk",
+    description:
+      "Khoobsurat Lyrics - Stree 2 | Sachin-Jigar, Vishal Mishra Song: Khoobsurat Singer: Vishal Mishra, Sachin-Jigar Lyrics: Amitabh ...",
+    publishedAt: "8/10/2024",
+    channelTitle: "Vibe Bird",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "EMIWAY BANTAI - PAISA PAISA | ( MUSIC BY TONY JAMES ) | OFFICIAL MUSIC VIDEO",
+    thumbnail: "https://i.ytimg.com/vi/l2Qi31JfXvc/mqdefault.jpg",
+    videoId: "l2Qi31JfXvc",
+    description:
+      "About The Song :- Presenting Paisa Paisa! Recreated by Emiway Bantai, laced with hard verses and flow like no other, this Paisa ...",
+    publishedAt: "6/16/2025",
+    channelTitle: "Emiway Bantai",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "Paisa hai to badi badi baatein | Trading Motivational Video Song | Farzi",
+    thumbnail: "https://i.ytimg.com/vi/zHdlI2fVR24/mqdefault.jpg",
+    videoId: "zHdlI2fVR24",
+    description:
+      "Paisa hai to badi badi baatein | Trading Motivational Video Song | Farzi paisa hai to paisa hai to badi badi baatein paisa hai to ...",
+    publishedAt: "10/16/2023",
+    channelTitle: "The Thief of Dalal Street",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+
+  {
+    title: "Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill",
+    thumbnail: "https://i.ytimg.com/vi/5Eqb_-j3FDA/mqdefault.jpg",
+    videoId: "5Eqb_-j3FDA",
+    description:
+      "Let's transcend boundaries and bridge distances through compassion, love and identity. #Pasoori #RealMagic ...",
+    publishedAt: "2/7/2022",
+    channelTitle: "Coke Studio Pakistan",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+
+  {
+    title:
+      "Coke Studio | Season 14 | Kana Yaari | Kaifi Khalil x Eva B x Abdul Wahab Bugti",
+    thumbnail: "https://i.ytimg.com/vi/zQDAi8tI-cU/mqdefault.jpg",
+    videoId: "zQDAi8tI-cU",
+    description:
+      "Come join us on this journey of friendship, love, and betrayal #CokeStudio #Season14 #KanaYaari Listen on Spotify: ...",
+    publishedAt: "1/19/2022",
+    channelTitle: "Coke Studio Pakistan",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+
+  {
+    title:
+      "Uyi Amma Trending Dance Hits | Taras, Kala Chashma, Hook Up Song, Manali Trance, Laila Main Laila",
+    thumbnail: "https://i.ytimg.com/vi/1C9n09cmb2M/mqdefault.jpg",
+    videoId: "1C9n09cmb2M",
+    description:
+      "SUBSCRIBE to Zee Music Company - https://bit.ly/ZeeMusicCo Tracklist: 00:00:00 - Uyi Amma 00:04:14 - Taras 00:07:23 - Kala ...",
+    publishedAt: "3/6/2025",
+    channelTitle: "Zee Music Company",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "Chuttamalle Lyrics - DEVARA Part 1 | Shilpa Rao, Anirudh Ravichander (Full Video)",
+    thumbnail: "https://i.ytimg.com/vi/zcMJ9TzACNY/mqdefault.jpg",
+    videoId: "zcMJ9TzACNY",
+    description:
+      "Chuttamalle Lyrics - DEVARA Part 1 | Shilpa Rao, Anirudh Ravichander Spotify ...",
+    publishedAt: "9/14/2024",
+    channelTitle: "Vxin Editz",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "Tum Tum - Video Song (Hindi) | Enemy | Vishal | Arya | Anand Shankar | Vinod Kumar | Thaman S",
+    thumbnail: "https://i.ytimg.com/vi/Q38f4frs8yc/mqdefault.jpg",
+    videoId: "Q38f4frs8yc",
+    description:
+      "Miss attending weddings? Don't worry we have an amazing song 'Tum Tum' (Hindi) from Enemy that you can dance to. Get ready ...",
+    publishedAt: "1/3/2022",
+    channelTitle: "Divo Music Hindi",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "Tumi Bristi Cheyecho Bole | ( তুমি বৃষ্টি চেয়েছো বলে ) | Mahtim sakib | New Lyrical Song 2024",
+    thumbnail: "https://i.ytimg.com/vi/4vPKLGz0bU4/mqdefault.jpg",
+    videoId: "4vPKLGz0bU4",
+    description:
+      'Today, we have brought to you a beautiful song "Tumi bristi cheyecho bole " ( তুমি বৃষ্টি চেয়েছো বলে ) from ...',
+    publishedAt: "8/1/2024",
+    channelTitle: "ABACUS ORIGINALS",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title: "Alingone Lyrics (আলিঙ্গনে) Habib Wahid Bangla Song 2019",
+    thumbnail: "https://i.ytimg.com/vi/9HQiANh8soI/mqdefault.jpg",
+    videoId: "9HQiANh8soI",
+    description:
+      "Alingone Song Is Sung by Habib Wahid Bangla Song 2019 Featuring: Muna Gauchan. Alingone Bengali Lyrics written by Ratim ...",
+    publishedAt: "4/4/2020",
+    channelTitle: "Lyrics Media",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "ONUVOBE | অনুভবে | Shakir Zaman | Raian Afridi | New Bangla Song 2019 | Official Lyrical Video",
+    thumbnail: "https://i.ytimg.com/vi/hoHwaDSnxjE/mqdefault.jpg",
+    videoId: "hoHwaDSnxjE",
+    description:
+      "Subscribe to my channel and Enjoy more Bengali Music Videos. ONUVOBE Lyrics : বদ্ধ দেয়ালে জমানো ...",
+    publishedAt: "11/17/2019",
+    channelTitle: "SHAKIR ZN",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "Onuvobe | অনুভবে | Lofi Remix | Shakir Zaman | Raian Afridi | NabruNation",
+    thumbnail: "https://i.ytimg.com/vi/MydHs6k6Mg4/mqdefault.jpg",
+    videoId: "MydHs6k6Mg4",
+    description:
+      'I\'ve created a Lofi version of "ONUVOBE" by @shakirzn14 & Raian Afridi. If you enjoyed it, please leave a like and hit the ...',
+    publishedAt: "4/28/2025",
+    channelTitle: "NabruNation",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title: "Akhiyaan Gulaab - MITRAZ (Lyrics/English Meaning)",
+    thumbnail: "https://i.ytimg.com/vi/ETiHKMmfr-k/mqdefault.jpg",
+    videoId: "ETiHKMmfr-k",
+    description:
+      "SONG CREDITS Music - MITRAZ Lyrics - MITRAZ Singer - MITRAZ Choreographer - Vijay Ganguly Mix/Master - Eric Pillai at ...",
+    publishedAt: "1/25/2024",
+    channelTitle: "SentiVibe",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "তোমার পিছু ছাড়বো না || Tomar Pichu Charbo Na || Nahid Hassan || Lyrics Video",
+    thumbnail: "https://i.ytimg.com/vi/yPg-BKrBt7E/mqdefault.jpg",
+    videoId: "yPg-BKrBt7E",
+    description:
+      "তোমার পিছু ছাড়বো না || Tomar Pichu Charbo Na || Nahid Hassan || Lyrics Video Facebook Page: ...",
+    publishedAt: "5/9/2023",
+    channelTitle: "SG MUSIC POINT",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title: "Koi Sehri Babu - Shruti Rane (Lyrics) | Lyrical Bam Hindi",
+    thumbnail: "https://i.ytimg.com/vi/XhlYxb-ZuyI/mqdefault.jpg",
+    videoId: "XhlYxb-ZuyI",
+    description:
+      "Koi Sehri Babu - Shruti Rane (Lyrics) | Lyrical Bam Hindi Song Credits:- Singer:- Shruti Rane Original Lyricist:- Anand Bakshi ...",
+    publishedAt: "5/5/2025",
+    channelTitle: "LYRICAL BAM HINDI",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "O Sajna (Official Video) - Badshah X DIVINE X Nikhita Gandhi | Ek THA RAJA",
+    thumbnail: "https://i.ytimg.com/vi/JRKk7gxcpMc/mqdefault.jpg",
+    videoId: "JRKk7gxcpMc",
+    description:
+      "Listen Now On Spotify : https://open.spotify.com/track/3YVbYgFSd2Whua4QUiIjUc Jiosaavn ...",
+    publishedAt: "4/23/2024",
+    channelTitle: "Badshah",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title:
+      "Sabki Baaratein Aayi | Zaara Yesmin, Parth Samthaan | Dev Negi, Seepi Jha | Raaj | Anu Malik",
+    thumbnail: "https://i.ytimg.com/vi/DsROfrRB-1k/mqdefault.jpg",
+    videoId: "DsROfrRB-1k",
+    description:
+      "Tips Original Presents Kumar Taurani's Grooving Wedding Song of the Season Sabki Baaratein Aayi. Featuring Zaara Yesmin ...",
+    publishedAt: "1/24/2022",
+    channelTitle: "Tips Official",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
@@ -366,13 +564,14 @@ let originalVideos = [
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title: "Purnota || পূর্ণতা || Warfaze ||Album: Shotto",
-    thumbnail: "https://i.ytimg.com/vi/KmDLj7i06KY/mqdefault.jpg",
-    videoId: "KmDLj7i06KY",
+    title:
+      "Coke Studio | Season 14 | Kana Yaari | Kaifi Khalil x Eva B x Abdul Wahab Bugti",
+    thumbnail: "https://i.ytimg.com/vi/zQDAi8tI-cU/mqdefault.jpg",
+    videoId: "zQDAi8tI-cU",
     description:
-      "This is the official audio for 'Purnota' by the band Warfaze from their album 'Shotto'. The song is a classic, with over 20 million views, showcasing the band's iconic rock sound.",
-    publishedAt: "2022-03-29",
-    channelTitle: "Loyy Records",
+      "Come join us on this journey of friendship, love, and betrayal #CokeStudio #Season14 #KanaYaari Listen on Spotify: ...",
+    publishedAt: "1/19/2022",
+    channelTitle: "Coke Studio Pakistan",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
@@ -418,14 +617,13 @@ let originalVideos = [
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title:
-      "Shaky Shaky - Sanju Rathod FT. Isha Malviya (Lyrics) | Lyrical Bam Marathi",
-    thumbnail: "https://i.ytimg.com/vi/zMkb2_XpT_E/mqdefault.jpg",
-    videoId: "zMkb2_XpT_E",
+    title: "Wildfires - Shaky Shaky (Official Music Video) ft. Sanju Rathod",
+    thumbnail: "https://i.ytimg.com/vi/0epWXkEXaDM/mqdefault.jpg",
+    videoId: "0epWXkEXaDM",
     description:
-      "This is a lyrical video for 'Shaky Shaky' by Sanju Rathod featuring Isha Malviya. The song has become popular, with over 6.8 million views, and is presented by Lyrical Bam Marathi.",
-    publishedAt: "2025-05-06",
-    channelTitle: "Lyrical Bam Marathi",
+      "Music video by Wildfires performing Shaky Shaky (Official Music Video).Wildfires.",
+    publishedAt: "7/28/2025",
+    channelTitle: "WildfiresVEVO",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
@@ -436,6 +634,16 @@ let originalVideos = [
       "This is the Indie Release version of the song 'Samjho Na' by Aditya Rikhari. The song is a hit among indie music fans, with over 1 million views.",
     publishedAt: "2022-02-15",
     channelTitle: "Aditya Rikhari",
+    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+  },
+  {
+    title: "Akshath - Nadaaniyan (Official Video) Aisha Ahmed",
+    thumbnail: "https://i.ytimg.com/vi/gPpQNzQP6gE/mqdefault.jpg",
+    videoId: "gPpQNzQP6gE",
+    description:
+      "You guys gave the song so much love, that we had to do a video, to its truest nadaan depiction. Hope it makes you smile :) Follow ...",
+    publishedAt: "6/26/2024",
+    channelTitle: "Akshath",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
 ];
