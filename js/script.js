@@ -200,8 +200,8 @@ let originalVideos = [
   {
     title:
       "Saiyaara Lyrics - Tanishk Bagchi, Faheem Abdullah, Arslan Nizami • saiyara tu to badla nahi hai",
-    thumbnail: "https://i.ytimg.com/vi/HQp0DwtTP18/mqdefault.jpg",
-    videoId: "HQp0DwtTP18",
+    thumbnail: "https://i.ytimg.com/vi/wiaP9cAosgw/mqdefault.jpg",
+    videoId: "wiaP9cAosgw",
     description:
       "This is a lyrical video for the song 'Saiyaara' featuring music by Tanishk Bagchi and vocals by Faheem Abdullah and Arslan Nizami. The song has gained significant popularity with over 4 million views.",
     publishedAt: "2025-06-11",
@@ -381,24 +381,12 @@ let originalVideos = [
 
   {
     title:
-      "Coke Studio | Season 14 | Kana Yaari | Kaifi Khalil x Eva B x Abdul Wahab Bugti",
-    thumbnail: "https://i.ytimg.com/vi/zQDAi8tI-cU/mqdefault.jpg",
-    videoId: "zQDAi8tI-cU",
+      "Uyi Amma - Azaad | Aaman D, Rasha Thadani| Madhubanti Bagchi,Amit Trivedi,Amitabh| Bosco| Abhishek K",
+    thumbnail: "https://i.ytimg.com/vi/FZLadzn5i6Q/mqdefault.jpg",
+    videoId: "FZLadzn5i6Q",
     description:
-      "Come join us on this journey of friendship, love, and betrayal #CokeStudio #Season14 #KanaYaari Listen on Spotify: ...",
-    publishedAt: "1/19/2022",
-    channelTitle: "Coke Studio Pakistan",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-
-  {
-    title:
-      "Uyi Amma Trending Dance Hits | Taras, Kala Chashma, Hook Up Song, Manali Trance, Laila Main Laila",
-    thumbnail: "https://i.ytimg.com/vi/1C9n09cmb2M/mqdefault.jpg",
-    videoId: "1C9n09cmb2M",
-    description:
-      "SUBSCRIBE to Zee Music Company - https://bit.ly/ZeeMusicCo Tracklist: 00:00:00 - Uyi Amma 00:04:14 - Taras 00:07:23 - Kala ...",
-    publishedAt: "3/6/2025",
+      "SUBSCRIBE to Zee Music Company - https://bit.ly/2yPcBkS To Stream & Download Full Song: Spotify - https://spoti.fi/3Po1CCU ...",
+    publishedAt: "1/4/2025",
     channelTitle: "Zee Music Company",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
@@ -469,8 +457,8 @@ let originalVideos = [
   },
   {
     title: "Akhiyaan Gulaab - MITRAZ (Lyrics/English Meaning)",
-    thumbnail: "https://i.ytimg.com/vi/ETiHKMmfr-k/mqdefault.jpg",
-    videoId: "ETiHKMmfr-k",
+    thumbnail: "https://i.ytimg.com/vi/7jD5SLFdvP8/mqdefault.jpg",
+    videoId: "7jD5SLFdvP8",
     description:
       "SONG CREDITS Music - MITRAZ Lyrics - MITRAZ Singer - MITRAZ Choreographer - Vijay Ganguly Mix/Master - Eric Pillai at ...",
     publishedAt: "1/25/2024",
@@ -509,17 +497,7 @@ let originalVideos = [
     channelTitle: "Badshah",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
-  {
-    title:
-      "Sabki Baaratein Aayi | Zaara Yesmin, Parth Samthaan | Dev Negi, Seepi Jha | Raaj | Anu Malik",
-    thumbnail: "https://i.ytimg.com/vi/DsROfrRB-1k/mqdefault.jpg",
-    videoId: "DsROfrRB-1k",
-    description:
-      "Tips Original Presents Kumar Taurani's Grooving Wedding Song of the Season Sabki Baaratein Aayi. Featuring Zaara Yesmin ...",
-    publishedAt: "1/24/2022",
-    channelTitle: "Tips Official",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
+
   {
     title: "Afusic - Pal Pal (Official Music Video) Prod. @AliSoomroMusic",
     thumbnail: "https://i.ytimg.com/vi/KkIxm6TQdzU/mqdefault.jpg",
@@ -848,6 +826,15 @@ function boxPlayer() {
 function createPlayer(videoId) {
   player = new YT.Player("player", {
     videoId: videoId,
+    playerVars: {
+      // Start the video muted to satisfy browser autoplay policies.
+      autoplay: 1,
+      mute: 1,
+      // Controls will be visible.
+      controls: 1,
+      // Disable related videos at the end.
+      rel: 0,
+    },
 
     events: {
       onReady: () => {
