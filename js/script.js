@@ -667,7 +667,7 @@ function fetchFunction(val) {
       checkFavorites();
       setTimeout(() => {
         message.style.display = videos.length === 0 ? "block" : "none";
-      }, 100);
+      }, 50);
       LoadVideo();
     })
     .catch((err) => {
@@ -676,7 +676,7 @@ function fetchFunction(val) {
       checkFavorites();
       setTimeout(() => {
         message.style.display = videos.length === 0 ? "block" : "none";
-      }, 100);
+      }, 50);
       LoadVideo();
     });
 }
@@ -816,7 +816,7 @@ function boxPlayer() {
     checkFavorites();
     setTimeout(() => {
       message.style.display = videos.length === 0 ? "block" : "none";
-    }, 100);
+    }, 50);
     favorite.innerHTML = video.favorite;
   };
 }
@@ -1068,7 +1068,7 @@ function initialSetup(btnBg1, btnColor1, btnBg2, btnColor2, menuHeaderText) {
   checkFavorites();
   setTimeout(() => {
     message.style.display = videos.length === 0 ? "block" : "none";
-  }, 100);
+  }, 50);
   LoadVideo();
 
   document.title = "mb Tech - Musify";
