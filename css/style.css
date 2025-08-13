@@ -255,3 +255,12 @@ li {
   transform: translateX(0%) !important;
   opacity: 1 !important;
 }
+
+#home {
+  background: radial-gradient(
+    ellipse 80% 80% at 50% -20%,
+    rgba(0, 204, 255, 0.123),
+    hsla(0, 0%, 100%, 0)
+  );
+  background-attachment: fixed;
+}
