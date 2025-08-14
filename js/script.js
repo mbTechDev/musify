@@ -392,13 +392,13 @@ let originalVideos = [
   },
   {
     title:
-      "Chuttamalle Lyrics - DEVARA Part 1 | Shilpa Rao, Anirudh Ravichander (Full Video)",
-    thumbnail: "https://i.ytimg.com/vi/zcMJ9TzACNY/mqdefault.jpg",
-    videoId: "zcMJ9TzACNY",
+      "Chuttamalle Lyrics - DEVARA | NTR | Janhvi Kapoor | Anirudh Ravichander | Shilpa Rao",
+    thumbnail: "https://i.ytimg.com/vi/exLJkAYRb9w/mqdefault.jpg",
+    videoId: "exLJkAYRb9w",
     description:
-      "Chuttamalle Lyrics - DEVARA Part 1 | Shilpa Rao, Anirudh Ravichander Spotify ...",
-    publishedAt: "9/14/2024",
-    channelTitle: "Vxin Editz",
+      "Here's #Chuttamalle from Devara Part - 1 ft. NTR, Janhvi Kapoor. Written & Directed by Koratala Siva. The Film's music is ...",
+    publishedAt: "11/17/2024",
+    channelTitle: "RAINBOW TRENDS",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
@@ -456,13 +456,14 @@ let originalVideos = [
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title: "Akhiyaan Gulaab - MITRAZ (Lyrics/English Meaning)",
-    thumbnail: "https://i.ytimg.com/vi/7jD5SLFdvP8/mqdefault.jpg",
-    videoId: "7jD5SLFdvP8",
+    title:
+      "Ishq Hai Mashup | Naresh Parmar | Sahiba | Arijit Singh | Vishal Mishra",
+    thumbnail: "https://i.ytimg.com/vi/ipfrW9jYGwI/mqdefault.jpg",
+    videoId: "ipfrW9jYGwI",
     description:
-      "SONG CREDITS Music - MITRAZ Lyrics - MITRAZ Singer - MITRAZ Choreographer - Vijay Ganguly Mix/Master - Eric Pillai at ...",
-    publishedAt: "1/25/2024",
-    channelTitle: "SentiVibe",
+      "Ishq Hai Mashup | Naresh Parmar | Sahiba | Arijit Singh | Vishal Mishra Music - Naresh Parmar Visual - Naresh Parmar If you like ...",
+    publishedAt: "1/12/2025",
+    channelTitle: "Naresh Parmar",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
