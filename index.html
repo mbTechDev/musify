@@ -234,46 +234,47 @@
 
           <!-- Home -->
 
-          <section
-            id="home"
-            class="container h-screen w-full flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between overflow-hidden"
-          >
+          <section id="home">
             <div
-              class="font-[cursive] space-y-4 text-center lg:text-left mx-4 mt-6 lg:mt-0"
+              class="container w-full h-screen flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between overflow-hidden"
             >
-              <div class="font-[poppins]">
-                <h1
-                  class="text-[#404852] text-shadow-lg sm:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold"
+              <div
+                class="font-[cursive] space-y-4 text-center lg:text-left mx-4 mt-6 lg:mt-0"
+              >
+                <div class="font-[poppins]">
+                  <h1
+                    class="text-[#404852] text-shadow-lg sm:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold"
+                  >
+                    Hear What You <span class="text-cyan-400">Love</span>
+                  </h1>
+                  <h2
+                    class="text-base md:text-lg font-semibold text-gray-600 mt-2"
+                  >
+                    Discover music that matches your vibe!
+                  </h2>
+                </div>
+
+                <p
+                  class="text-gray-400 text-xs sm:text-sm max-w-md mx-auto lg:mx-0 leading-relaxed font-light"
                 >
-                  Hear What You <span class="text-cyan-400">Love</span>
-                </h1>
-                <h2
-                  class="text-base md:text-lg font-semibold text-gray-600 mt-2"
+                  Stream unlimited songs, create playlists, and explore trending
+                  artists from around the world — all in one place.
+                </p>
+
+                <button
+                  class="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-3 rounded-full text-xs sm:text-sm shadow-lg shadow-cyan-500/50 transition-all"
+                  onclick="if(window.innerWidth <= 1070){sideBar.classList.add(`sideActive`);}"
                 >
-                  Discover music that matches your vibe!
-                </h2>
+                  Start Listening
+                </button>
               </div>
 
-              <p
-                class="text-gray-400 text-xs sm:text-sm max-w-md mx-auto lg:mx-0 leading-relaxed font-light"
-              >
-                Stream unlimited songs, create playlists, and explore trending
-                artists from around the world — all in one place.
-              </p>
-
-              <button
-                class="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-3 rounded-full text-xs sm:text-sm shadow-lg shadow-cyan-500/50 transition-all"
-                onclick="if(window.innerWidth <= 1070){sideBar.classList.add(`sideActive`);}"
-              >
-                Start Listening
-              </button>
+              <img
+                class="headphone max-w-[550px] mx-auto lg:mx-8 animate-float"
+                src="./img/headphone.png"
+                alt="Headphone"
+              />
             </div>
-
-            <img
-              class="headphone max-w-[550px] mx-auto lg:mx-8 animate-float"
-              src="./img/headphone.png"
-              alt="Headphone"
-            />
           </section>
 
           <br />
@@ -397,7 +398,7 @@
                   </button>
                   <input
                     type="range"
-                    class="w-[80px] h-[4px] cursor-pointer"
+                    class="w-[80px] h-[3px] mt-[-10px] cursor-pointer"
                     value="100"
                     onchange="if(window.innerWidth<= 500){player.setVolume(100)} else{player.setVolume(this.value)}"
                   />
@@ -432,7 +433,7 @@
 
           <!-- Footer  -->
 
-          <footer class="bg-white shadow-inner mt-8">
+          <footer class="bg-gray-50 shadow-inner mt-8">
             <div class="container">
               <div
                 class="text-gray-600 font-light px-3 py-4 md:py-10 md:flex justify-between space-y-10"
