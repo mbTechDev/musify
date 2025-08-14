@@ -186,10 +186,6 @@
   }
 }
 @media screen and (max-width: 375px) {
-  .nowplaying {
-    width: 262px !important;
-  }
-
   .headphone {
     width: 150px !important;
     margin-bottom: 0px !important;
