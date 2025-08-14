@@ -16,9 +16,9 @@ let musicFilter = [
     category: `Love Mashup ${new Date().getFullYear()}`,
     icon: "./img/in-love.gif",
   },
-  { category: "Hip Hop Rap Songs", icon: "./img/hipHop.gif" },
+  { category: "pop Songs", icon: "./img/hipHop.gif" },
   { category: "Lo-Fi", icon: "./img/relaxed.gif" },
-  { category: "Bollywood Remix Hits", icon: "./img/crown.gif" },
+  { category: "New Tranding Songs", icon: "./img/crown.gif" },
   {
     category: `Heartbreak Mashup ${new Date().getFullYear()}`,
     icon: "./img/broken-heart.gif",
