@@ -1150,10 +1150,24 @@ let textOfSpeech;
 
 let speakButtons = document.querySelectorAll(".speak");
 
+selectLang.addEventListener("input", function () {
+  if (recognition) {
+    recognition.stop();
+  }
+  if (selectLang.value === "bn") {
+    recognition.lang = "bn-BD";
+  } else {
+    recognition.lang = "en-GB";
+  }
+  console.log("Language changed to:", recognition.lang);
+});
+
 speakButtons.forEach((button) => {
   button.onclick = function () {
     recognition = new webkitSpeechRecognition();
-    recognition.lang = "en-GB";
+
+    recognition.lang = selectLang.value === "bn" ? "bn-BD" : "en-GB";
+
     recognition.interimResults = true;
 
     speakingDiv.innerHTML = `
