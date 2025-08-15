@@ -715,13 +715,20 @@ function LoadVideo() {
       badgeText = "New";
 
     // songsList ========
+    let strArrayOfTitle = item.title.slice(0, 50).split("").join("");
 
     musicsLi.innerHTML =
       window.innerWidth <= 1070
         ? `
         <div class="flex items-center">
           <img src="${item.thumbnail}" alt="">
-          <small style="padding: 0px 12px;">${item.title}</small>
+          <small title="${
+            item.title
+          }" style="padding: 0px 12px;">${strArrayOfTitle}
+            <b style="display:${
+              item.title.length >= 35 ? "inline-block" : "none"
+            };">. . .</b>
+          </small>
         </div>
         <br>
         <span id="newBadge" style="display:${
@@ -730,8 +737,13 @@ function LoadVideo() {
       `
         : `
         <img src="${item.thumbnail}" alt="">
-        <small style="padding: 0px 12px;">
-          ${item.title}<br>
+        <small title="${item.title}" style="padding: 0px 12px;">
+          ${strArrayOfTitle} 
+          <b style="display:${
+            item.title.length >= 35 ? "inline-block" : "none"
+          };">. . .</b>
+        
+          <br>
           <span id="newBadge" style="display:${
             badgeText ? "inline-block" : "none"
           };">${badgeText}</span>
@@ -827,15 +839,6 @@ function boxPlayer() {
 function createPlayer(videoId) {
   player = new YT.Player("player", {
     videoId: videoId,
-    playerVars: {
-      // Start the video muted to satisfy browser autoplay policies.
-      autoplay: 1,
-      mute: 1,
-      // Controls will be visible.
-      controls: 1,
-      // Disable related videos at the end.
-      rel: 0,
-    },
 
     events: {
       onReady: () => {
@@ -1159,7 +1162,6 @@ selectLang.addEventListener("input", function () {
   } else {
     recognition.lang = "en-GB";
   }
-  console.log("Language changed to:", recognition.lang);
 });
 
 speakButtons.forEach((button) => {
