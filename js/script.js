@@ -80,14 +80,14 @@ let singerArray = [
     category: "Best Songs of Pritom Hasan",
   },
   {
-    img: "https://blog.bharatlyrics.com/wp-content/uploads/2023/12/Neha-Kakkar-Networth.png",
+    img: "https://a10.gaanacdn.com/gn_img/artists/Rz4W87v3xD/Rz4W8ppWxD/size_m_1716893509.webp",
     singer: "Neha Kakkar",
     category: "Best Songs of Neha Kakkar",
   },
   {
-    img: "https://viberate-upload.ams3.cdn.digitaloceanspaces.com/prod/entity/artist/shezan-6rfLk",
-    singer: "Shezan",
-    category: "Best Songs of Shezan",
+    img: "https://a10.gaanacdn.com/gn_img/artists/w4MKPDOKoj/4MKPgoQgbo/size_m_1742211226.webp",
+    singer: "Honey Singh",
+    category: "Best Songs of Honey Singh",
   },
   {
     img: "https://static.spotboye.com/uploads/baadshah-new-song-let-it-go_48da6a7a5d9fe2ce2102ecd05c1c354b_thumbnail.jpg",
@@ -95,7 +95,7 @@ let singerArray = [
     category: "Best Songs of Badshah",
   },
   {
-    img: "https://www.portland5.com/sites/default/files/styles/event_square_large/public/events/2023/06/09/ShreyaGhosal-438x400.jpg?itok=tWXMgrY5",
+    img: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQClj_RuRBYu21vzHpq9-3dX67QMmrUkYz2XV7kPC4r6CPqThtn",
     singer: "Shreya Ghoshal",
     category: "Best Songs of Shreya Ghoshal",
   },
@@ -637,12 +637,13 @@ let current = 0;
 
 originalVideos.sort(() => Math.random() - 0.5);
 
-// API key = AIzaSyDUR8uyyL2l56apdcSB7RQBs7Kr20k-hUM
-
 // ======= FETCH FUNCTION  =======
 
 function fetchFunction(val) {
-  const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=100&q=${val}+"official song full"+music&videoCategoryId=10&key=AIzaSyDUR8uyyL2l56apdcSB7RQBs7Kr20k-hUM`;
+  const query = encodeURIComponent(`${val} official song full`);
+  const apiKey = "AIzaSyDUR8uyyL2l56apdcSB7RQBs7Kr20k-hUM";
+
+  const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=50&q=${query}&videoCategoryId=10&key=${apiKey}`;
 
   fetch(apiUrl)
     .then((res) => res.json())
@@ -865,8 +866,6 @@ function createPlayer(videoId) {
   });
 }
 
-// ======= INITIAL LOAD =======
-
 submit.onclick = function () {
   if (searchBar.value !== "") {
     fetchFunction(searchBar.value);
@@ -882,6 +881,26 @@ submit.onclick = function () {
     );
   }
 };
+
+searchBar.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    if (searchBar.value !== "") {
+      fetchFunction(searchBar.value);
+
+      videos = [...originalVideos];
+      isClicked = true;
+      initialSetup(
+        "#262626",
+        "#fff",
+        "#fff",
+        "#000",
+        `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+      );
+    }
+  }
+});
+
+// ======= INITIAL LOAD =======
 
 // nowPlayingSection
 
@@ -960,7 +979,6 @@ function playPause() {
       musicSlider.style.visibility = "hidden";
 
       playOrPause.innerHTML = `<ion-icon name="play-circle"></ion-icon>`;
-      playOrPause.style.color = "#3b3b3b";
     }
   }
 }
@@ -1034,6 +1052,20 @@ function onPlayerStateChange(e) {
       if (current >= videos.length) current = 0;
       nextPreviousPlayer();
     }
+  }
+  if (e.data === YT.PlayerState.PAUSED) {
+    isPlaying = false;
+    overlay.style.visibility = "hidden";
+    musicSlider.style.visibility = "hidden";
+
+    playOrPause.innerHTML = `<ion-icon name="play-circle"></ion-icon>`;
+  }
+  if (e.data === YT.PlayerState.PLAYING) {
+    isPlaying = true;
+    overlay.style.visibility = "visible";
+    musicSlider.style.visibility = "visible";
+
+    playOrPause.innerHTML = `<ion-icon name="pause-circle-sharp"></ion-icon>`;
   }
 }
 
