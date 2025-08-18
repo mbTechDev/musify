@@ -73,18 +73,6 @@
 /* Smaller device adjustments */
 
 @media screen and (max-width: 600px) {
-  .owlImgContainer {
-    width: 100%;
-    margin: auto !important;
-  }
-  .item {
-    text-align: center;
-    display: block;
-  }
-  .item h4 {
-    margin-top: 15px;
-    font-size: 11px;
-  }
 }
 @media screen and (max-width: 560px) {
   .item {
@@ -208,7 +196,24 @@
   .item {
     padding: 15px;
   }
+  .owlImgContainer {
+    width: 95%;
+    box-shadow: 3px 3px 18px rgba(17, 17, 17, 0.301);
+    border-radius: 50%;
 
+    margin: auto !important;
+  }
+  .owlImgContainer img {
+    border-radius: 50%;
+  }
+  .item {
+    text-align: center;
+    display: block;
+  }
+  .item h4 {
+    margin-top: 15px;
+    font-size: 11px;
+  }
   #musicList {
     padding-top: 10px !important;
   }
