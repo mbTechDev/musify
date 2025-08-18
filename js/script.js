@@ -55,17 +55,17 @@ musicFilter.forEach((item) => {
 // ===== SINGER ARRAY =====
 let singerArray = [
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaO9oNwP0hT6rCxrP1_xtB2Q_ORBTsB3cmw&s",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTtIUfRpLxw64GItX0L_pDamelqxEdZaSGxJG_KGLgGsj3e68",
     singer: "Arijit Singh",
     category: "Best Songs of Arijit Singh",
   },
   {
-    img: "https://pbs.twimg.com/media/ExvL-TLVoAQ8L3Q?format=jpg&name=large",
+    img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbY0IOte619L7InmLY6LF3m5k5-zHzvlVfWhHZk7s0hNHEQNPv",
     singer: "Tahsan Khan",
     category: "Best Songs of Tahsan Khan",
   },
   {
-    img: "https://lastfm.freetls.fastly.net/i/u/ar0/bd6c6d82a81ac2900751f4120bbbf7df.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUzzxJgVoqIb6UslF7LCqoa1HaVCgl37NNDGGx730wXQMY2nXV",
     singer: "Tanvir Evan",
     category: "Best Songs of Tanvir Evan",
   },
@@ -111,8 +111,8 @@ singerArray.sort(() => Math.random() - 0.5);
 singerArray.forEach((item) => {
   let singerDiv = document.createElement("div");
   singerDiv.innerHTML = `
-    <div class="owlImgContainer">
-      <img src=${item.img} alt="">
+    <div class="owlImgContainer w-[75px] rounded-lg overflow=hidden mr-[12px]">
+      <img class="rounded-lg" src=${item.img} alt="">
     </div>
     <h4 class="singerName text-shadow-lg text-shadow-gray-300">${item.singer}</h4>`;
   singerDiv.className = "item";
@@ -280,7 +280,7 @@ let originalVideos = [
     description:
       "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
     publishedAt: "2025-06-10T05:33:49Z",
-    channelTitle: "Tanveer Evan",
+    channelTitle: "HR Lofi",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
@@ -1016,14 +1016,12 @@ loop.addEventListener("click", function () {
 // Highlight selected song
 
 function selectedSongs() {
-  if (musicList.querySelector("ul li.bg-gray-100")) {
-    musicList
-      .querySelector("ul li.bg-gray-100")
-      .classList.remove("bg-gray-100");
+  if (musicList.querySelector("ul li.activeSong")) {
+    musicList.querySelector("ul li.activeSong").classList.remove("activeSong");
   }
   musicList
     .querySelector(`ul li:nth-child(${current + 1})`)
-    .classList.add("bg-gray-100");
+    .classList.add("activeSong");
 }
 
 function nextPreviousPlayer() {
