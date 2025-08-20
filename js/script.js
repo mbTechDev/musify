@@ -597,8 +597,8 @@ let originalVideos = [
   },
   {
     title: "Wildfires - Shaky Shaky (Official Music Video) ft. Sanju Rathod",
-    thumbnail: "https://i.ytimg.com/vi/0epWXkEXaDM/mqdefault.jpg",
-    videoId: "0epWXkEXaDM",
+    thumbnail: "https://i.ytimg.com/vi/lY8o03L0swc/mqdefault.jpg",
+    videoId: "lY8o03L0swc",
     description:
       "Music video by Wildfires performing Shaky Shaky (Official Music Video).Wildfires.",
     publishedAt: "7/28/2025",
@@ -836,25 +836,41 @@ function boxPlayer() {
 }
 
 // ======= CREATE PLAYER FUNCTION =======
-
 function createPlayer(videoId) {
   player = new YT.Player("player", {
     videoId: videoId,
-
     events: {
       onReady: () => {
         duration = player.getDuration();
         playPause();
+
+        let savedVolume = localStorage.getItem("vol") || 100;
+
         if (player) {
-          if (isMuted) {
-            player.mute();
-            muteOrUnmute.innerHTML = `<ion-icon name="volume-mute" class="mb-[-6px]"></ion-icon>`;
-          } else {
-            player.unMute();
-            muteOrUnmute.innerHTML = `<ion-icon name="volume-high" class="mb-[-6px]"></ion-icon>`;
-          }
+          player.setVolume(Number(savedVolume));
+          volume.value = Number(savedVolume);
+
+          volume.onchange = function () {
+            let newVol = window.innerWidth <= 500 ? 100 : this.value;
+
+            player.setVolume(newVol);
+            this.value = newVol;
+
+            localStorage.setItem("vol", newVol);
+          };
         }
 
+        // Handle mute/unmute
+
+        if (isMuted) {
+          player.mute();
+          muteOrUnmute.innerHTML = `<ion-icon name="volume-mute" class="mb-[-6px]"></ion-icon>`;
+        } else {
+          player.unMute();
+          muteOrUnmute.innerHTML = `<ion-icon name="volume-high" class="mb-[-6px]"></ion-icon>`;
+        }
+
+        // Update music slider
         setInterval(() => {
           if (player && player.getCurrentTime) {
             musicSlider.value = (player.getCurrentTime() / duration) * 100;
@@ -1176,6 +1192,7 @@ closeMenu.onclick = function () {
   sideBar.classList.remove("sideActive");
 };
 
+
 // Recognition
 
 let recognition;
@@ -1183,22 +1200,11 @@ let textOfSpeech;
 
 let speakButtons = document.querySelectorAll(".speak");
 
-selectLang.addEventListener("input", function () {
-  if (recognition) {
-    recognition.stop();
-  }
-  if (selectLang.value === "bn") {
-    recognition.lang = "bn-BD";
-  } else {
-    recognition.lang = "en-GB";
-  }
-});
-
 speakButtons.forEach((button) => {
   button.onclick = function () {
     recognition = new webkitSpeechRecognition();
 
-    recognition.lang = selectLang.value === "bn" ? "bn-BD" : "en-GB";
+    recognition.lang = selectLang.value === "bn" ? "bn-BD" : "en-US";
 
     recognition.interimResults = true;
 
@@ -1309,3 +1315,4 @@ search.onclick = function () {
     `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
   );
 };
+
