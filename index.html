@@ -269,7 +269,15 @@
                 </p>
 
                 <button
-                  class="bg-cyan-500 hover:bg-cyan-600 text-white px-5 py-3 rounded-full text-xs sm:text-sm shadow-lg shadow-cyan-500/50 transition-all"
+                  style="
+                    background: linear-gradient(
+                      90deg,
+                      #00d3f3 0%,
+                      #97eeff 100%
+                    );
+                    box-shadow: 0 6px 16px #00d3f359;
+                  "
+                  class="border border-cyan-400 text-white hover:text-gray-700 sm:hover:text-white sm:text-gray-700 px-5 py-3 rounded-full text-xs sm:text-sm transition-all"
                   onclick="if(window.innerWidth <= 1070){sideBar.classList.add(`sideActive`);}"
                 >
                   Start Listening
@@ -404,10 +412,10 @@
                     <ion-icon name="volume-high" class="mb-[-6px]"></ion-icon>
                   </button>
                   <input
+                    id="volume"
                     type="range"
-                    class="w-[80px] h-[3px] mt-[-10px] cursor-pointer"
                     value="100"
-                    onchange="if(window.innerWidth<= 500){player.setVolume(100)} else{player.setVolume(this.value)}"
+                    class="w-[80px] h-[3px] mt-[-10px] cursor-pointer"
                   />
                 </div>
               </div>
