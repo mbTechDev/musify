@@ -261,6 +261,21 @@ li {
   box-shadow: 3px 3px 5px #2020201a;
 }
 
+.swal2-popup {
+  width: 380px;
+}
+.swal2-icon {
+  margin-top: 25px;
+}
+.swal2-popup h2 {
+  font-size: large;
+}
+
+button.swal2-confirm.swal2-styled {
+  width: 80px;
+  background: #000000a6;
+}
+
 #home {
   background: url("../img/home.png"),
     radial-gradient(
