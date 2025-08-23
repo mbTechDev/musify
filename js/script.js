@@ -635,7 +635,7 @@ let videos = [];
 let player, duration;
 let current = 0;
 
-// originalVideos.sort(() => Math.random() - 0.5);
+originalVideos.sort(() => Math.random() - 0.5);
 
 // ======= FETCH FUNCTION  =======
 
