@@ -635,7 +635,7 @@ let videos = [];
 let player, duration;
 let current = 0;
 
-originalVideos.sort(() => Math.random() - 0.5);
+// originalVideos.sort(() => Math.random() - 0.5);
 
 // ======= FETCH FUNCTION  =======
 
@@ -809,11 +809,25 @@ function boxPlayer() {
     if (video.isfavorite) {
       video.favorite = `<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>`;
       fav.push(video);
-      setTimeout(() => alert("Song Added"), 100);
+      setTimeout(
+        () =>
+          Swal.fire({
+            title: "Song Added Successfully",
+            icon: "success",
+          }),
+        100
+      );
     } else {
       video.favorite = `<ion-icon name="heart-outline"></ion-icon>`;
       fav = fav.filter((f) => f.videoId !== video.videoId);
-      setTimeout(() => alert("Song Removed"), 100);
+      setTimeout(
+        () =>
+          Swal.fire({
+            title: "Song Removed",
+            icon: "warning",
+          }),
+        100
+      );
 
       videos = [...originalVideos];
       isClicked = true;
@@ -837,12 +851,17 @@ function boxPlayer() {
 
 // ======= CREATE PLAYER FUNCTION =======
 function createPlayer(videoId) {
+  const videoIds = videos.map((v) => v.videoId);
+
   player = new YT.Player("player", {
     videoId: videoId,
+
     events: {
       onReady: () => {
         duration = player.getDuration();
         playPause();
+
+        player.loadPlaylist(videoIds, current);
 
         let savedVolume = localStorage.getItem("vol") || 100;
 
@@ -1032,76 +1051,81 @@ loop.addEventListener("click", function () {
 // Highlight selected song
 
 function selectedSongs() {
-  if (musicList.querySelector("ul li.activeSong")) {
-    musicList.querySelector("ul li.activeSong").classList.remove("activeSong");
-  }
-  musicList
-    .querySelector(`ul li:nth-child(${current + 1})`)
-    .classList.add("activeSong");
-}
+  const active = musicList.querySelector("ul li.activeSong");
+  if (active) active.classList.remove("activeSong");
 
-function nextPreviousPlayer() {
-  if (player) player.destroy();
-  selectedSongs();
-
-  document.title = videos[current].title;
-
-  boxPlayer();
-  nowPlay();
-  createPlayer(videos[current].videoId);
+  const newActive = musicList.querySelector(`ul li:nth-child(${current + 1})`);
+  if (newActive) newActive.classList.add("activeSong");
 }
 
 // Handle YouTube player state changes
 
-function onPlayerStateChange(e) {
-  if (e.data === YT.PlayerState.ENDED) {
-    if (isLooped) {
-      player.seekTo(0);
-      player.playVideo();
-      overlay.style.visibility = "visible";
-      musicSlider.style.visibility = "visible";
-    } else {
-      current++;
+function nextPreviousPlayer() {
+  selectedSongs();
+  document.title = `▶️ ${videos[current].title}`;
+  boxPlayer();
+  nowPlay();
+}
 
-      if (current >= videos.length) current = 0;
-      nextPreviousPlayer();
+function onPlayerStateChange(e) {
+  // if (e.data === YT.PlayerState.ENDED) {
+  //   if (isLooped) {
+  //     player.cueVideoById(videos[current].videoId);
+  //     player.playVideo();
+
+  //     overlay.style.visibility = "visible";
+  //     musicSlider.style.visibility = "visible";
+  //   } else {
+  //     player.nextVideo();
+  //   }
+  // }
+
+  if (e.data === YT.PlayerState.ENDED) {
+    console.log("Video ended:", videos[current].title);
+
+    if (isLooped) {
+      // For single video loop
+      player.seekTo(0); // rewind to start
+      player.playVideo(); // play again
+    } else {
+      // For playlist, go to next
+      if (player.nextVideo) player.nextVideo();
     }
   }
+
   if (e.data === YT.PlayerState.PAUSED) {
     isPlaying = false;
     overlay.style.visibility = "hidden";
     musicSlider.style.visibility = "hidden";
-
     playOrPause.innerHTML = `<ion-icon name="play-circle"></ion-icon>`;
   }
+
   if (e.data === YT.PlayerState.PLAYING) {
     isPlaying = true;
     overlay.style.visibility = "visible";
     musicSlider.style.visibility = "visible";
-
     playOrPause.innerHTML = `<ion-icon name="pause-circle-sharp"></ion-icon>`;
+
+    current = player.getPlaylistIndex() ?? current;
+
+    nextPreviousPlayer();
   }
 }
 
 // Previous track button
 
 previous.addEventListener("click", function () {
-  if (current > 0) {
-    current--;
-
-    nextPreviousPlayer();
+  if (player) {
+    player.previousVideo();
   }
 });
 
 // Next track button
 
 next.addEventListener("click", function () {
-  current++;
-
-  if (current === videos.length) {
-    current = 0;
+  if (player) {
+    player.nextVideo();
   }
-  nextPreviousPlayer();
 });
 
 // Tabs of SideBar
@@ -1192,7 +1216,6 @@ closeMenu.onclick = function () {
   sideBar.classList.remove("sideActive");
 };
 
-
 // Recognition
 
 let recognition;
@@ -1205,7 +1228,9 @@ speakButtons.forEach((button) => {
     recognition = new webkitSpeechRecognition();
 
     recognition.lang = selectLang.value === "bn" ? "bn-BD" : "en-US";
-
+    if (!recognition) {
+      alert("Not Supported In Your Browser");
+    }
     recognition.interimResults = true;
 
     speakingDiv.innerHTML = `
@@ -1315,4 +1340,3 @@ search.onclick = function () {
     `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
   );
 };
-
