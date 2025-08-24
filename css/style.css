@@ -287,3 +287,7 @@ button.swal2-confirm.swal2-styled {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+.swal2-shown.swal2-height-auto {
+  padding-right: 0px !important;
+}
