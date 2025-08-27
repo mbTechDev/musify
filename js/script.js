@@ -766,7 +766,7 @@ function LoadVideo() {
       if (player) player.destroy();
       boxPlayer();
       nowPlay();
-      createPlayer(videos[current].videoId);
+      createPlayer(videos[current].videoId, loopMode);
 
       // Seek control
       musicSlider.oninput = () =>
@@ -848,30 +848,30 @@ function boxPlayer() {
     favorite.innerHTML = video.favorite;
   };
 }
-
 // ======= CREATE PLAYER FUNCTION =======
-function createPlayer(videoId) {
-  let videoIds = videos.map((v) => v.videoId);
-  if (player) {
-    player.destroy();
-  }
+
+let loopMode = "off"; // none | single | playlist
+
+function createPlayer(videoId, loopType = "off") {
+  const videoIds = videos.map((v) => v.videoId);
+  let vars = { playlist: videoIds.join(",") };
+
+  if (loopType === "off") vars = { loop: 1, playlist: videoIds.join(",") };
+  else if (loopType === "on") vars = { loop: 1, playlist: videoId };
+
+  if (player) player.destroy();
+
   player = new YT.Player("player", {
     videoId: videoId,
+    playerVars: vars,
 
     events: {
       onReady: () => {
         duration = player.getDuration();
         playPause();
-
-        player.loadPlaylist([videos[current].videoId], current);
-
-        // if (!isLooped) {
-        //   // Load full playlist starting from "current"
-        //   player.loadPlaylist(videoIds, current);
-        // } else {
-        //   // Load only the current video as a single-item playlist
-        //   player.loadPlaylist([videos[current].videoId], 0);
-        // }
+        nextPreviousPlayer();
+        // ✅ Load full playlist initially
+        player.loadPlaylist(videoIds, current);
 
         let savedVolume = localStorage.getItem("vol") || 100;
 
@@ -1052,8 +1052,14 @@ muteOrUnmute.onclick = function () {
 // Loop toggle
 
 loop.onclick = function () {
-  isLooped = !isLooped;
-  loop.style.color = isLooped ? "rgb(0 197 197)" : "#3b3b3b";
+  if (loopMode === "off") {
+    loopMode = "on";
+    loop.style.color = "rgb(0 197 197)";
+  } else {
+    loopMode = "off";
+    loop.style.color = "#3b3b3b";
+  }
+  createPlayer(videos[current].videoId, loopMode);
 };
 
 // Helper function to setup next or previous video player
@@ -1079,19 +1085,33 @@ function nextPreviousPlayer() {
 
 function onPlayerStateChange(e) {
   if (e.data === YT.PlayerState.ENDED) {
-    if (isLooped) {
-      // Loop the current video
+    if (loopMode === "on") {
+      // ✅ Keep the same current video
       player.loadVideoById(videos[current].videoId);
-      nextPreviousPlayer();
-      player.seekTo(0);
       player.playVideo();
+    } else if (loopMode === "off") {
+      player.nextVideo();
     } else {
-      // Move to the next video
-      current = (current + 1) % videos.length;
-      player.loadPlaylist([videos[current].videoId], current); // ✅ use loadVideoById instead of full playlist
-      player.playVideo();
-      nextPreviousPlayer();
+      player.nextVideo();
     }
+  }
+
+  if (e.data === YT.PlayerState.PLAYING) {
+    isPlaying = true;
+    overlay.style.visibility = "visible";
+    musicSlider.style.visibility = "visible";
+    playOrPause.innerHTML = `<ion-icon name="pause-circle-sharp"></ion-icon>`;
+    duration = player.getDuration();
+
+    // ✅ Sync index only if NOT in loop single
+    if (loopMode !== "on") {
+      let idx = player.getPlaylistIndex();
+      if (idx !== -1 && idx !== undefined) {
+        current = idx;
+      }
+    }
+
+    nextPreviousPlayer();
   }
 
   if (e.data === YT.PlayerState.PAUSED) {
@@ -1100,71 +1120,21 @@ function onPlayerStateChange(e) {
     musicSlider.style.visibility = "hidden";
     playOrPause.innerHTML = `<ion-icon name="play-circle"></ion-icon>`;
   }
-
-  if (e.data === YT.PlayerState.PLAYING) {
-    isPlaying = true;
-    overlay.style.visibility = "visible";
-    musicSlider.style.visibility = "visible";
-    playOrPause.innerHTML = `<ion-icon name="pause-circle-sharp"></ion-icon>`;
-
-    // ✅ Update duration when a new video starts
-    duration = player.getDuration();
-
-    // ✅ Keep current index synced (works with both playlists and single loads)
-    // let idx = player.getPlaylistIndex();
-    // if (idx !== -1 && idx !== undefined) {
-    //   current = idx;
-    // }
-
-    nextPreviousPlayer();
-  }
 }
 
-// Previous track button
-
+// ======= PREVIOUS =======
 previous.onclick = function () {
-  // if (player && !isLooped) {
-  //   player.previousVideo();
-  // } else {
-  //   alert("gkdf");
-  // }
-  if (isLooped) {
-    // Loop the current video
+  if (loopMode === "single") {
     player.loadVideoById(videos[current].videoId);
-    nextPreviousPlayer();
-    player.seekTo(0);
     player.playVideo();
   } else {
-    // Move to the next video
-    current = (current - 1) % videos.length;
-    player.loadPlaylist([videos[current].videoId], current); // ✅ use loadVideoById instead of full playlist
-    player.playVideo();
-    nextPreviousPlayer();
+    player.previousVideo();
   }
 };
 
-// Next track button
-
+// ======= NEXT =======
 next.onclick = function () {
-  // if (player && !isLooped) {
-  //   player.nextVideo();
-  // } else {
-  //   alert("gkdf");
-  // }
-
-  if (isLooped) {
-    // Loop the current video
-    player.loadVideoById(videos[current].videoId);
-    nextPreviousPlayer();
-    player.seekTo(0);
-    player.playVideo();
-  } else {
-    // Move to the next video
-    current = (current + 1) % videos.length;
-    player.loadPlaylist([videos[current].videoId], current); // ✅ use loadVideoById instead of full playlist
-    player.playVideo();
-    nextPreviousPlayer();
-  }
+  player.nextVideo();
 };
 
 // Tabs of SideBar
