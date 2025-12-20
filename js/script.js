@@ -70,9 +70,14 @@ let singerArray = [
     category: "Best Songs of Tanvir Evan",
   },
   {
-    img: "https://a10.gaanacdn.com/gn_img/artists/21GWwrR3pk/1GWwknpWpk/size_m_1738236865.jpg",
-    singer: "Atif Aslam",
-    category: "Best Songs of Atif Aslam",
+    img: "https://yt3.googleusercontent.com/XthcxR-kx7i1klhmf93n9mJvVpml6DRL_75iBcfghsaW99V8hTMAS0KIxijBFIE_aCWWZSfMug=s900-c-k-c0x00ffffff-no-rj",
+    singer: "Habib Wahid",
+    category: "Best Songs of Habib Wahid",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxsbI54ktokVplA0TyHavrhVOeXMXD7uihCH-ABRGX8C7yHGy-",
+    singer: "Momina Mustehsan",
+    category: "Best Songs of Momina Mustehsan",
   },
   {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrR0tOgcC-2yD4721O2A8POz10rXdvc6GiMj_RJuKL6TkpWk8vkTGpk-oja5ohACfA7I0&usqp=CAU",
@@ -100,7 +105,7 @@ let singerArray = [
     category: "Best Songs of Shreya Ghoshal",
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhHhMsjP3Bu9fGXCUBQ0VdSPY7LObh82DQOw&s",
+    img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTHYJSmaCdcDDhvzqJ55_qaLqymevlOjUw_tvPWYeZnp29XguVx",
     singer: "Armaan Malik",
     category: "Best Songs of Armaan Malik",
   },
@@ -145,485 +150,340 @@ let originalVideos = [
     channelTitle: "Maanu",
     favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
+
   {
-    title: "Dill Se (Official Hindi Song) | AI BeatFusion Studio | 3.3M+ Views",
-    thumbnail: "https://i.ytimg.com/vi/_X7l0wVmPRo/mqdefault.jpg",
-    videoId: "_X7l0wVmPRo",
+    title:
+      "Moha Jadu | Coke Studio Bangla | Season 3 | Habib Wahid X Mehrnigori Rustam",
+    channelTitle: "Coke Studio Bangla",
     description:
-      "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
-    publishedAt: "2025-06-10",
+      "A mesmerizing blend of Bangla mysticism and Farsi poetry, where love becomes a force that moves the heart and pulls the soul ...",
+    publishedAt: "2025-09-25T13:30:26Z",
+    thumbnail: "https://i.ytimg.com/vi/UghMf59vDJM/mqdefault.jpg",
+    videoId: "UghMf59vDJM",
+  },
+  {
+    title:
+      "Sahiba aaye ghar kaahe na aise toh sataye na (Lyrics) Sahiba - Aditya Rikhari",
+    channelTitle: "Good Vibes",
+    description: "(Lyrics) Sahiba - Aditya Rikhari",
+    publishedAt: "2025-08-06",
+    thumbnail: "https://i.ytimg.com/vi/ozxvFqLKquo/mqdefault.jpg",
+    videoId: "ozxvFqLKquo",
+  },
+  {
+    title:
+      "Long Distance Love | Coke Studio Bangla | Season 3 | Ankan X Afrin | Shuvendu",
+    channelTitle: "Coke Studio Bangla",
+    description:
+      "In a world where voices cross oceans in seconds and connection is only a click away...",
+    publishedAt: "2025-09-10T14:30:48Z",
+    thumbnail: "https://i.ytimg.com/vi/sqJ2QhjBQaw/mqdefault.jpg",
+    videoId: "sqJ2QhjBQaw",
+  },
+  {
+    title:
+      "Na Na Na Ta Hobe Na - RASEL REMIX | Arfin Rumey Ft. Sayera Reza | Club Mix.",
+    channelTitle: "RASEL Music.",
+    description: "Welcome To RASEL Music.",
+    publishedAt: "2024-01-08T14:44:28Z",
+    thumbnail: "https://i.ytimg.com/vi/g3LUXKOiaKc/mqdefault.jpg",
+    videoId: "g3LUXKOiaKc",
+  },
+  {
+    title: "Afusic - Pal Pal (Official Music Video)",
+    channelTitle: "AFUSIC",
+    description: "Official music video by AFUSIC.",
+    publishedAt: "2025-02-18",
+    thumbnail: "https://i.ytimg.com/vi/KkIxm6TQdzU/mqdefault.jpg",
+    videoId: "KkIxm6TQdzU",
+  },
+  {
+    title: "Nishobdo Bristy 🌧️ | AI BeatFusion Studio",
     channelTitle: "AI BeatFusion Studio",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    description: "Heartfelt Bengali song capturing silent rain and lost love.",
+    publishedAt: "2025-09-10T18:14:40Z",
+    thumbnail: "https://i.ytimg.com/vi/k068wfVRqr4/mqdefault.jpg",
+    videoId: "k068wfVRqr4",
   },
   {
-    title: "ISHQ - Faheem Abdullah, Rauhan Malik (Lyrics) | #trending",
-    thumbnail: "https://i.ytimg.com/vi/gKD1AhmpOoU/mqdefault.jpg",
-    videoId: "gKD1AhmpOoU",
-    description:
-      "This is the official lyrical video for 'ISHQ' by Faheem Abdullah and Rauhan Malik. The song has been trending for its beautiful melody and emotional lyrics. It is a popular track with over 47 million views.",
-    publishedAt: "2024-03-09",
-    channelTitle: "Artiste First",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Anuv Jain - HUSN (Official Video)",
-    thumbnail: "https://i.ytimg.com/vi/gJLVTKhTnog/mqdefault.jpg",
-    videoId: "gJLVTKhTnog",
-    description:
-      "Anuv Jain's 'HUSN' is an official music video that has garnered over 221 million views. It's a popular track known for its heartfelt lyrics and captivating visuals. This is a must-listen for fans of indie and pop music.",
-    publishedAt: "2023-12-01",
-    channelTitle: "Anuv Jain",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Khan khan choodi khanke rahu heer teri banke tu raanjha mera jiya re (Lyrics) BESOS - Shreya Ghoshal",
-    thumbnail: "https://i.ytimg.com/vi/RWIRKf-Z_qM/mqdefault.jpg",
-    videoId: "RWIRKf-Z_qM",
-    description:
-      "This lyrical video features the popular song 'Besos' by Shreya Ghoshal. The song includes the catchy lines 'Khan khan choodi khanke rahu heer teri banke tu raanjha mera jiya re' and has been a favorite among many listeners.",
-    publishedAt: "2025-05-18",
-    channelTitle: "Shreya Ghoshal",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      " Taandob Title Track | SHAKIB KHAN | SHIFAT ABDULLAH ABIR | TANVIR AHMED|SVF Alpha-i |Deepto| Chorki",
-    thumbnail: "https://i.ytimg.com/vi/UtynhHq7uHU/mqdefault.jpg",
-    videoId: "UtynhHq7uHU",
-    description:
-      "মেগাস্টার শাকিব খানের ক্যারিয়ারের ২৬ বছর পূর্তিতে এলো তান্ডবের ...",
-    publishedAt: "5/28/2025",
-    channelTitle: "Chorki",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Saiyaara Lyrics - Tanishk Bagchi, Faheem Abdullah, Arslan Nizami • saiyara tu to badla nahi hai",
-    thumbnail: "https://i.ytimg.com/vi/wiaP9cAosgw/mqdefault.jpg",
-    videoId: "wiaP9cAosgw",
-    description:
-      "This is a lyrical video for the song 'Saiyaara' featuring music by Tanishk Bagchi and vocals by Faheem Abdullah and Arslan Nizami. The song has gained significant popularity with over 4 million views.",
-    publishedAt: "2025-06-11",
-    channelTitle: "Vibe Bird",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "CHAND MAMA - চাঁদ মামা | BORBAAD | SHAKIB KHAN | PRITOM HASAN | NUSRAT JAHAN | DOLA RAHMAN",
-    thumbnail: "https://i.ytimg.com/vi/qznaQ8dJC2s/mqdefault.jpg",
-    videoId: "qznaQ8dJC2s",
-    description:
-      "This is the video song for 'Chand Mama' from the movie 'Borbaad' featuring Shakib Khan, Pritom Hasan, and Nusrat Jahan. The song is a huge hit with over 53 million views, a vibrant beat, and great choreography.",
-    publishedAt: "2025-03-28",
-    channelTitle: "Pritom Hasan",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Sai Abhyankkar - Aasa Kooda (Lyrics Video) | Sai Smriti | Thejo Bharathwaj | Preity Mukundhuan",
-    thumbnail: "https://i.ytimg.com/vi/a3Ue-LN5B9U/mqdefault.jpg",
-    videoId: "a3Ue-LN5B9U",
-    description:
-      "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
-    publishedAt: "2025-06-10T05:33:49Z",
-    channelTitle: "Think Music India",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Laage Ura Dhura – Pritom Hasan ft. Debosrie Antara (Bangla)",
-    thumbnail: "https://i.ytimg.com/vi/f53nqIBzii8/mqdefault.jpg",
-    videoId: "f53nqIBzii8",
-    description:
-      "This is the popular music video for the song 'Laage Ura Dhura' from the movie 'Toofan', featuring Pritom Hasan and Debosrie Antara. The song has become a massive hit, accumulating over 305 million views.",
-    publishedAt: "2024-05-28",
-    channelTitle: "SVF Music",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Badnaamiyan (Lyrical) | Hate Story IV | Urvashi Rautela | Karan Wahi | Armaan Malik",
-    thumbnail: "https://i.ytimg.com/vi/cR9FSU29qqc/mqdefault.jpg",
-    videoId: "cR9FSU29qqc",
-    description:
-      "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
-    publishedAt: "2018-02-27",
-    channelTitle: "T-Series",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Tomake Bhalobeshe Lyrics (তোমাকে ভালোবেসে) - Taandob | Arindom, Shirsha Chakraborty | Shakib Khan",
-    thumbnail: "https://i.ytimg.com/vi/EmqCnLeYiiI/mqdefault.jpg",
-    videoId: "EmqCnLeYiiI",
-    description:
-      "This is the lyrical video for 'Tomake Bhalobeshe' from the movie 'Taandob', featuring Arindom and Shirsha Chakraborty. The song has been a popular track with fans.",
-    publishedAt: "2025-06-29",
-    channelTitle: "Tanveer Evan",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Tomake Chai Lyrics (তোমাকে চাই) - Arijit Singh, Arindom |",
-    thumbnail: "https://i.ytimg.com/vi/MztVV0noiWg/mqdefault.jpg",
-    videoId: "MztVV0noiWg",
-    description:
-      "This is a lyrical video for 'Tomake Chai', sung by Arijit Singh and composed by Arindom. The video showcases the beautiful lyrics of the song.",
-    publishedAt: "2024-11-17",
-    channelTitle: "Tanveer Evan",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Tanveer Evan - Bhool Na Jaana ( Slowed & Revarb ) Memories Are Forever | HR Lofi",
-    thumbnail: "https://i.ytimg.com/vi/MYVATDyAU_M/mqdefault.jpg",
-    videoId: "MYVATDyAU_M",
-    description:
-      "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
-    publishedAt: "2025-06-10T05:33:49Z",
-    channelTitle: "HR Lofi",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Mushk | OST | Lyrical Video | MD Productions",
-    thumbnail: "https://i.ytimg.com/vi/i0gIGnq5adg/mqdefault.jpg",
-    videoId: "i0gIGnq5adg",
-    description:
-      "The official OST for 'Mushk' by Ali Zafar. This lyrical video showcases the emotional and heartfelt theme of the series, receiving over 400,000 views.",
-    publishedAt: "2020-11-12",
-    channelTitle: "Ali Zafar",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Xefer x Muza - Jhumka (Official Music Video)",
-    thumbnail: "https://i.ytimg.com/vi/LolUVl3nSu4/mqdefault.jpg",
-    videoId: "LolUVl3nSu4",
-    description:
-      "This is the official music video for 'Jhumka' by Xefer and Muza. The song is a huge hit with over 150 million views, celebrated for its catchy tune and vibrant music video.",
-    publishedAt: "2023-01-27",
-    channelTitle: "Xefer",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    title: "Aaina (Official Hindi Song)",
+    channelTitle: "AI BeatFusion Studio",
+    description: "Hindi–English fusion track.",
+    publishedAt: "2025-08-27T15:46:19Z",
+    thumbnail: "https://i.ytimg.com/vi/WQga7KMqwHE/mqdefault.jpg",
+    videoId: "WQga7KMqwHE",
   },
   {
     title: "Srotoshinni | ENCORE | Lyrics | স্রোতস্বিনী",
+    channelTitle: "ENCORE",
+    description: "Serene and captivating Bengali lyrics.",
+    publishedAt: "2024-04-15",
     thumbnail: "https://i.ytimg.com/vi/F0_jwKzCDC0/mqdefault.jpg",
     videoId: "F0_jwKzCDC0",
-    description:
-      "This lyrical video features the song 'Srotoshinni' by ENCORE. The track, a favorite among listeners, has over 1.7 million views, and is known for its serene and captivating lyrics.",
-    publishedAt: "2024-04-15",
-    channelTitle: "ENCORE",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title:
-      "Dhun Song | Saiyaara | Ahaan Panday, Aneet Padda | Mithoon | Arijit Singh | In cinemas now",
-    thumbnail: "https://i.ytimg.com/vi/cUmUOb7j3dc/mqdefault.jpg",
-    videoId: "cUmUOb7j3dc",
-    description:
-      "Book your tickets now: https://bookmy.show/Saiyaara | https://link.district.in/DSTRKT/psaiyaara When love hurts, music heals.",
-    publishedAt: "7/1/2025",
-    channelTitle: "YRF",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    title: "Thik na beThik | ঠিক না বেঠিক",
+    channelTitle: "AI BeatFusion Studio",
+    description: "Fun, flirty Bangla track.",
+    publishedAt: "2025-12-09T08:29:48Z",
+    thumbnail: "https://i.ytimg.com/vi/sqWL0pp6910/mqdefault.jpg",
+    videoId: "sqWL0pp6910",
   },
   {
-    title:
-      "Barbaad Song | Saiyaara | Ahaan Panday, Aneet Padda | The Rish | Jubin Nautiyal | In Cinemas Now",
-    thumbnail: "https://i.ytimg.com/vi/0v5eHPfy5Lk/mqdefault.jpg",
-    videoId: "0v5eHPfy5Lk",
-    description:
-      "Book your tickets now: https://bookmy.show/Saiyaara | https://link.district.in/DSTRKT/psaiyaara Who says love can't consume you ...",
-    publishedAt: "6/10/2025",
-    channelTitle: "YRF",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    title: "BENI KHULEY LYRICS BY MUZA AND HABIB WAHID",
+    channelTitle: "nature.boy.10__",
+    description: "Viral Bengali lyrics video.",
+    publishedAt: "2023-03-12T09:33:30Z",
+    thumbnail: "https://i.ytimg.com/vi/hzZkJaKUHRo/mqdefault.jpg",
+    videoId: "hzZkJaKUHRo",
   },
   {
-    title: "Khoobsurat Lyrics - Stree 2 | Sachin-Jigar, Vishal Mishra",
-    thumbnail: "https://i.ytimg.com/vi/spl0PfQDRjk/mqdefault.jpg",
-    videoId: "spl0PfQDRjk",
-    description:
-      "Khoobsurat Lyrics - Stree 2 | Sachin-Jigar, Vishal Mishra Song: Khoobsurat Singer: Vishal Mishra, Sachin-Jigar Lyrics: Amitabh ...",
-    publishedAt: "8/10/2024",
-    channelTitle: "Vibe Bird",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    title: "Warriyo - Mortals (feat. Laura Brehm)",
+    channelTitle: "NoCopyrightSounds",
+    description: "Copyright free NCS music.",
+    publishedAt: "2016-12-15T17:48:20Z",
+    thumbnail: "https://i.ytimg.com/vi/yJg-Y5byMMw/mqdefault.jpg",
+    videoId: "yJg-Y5byMMw",
   },
   {
-    title:
-      "EMIWAY BANTAI - PAISA PAISA | ( MUSIC BY TONY JAMES ) | OFFICIAL MUSIC VIDEO",
-    thumbnail: "https://i.ytimg.com/vi/l2Qi31JfXvc/mqdefault.jpg",
-    videoId: "l2Qi31JfXvc",
-    description:
-      "About The Song :- Presenting Paisa Paisa! Recreated by Emiway Bantai, laced with hard verses and flow like no other, this Paisa ...",
-    publishedAt: "6/16/2025",
-    channelTitle: "Emiway Bantai",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Paisa hai to badi badi baatein | Trading Motivational Video Song | Farzi",
-    thumbnail: "https://i.ytimg.com/vi/zHdlI2fVR24/mqdefault.jpg",
-    videoId: "zHdlI2fVR24",
-    description:
-      "Paisa hai to badi badi baatein | Trading Motivational Video Song | Farzi paisa hai to paisa hai to badi badi baatein paisa hai to ...",
-    publishedAt: "10/16/2023",
-    channelTitle: "The Thief of Dalal Street",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-
-  {
-    title: "Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill",
-    thumbnail: "https://i.ytimg.com/vi/5Eqb_-j3FDA/mqdefault.jpg",
-    videoId: "5Eqb_-j3FDA",
-    description:
-      "Let's transcend boundaries and bridge distances through compassion, love and identity. #Pasoori #RealMagic ...",
-    publishedAt: "2/7/2022",
-    channelTitle: "Coke Studio Pakistan",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-
-  {
-    title:
-      "Uyi Amma - Azaad | Aaman D, Rasha Thadani| Madhubanti Bagchi,Amit Trivedi,Amitabh| Bosco| Abhishek K",
-    thumbnail: "https://i.ytimg.com/vi/FZLadzn5i6Q/mqdefault.jpg",
-    videoId: "FZLadzn5i6Q",
-    description:
-      "SUBSCRIBE to Zee Music Company - https://bit.ly/2yPcBkS To Stream & Download Full Song: Spotify - https://spoti.fi/3Po1CCU ...",
-    publishedAt: "1/4/2025",
-    channelTitle: "Zee Music Company",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Chuttamalle Lyrics - DEVARA | NTR | Janhvi Kapoor | Anirudh Ravichander | Shilpa Rao",
-    thumbnail: "https://i.ytimg.com/vi/exLJkAYRb9w/mqdefault.jpg",
-    videoId: "exLJkAYRb9w",
-    description:
-      "Here's #Chuttamalle from Devara Part - 1 ft. NTR, Janhvi Kapoor. Written & Directed by Koratala Siva. The Film's music is ...",
-    publishedAt: "11/17/2024",
-    channelTitle: "RAINBOW TRENDS",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Tum Tum - Video Song (Hindi) | Enemy | Vishal | Arya | Anand Shankar | Vinod Kumar | Thaman S",
-    thumbnail: "https://i.ytimg.com/vi/Q38f4frs8yc/mqdefault.jpg",
-    videoId: "Q38f4frs8yc",
-    description:
-      "Miss attending weddings? Don't worry we have an amazing song 'Tum Tum' (Hindi) from Enemy that you can dance to. Get ready ...",
-    publishedAt: "1/3/2022",
-    channelTitle: "Divo Music Hindi",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Tumi Bristi Cheyecho Bole | ( তুমি বৃষ্টি চেয়েছো বলে ) | Mahtim sakib | New Lyrical Song 2024",
-    thumbnail: "https://i.ytimg.com/vi/4vPKLGz0bU4/mqdefault.jpg",
-    videoId: "4vPKLGz0bU4",
-    description:
-      'Today, we have brought to you a beautiful song "Tumi bristi cheyecho bole " ( তুমি বৃষ্টি চেয়েছো বলে ) from ...',
-    publishedAt: "8/1/2024",
-    channelTitle: "ABACUS ORIGINALS",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Alingone Lyrics (আলিঙ্গনে) Habib Wahid Bangla Song 2019",
-    thumbnail: "https://i.ytimg.com/vi/9HQiANh8soI/mqdefault.jpg",
-    videoId: "9HQiANh8soI",
-    description:
-      "Alingone Song Is Sung by Habib Wahid Bangla Song 2019 Featuring: Muna Gauchan. Alingone Bengali Lyrics written by Ratim ...",
-    publishedAt: "4/4/2020",
-    channelTitle: "Lyrics Media",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "ONUVOBE | অনুভবে | Shakir Zaman | Raian Afridi | New Bangla Song 2019 | Official Lyrical Video",
-    thumbnail: "https://i.ytimg.com/vi/hoHwaDSnxjE/mqdefault.jpg",
-    videoId: "hoHwaDSnxjE",
-    description:
-      "Subscribe to my channel and Enjoy more Bengali Music Videos. ONUVOBE Lyrics : বদ্ধ দেয়ালে জমানো ...",
-    publishedAt: "11/17/2019",
-    channelTitle: "SHAKIR ZN",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Onuvobe | অনুভবে | Lofi Remix | Shakir Zaman | Raian Afridi | NabruNation",
-    thumbnail: "https://i.ytimg.com/vi/MydHs6k6Mg4/mqdefault.jpg",
-    videoId: "MydHs6k6Mg4",
-    description:
-      'I\'ve created a Lofi version of "ONUVOBE" by @shakirzn14 & Raian Afridi. If you enjoyed it, please leave a like and hit the ...',
-    publishedAt: "4/28/2025",
-    channelTitle: "NabruNation",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Ishq Hai Mashup | Naresh Parmar | Sahiba | Arijit Singh | Vishal Mishra",
-    thumbnail: "https://i.ytimg.com/vi/ipfrW9jYGwI/mqdefault.jpg",
-    videoId: "ipfrW9jYGwI",
-    description:
-      "Ishq Hai Mashup | Naresh Parmar | Sahiba | Arijit Singh | Vishal Mishra Music - Naresh Parmar Visual - Naresh Parmar If you like ...",
-    publishedAt: "1/12/2025",
-    channelTitle: "Naresh Parmar",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "তোমার পিছু ছাড়বো না || Tomar Pichu Charbo Na || Nahid Hassan || Lyrics Video",
-    thumbnail: "https://i.ytimg.com/vi/yPg-BKrBt7E/mqdefault.jpg",
-    videoId: "yPg-BKrBt7E",
-    description:
-      "তোমার পিছু ছাড়বো না || Tomar Pichu Charbo Na || Nahid Hassan || Lyrics Video Facebook Page: ...",
-    publishedAt: "5/9/2023",
-    channelTitle: "SG MUSIC POINT",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Koi Sehri Babu - Shruti Rane (Lyrics) | Lyrical Bam Hindi",
-    thumbnail: "https://i.ytimg.com/vi/XhlYxb-ZuyI/mqdefault.jpg",
-    videoId: "XhlYxb-ZuyI",
-    description:
-      "Koi Sehri Babu - Shruti Rane (Lyrics) | Lyrical Bam Hindi Song Credits:- Singer:- Shruti Rane Original Lyricist:- Anand Bakshi ...",
-    publishedAt: "5/5/2025",
-    channelTitle: "LYRICAL BAM HINDI",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "O Sajna (Official Video) - Badshah X DIVINE X Nikhita Gandhi | Ek THA RAJA",
-    thumbnail: "https://i.ytimg.com/vi/JRKk7gxcpMc/mqdefault.jpg",
-    videoId: "JRKk7gxcpMc",
-    description:
-      "Listen Now On Spotify : https://open.spotify.com/track/3YVbYgFSd2Whua4QUiIjUc Jiosaavn ...",
-    publishedAt: "4/23/2024",
-    channelTitle: "Badshah",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-
-  {
-    title: "Afusic - Pal Pal (Official Music Video) Prod. @AliSoomroMusic",
-    thumbnail: "https://i.ytimg.com/vi/KkIxm6TQdzU/mqdefault.jpg",
-    videoId: "KkIxm6TQdzU",
-    description:
-      "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
-    publishedAt: "2025-02-18",
-    channelTitle: "AFUSIC",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Laal Pari (Full Video) | Yo Yo Honey Singh | Sajid Nadiadwala | Tarun Mansukhani",
-    thumbnail: "https://i.ytimg.com/vi/DtXoMZAvWyo/mqdefault.jpg",
-    videoId: "DtXoMZAvWyo",
-    description:
-      "This is a lyrical video for 'Laal Pari' by Yo Yo Honey Singh and Simar Kaur. This is a popular track with over 2.1 million views.",
-    publishedAt: "2025-05-12",
+    title: "MILLIONAIRE SONG",
     channelTitle: "T-Series",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "Aaj Ki Raat Lyrics - Stree 2 | Sachin-Jigar, Madhubanti Bagchi, Divya Kumar",
-    thumbnail: "https://i.ytimg.com/vi/xUa4uhD7e0A/mqdefault.jpg",
-    videoId: "xUa4uhD7e0A",
-    description:
-      "This is a lyrical video for 'Aaj Ki Raat' from the movie 'Stree 2', composed by Sachin-Jigar. The song is sung by Madhubanti Bagchi and Divya Kumar.",
-    publishedAt: "2024-07-24",
-    channelTitle: "Saregama India Ltd",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title:
-      "MILLIONAIRE SONG (Full Video): @YoYoHoneySingh | GLORY | BHUSHAN KUMAR",
+    description: "Yo Yo Honey Singh full video song.",
+    publishedAt: "2024-08-26T05:30:08Z",
     thumbnail: "https://i.ytimg.com/vi/XO8wew38VM8/mqdefault.jpg",
     videoId: "XO8wew38VM8",
-    description:
-      "This is the full video for the 'Millionaire Song' by Yo Yo Honey Singh. From the album 'Glory', this track is a massive hit with over 395 million views.",
-    publishedAt: "2024-08-26",
-    channelTitle: "T-Series",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title:
-      "Coke Studio | Season 14 | Kana Yaari | Kaifi Khalil x Eva B x Abdul Wahab Bugti",
-    thumbnail: "https://i.ytimg.com/vi/zQDAi8tI-cU/mqdefault.jpg",
-    videoId: "zQDAi8tI-cU",
-    description:
-      "Come join us on this journey of friendship, love, and betrayal #CokeStudio #Season14 #KanaYaari Listen on Spotify: ...",
-    publishedAt: "1/19/2022",
-    channelTitle: "Coke Studio Pakistan",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    title: "Raghav - Desperado",
+    channelTitle: "Raghav",
+    description: "Official music video.",
+    publishedAt: "2023-05-01T04:00:09Z",
+    thumbnail: "https://i.ytimg.com/vi/_BWhdHDN8HY/mqdefault.jpg",
+    videoId: "_BWhdHDN8HY",
   },
   {
-    title: "Bikhra (Lyrics)| AW LYRICS #abdulhannan #lyrics #bikhra",
-    thumbnail: "https://i.ytimg.com/vi/lLSS4Kj3gCc/mqdefault.jpg",
-    videoId: "lLSS4Kj3gCc",
-    description:
-      "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
-    publishedAt: "2023-02-11",
-    channelTitle: "AW LYRICS",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    title: "Shaky",
+    channelTitle: "Sanju Rathod SR",
+    description: "Marathi pop anthem.",
+    publishedAt: "2025-04-22T09:21:13Z",
+    thumbnail: "https://i.ytimg.com/vi/sUf2PtEZris/mqdefault.jpg",
+    videoId: "sUf2PtEZris",
   },
   {
-    title: "Tanveer Evan - Jaane Kyun (Reprise Version)",
-    thumbnail: "https://i.ytimg.com/vi/EX9EqrYr8Zo/mqdefault.jpg",
-    videoId: "EX9EqrYr8Zo",
-    description:
-      "I was unable to find metadata for this video. The provided data for this entry is not accurate. Please check the video ID and try again.",
+    title: "Chuttamalle",
+    channelTitle: "T-Series Telugu",
+    description: "Devara movie song.",
+    publishedAt: "2024-08-05T11:34:12Z",
+    thumbnail: "https://i.ytimg.com/vi/5vsOv_bcnhs/mqdefault.jpg",
+    videoId: "5vsOv_bcnhs",
+  },
+  {
+    title: "BESOS - Shreya Ghoshal",
+    channelTitle: "Shreya Ghoshal",
+    description: "Lyrical video.",
+    publishedAt: "2025-05-18",
+    thumbnail: "https://i.ytimg.com/vi/RWIRKf-Z_qM/mqdefault.jpg",
+    videoId: "RWIRKf-Z_qM",
+  },
+  {
+    title: "Aasa Kooda",
+    channelTitle: "Think Music India",
+    description: "Lyrics video.",
     publishedAt: "2025-06-10T05:33:49Z",
-    channelTitle: "Tanveer Evan",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    thumbnail: "https://i.ytimg.com/vi/a3Ue-LN5B9U/mqdefault.jpg",
+    videoId: "a3Ue-LN5B9U",
   },
   {
-    title:
-      "Raanjhan | Do Patti | Kriti Sanon, Shaheer Sheikh | Parampara Tandon | Sachet-Parampara",
-    thumbnail: "https://i.ytimg.com/vi/lBvbNxiVmZA/mqdefault.jpg",
-    videoId: "lBvbNxiVmZA",
-    description:
-      "This is the full video of 'Raanjhan' from the movie 'Do Patti', starring Kriti Sanon and Shaheer Sheikh. The song is sung by Parampara Tandon and composed by Sachet-Parampara. It has been a huge hit, with over 313 million views.",
-    publishedAt: "2024-11-20",
+    title: "Khoobsurat Lyrics - Stree 2",
+    channelTitle: "Vibe Bird",
+    description: "Lyrics video.",
+    publishedAt: "2024-08-10",
+    thumbnail: "https://i.ytimg.com/vi/spl0PfQDRjk/mqdefault.jpg",
+    videoId: "spl0PfQDRjk",
+  },
+  {
+    title: "Shubh - One Love (Lyrics)",
+    channelTitle: "ChillPind",
+    description: "Punjabi lyrics video.",
+    publishedAt: "2023-08-25T07:09:31Z",
+    thumbnail: "https://i.ytimg.com/vi/XfXgUZDCAoA/mqdefault.jpg",
+    videoId: "XfXgUZDCAoA",
+  },
+  {
+    title: "Akhiyaan Gulaab",
     channelTitle: "T-Series",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    description: "8K full song.",
+    publishedAt: "2025-09-10T09:01:17Z",
+    thumbnail: "https://i.ytimg.com/vi/eSa_BvEisEc/mqdefault.jpg",
+    videoId: "eSa_BvEisEc",
   },
   {
-    title:
-      "Tu Ishq Hai Toh Main Baahon Mein Hoon (Lyrics) Tu Hain Toh Main Hoon - Arijit Singh, Afsana Khan",
+    title: "Shibu - 10 E 10",
+    channelTitle: "Shibu",
+    description: "Official visualizer.",
+    publishedAt: "2025-04-09T18:15:06Z",
+    thumbnail: "https://i.ytimg.com/vi/pd1flClqNPc/mqdefault.jpg",
+    videoId: "pd1flClqNPc",
+  },
+  {
+    title: "Morni Lyrics",
+    channelTitle: "Vibe Bird",
+    description: "Lyrics video.",
+    publishedAt: "2024-11-15T07:16:45Z",
+    thumbnail: "https://i.ytimg.com/vi/wX0csBGIabk/mqdefault.jpg",
+    videoId: "wX0csBGIabk",
+  },
+  {
+    title: "PHURR Official Song",
+    channelTitle: "Ishtar Music",
+    description: "Party anthem of 2025.",
+    publishedAt: "2025-11-14T05:30:06Z",
+    thumbnail: "https://i.ytimg.com/vi/TzqIEE8bEdU/mqdefault.jpg",
+    videoId: "TzqIEE8bEdU",
+  },
+  {
+    title: "Aaj Ki Raat Lyrics - Stree 2",
+    channelTitle: "Vibe Bird",
+    description: "Lyrics video.",
+    publishedAt: "2024-07-25T13:10:25Z",
+    thumbnail: "https://i.ytimg.com/vi/G-FjwlwvK24/mqdefault.jpg",
+    videoId: "G-FjwlwvK24",
+  },
+  {
+    title: "Ishq Hai Mashup",
+    channelTitle: "Naresh Parmar",
+    description: "Romantic mashup.",
+    publishedAt: "2025-01-12",
+    thumbnail: "https://i.ytimg.com/vi/ipfrW9jYGwI/mqdefault.jpg",
+    videoId: "ipfrW9jYGwI",
+  },
+  {
+    title: "Tu Ishq Hai Toh Main Hoon",
+    channelTitle: "Good Vibes",
+    description: "Lyrics video.",
+    publishedAt: "2025-01-31",
     thumbnail: "https://i.ytimg.com/vi/44jQh6vAl-4/mqdefault.jpg",
     videoId: "44jQh6vAl-4",
-    description:
-      "Subscribe and press ( ) to join the Notification Squad and stay updated with new uploads Follow Me: ...",
-    publishedAt: "1/31/2025",
-    channelTitle: "Good Vibes",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
   {
-    title: "Wildfires - Shaky Shaky (Official Music Video) ft. Sanju Rathod",
-    thumbnail: "https://i.ytimg.com/vi/lY8o03L0swc/mqdefault.jpg",
-    videoId: "lY8o03L0swc",
-    description:
-      "Music video by Wildfires performing Shaky Shaky (Official Music Video).Wildfires.",
-    publishedAt: "7/28/2025",
-    channelTitle: "WildfiresVEVO",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
+    title: "Fa9la - Rehman Dakait",
+    channelTitle: "Soul Music",
+    description: "Full song & dance video.",
+    publishedAt: "2025-12-16T08:30:03Z",
+    thumbnail: "https://i.ytimg.com/vi/6owX3FBXz1M/mqdefault.jpg",
+    videoId: "6owX3FBXz1M",
   },
   {
-    title: "Samjho Na - Aditya Rikhari ||",
+    title: "Nucleya - Bhayanak Atma",
+    channelTitle: "EDM Beaterz",
+    description: "Bass boosted EDM track.",
+    publishedAt: "2017-03-01T06:17:23Z",
+    thumbnail: "https://i.ytimg.com/vi/Cf5w-Yk6jTg/mqdefault.jpg",
+    videoId: "Cf5w-Yk6jTg",
+  },
+  {
+    title: "MAKHNA - Drive (Slowed + Reverb)",
+    channelTitle: "Suman Morning",
+    description: "Slowed & reverb mix.",
+    publishedAt: "2022-04-13T20:05:28Z",
+    thumbnail: "https://i.ytimg.com/vi/KFj7DSjsYNw/mqdefault.jpg",
+    videoId: "KFj7DSjsYNw",
+  },
+  {
+    title: "MAKHNA - Yo Yo Honey Singh",
+    channelTitle: "T-Series",
+    description: "Official video song.",
+    publishedAt: "2018-12-21T08:00:20Z",
+    thumbnail: "https://i.ytimg.com/vi/1bvYHkQxWmg/mqdefault.jpg",
+    videoId: "1bvYHkQxWmg",
+  },
+  {
+    title: "Aram Aata Hai Deedar Se Tere",
+    channelTitle: "LOFI Music Vibes",
+    description: "Lofi vibes track.",
+    publishedAt: "2022-07-08T13:53:58Z",
+    thumbnail: "https://i.ytimg.com/vi/uilRUXA4FS4/mqdefault.jpg",
+    videoId: "uilRUXA4FS4",
+  },
+  {
+    title: "Dukkho Bilash",
+    channelTitle: "6 AM",
+    description: "Bangla lyrics song.",
+    publishedAt: "2025-05-31T03:24:05Z",
+    thumbnail: "https://i.ytimg.com/vi/QvzdN6Se7Js/mqdefault.jpg",
+    videoId: "QvzdN6Se7Js",
+  },
+  {
+    title: "Ek Jibon 2",
+    channelTitle: "TRENDING MUSIC RG",
+    description: "Bangla lofi song.",
+    publishedAt: "2025-02-08T08:48:12Z",
+    thumbnail: "https://i.ytimg.com/vi/MkrUCRpIYsY/mqdefault.jpg",
+    videoId: "MkrUCRpIYsY",
+  },
+  {
+    title: "Sahana Sahana Song",
+    channelTitle: "T-Series",
+    description: "The RajaSaab movie song.",
+    publishedAt: "2025-12-17T13:59:09Z",
+    thumbnail: "https://i.ytimg.com/vi/Gp0QGBbo0CQ/mqdefault.jpg",
+    videoId: "Gp0QGBbo0CQ",
+  },
+  {
+    title: "Night lofi song 🌆😴",
+    channelTitle: "Fusion x song",
+    description: "Night lofi playlist.",
+    publishedAt: "2025-08-07T02:40:40Z",
+    thumbnail: "https://i.ytimg.com/vi/q7_5YD5XLLk/mqdefault.jpg",
+    videoId: "q7_5YD5XLLk",
+  },
+  {
+    title: "Amar Dehokhan",
+    channelTitle: "LYRICS FORMATION",
+    description: "Bangla lyrics video.",
+    publishedAt: "2022-08-08T16:01:36Z",
+    thumbnail: "https://i.ytimg.com/vi/xKyiddqgbxg/mqdefault.jpg",
+    videoId: "xKyiddqgbxg",
+  },
+  {
+    title: "Dhun Song | Saiyaara",
+    channelTitle: "YRF",
+    description: "Romantic Bollywood song.",
+    publishedAt: "2025-07-01",
+    thumbnail: "https://i.ytimg.com/vi/cUmUOb7j3dc/mqdefault.jpg",
+    videoId: "cUmUOb7j3dc",
+  },
+  {
+    title: "Barbaad Song | Saiyaara",
+    channelTitle: "YRF",
+    description: "Emotional Bollywood song.",
+    publishedAt: "2025-06-10",
+    thumbnail: "https://i.ytimg.com/vi/0v5eHPfy5Lk/mqdefault.jpg",
+    videoId: "0v5eHPfy5Lk",
+  },
+  {
+    title: "ONUVOBE | অনুভবে",
+    channelTitle: "SHAKIR ZN",
+    description: "Bangla lyrical song.",
+    publishedAt: "2019-11-17",
+    thumbnail: "https://i.ytimg.com/vi/hoHwaDSnxjE/mqdefault.jpg",
+    videoId: "hoHwaDSnxjE",
+  },
+  {
+    title: "Alingone Lyrics",
+    channelTitle: "Lyrics Media",
+    description: "Habib Wahid Bangla song.",
+    publishedAt: "2020-04-04",
+    thumbnail: "https://i.ytimg.com/vi/9HQiANh8soI/mqdefault.jpg",
+    videoId: "9HQiANh8soI",
+  },
+  {
+    title: "Samjho Na",
+    channelTitle: "Aditya Rikhari",
+    description: "Indie Hindi song.",
+    publishedAt: "2022-02-15",
     thumbnail: "https://i.ytimg.com/vi/JnsdxAZel-Y/mqdefault.jpg",
     videoId: "JnsdxAZel-Y",
-    description:
-      "This is the Indie Release version of the song 'Samjho Na' by Aditya Rikhari. The song is a hit among indie music fans, with over 1 million views.",
-    publishedAt: "2022-02-15",
-    channelTitle: "Aditya Rikhari",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
-  },
-  {
-    title: "Akshath - Nadaaniyan (Official Video) Aisha Ahmed",
-    thumbnail: "https://i.ytimg.com/vi/gPpQNzQP6gE/mqdefault.jpg",
-    videoId: "gPpQNzQP6gE",
-    description:
-      "You guys gave the song so much love, that we had to do a video, to its truest nadaan depiction. Hope it makes you smile :) Follow ...",
-    publishedAt: "6/26/2024",
-    channelTitle: "Akshath",
-    favorite: "<ion-icon name='heart-outline'></ion-icon>",
   },
 ];
 
@@ -784,12 +644,24 @@ function boxPlayer() {
 
   // Disable previous Btn if playing first video
 
-  previous.style.color = current === 0 ? "rgb(189 189 189)" : "#35404e";
+  previous.style.color = current === 0 ? "#35404eb0" : "#35404e";
 
   playBox.innerHTML = `
+  <span class="relative">
+
   <img class="w-[80px] h-[50px] rounded-md shadow-xl" src="${
     videos[current].thumbnail
   }" alt="">
+
+                  <div
+                    id="loaderWrapper"
+                    style="background: rgb(0 0 0 / 65%)"
+                    class="flex justify-center items-center w-full h-full absolute top-0 rounded-md"
+                  >
+                    <span id="loader"></span>
+                  </div>
+                </span>
+
   <div class="playboxSongName block pl-2">
     <p>
       <b>${strArray.join("")}</b>
@@ -850,7 +722,7 @@ function boxPlayer() {
 }
 // ======= CREATE PLAYER FUNCTION =======
 
-let loopMode = "off"; // none | single | playlist
+let loopMode = "off";
 
 function createPlayer(videoId, loopType = "off") {
   const videoIds = videos.map((v) => v.videoId);
@@ -1119,6 +991,10 @@ function onPlayerStateChange(e) {
     overlay.style.visibility = "hidden";
     musicSlider.style.visibility = "hidden";
     playOrPause.innerHTML = `<ion-icon name="play-circle"></ion-icon>`;
+  }
+  if (e.data === YT.PlayerState.BUFFERING) {
+    loaderWrapper.style.visibility = "visible";
+    overlay.style.visibility = "hidden";
   }
 }
 
