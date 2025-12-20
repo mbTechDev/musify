@@ -48,14 +48,14 @@ li {
   padding-bottom: 8px !important;
   border-bottom: 2px solid #35404e;
   letter-spacing: 0.02em;
+  padding-left: 0px !important;
 }
 
 #playOrPause ion-icon {
   font-size: 45px !important;
-  color: #808080;
+  color: #35404ec9;
   border: 1px solid #ccc;
   border-radius: 30px;
-  box-shadow: inset 6px 6px 13px #303030;
 }
 
 #musicSlider {
@@ -79,10 +79,10 @@ li {
 }
 
 .musicsLi img {
-  width: 57px;
-  height: 50px;
+  width: 47px;
+  height: 40px;
   list-style: none;
-  border-radius: 6px;
+  border-radius: 3px;
   filter: drop-shadow(2px 4px 6px rgb(190, 190, 190));
 }
 
@@ -99,8 +99,9 @@ li {
   padding: 15px;
   color: #35404e;
   border: 1px solid #ccc;
-  box-shadow: inset 0 5px 20px rgb(0 9 128 / 4%), 0 7px 18px rgb(0 9 128 / 5%);
+  box-shadow: 0 5px 20px rgb(0 9 128 / 4%), 0 7px 18px rgb(0 9 128 / 5%);
   position: relative;
+  background: #fff;
   cursor: pointer;
   transition: 0.8s;
 }
@@ -108,7 +109,7 @@ li {
 .item {
   align-items: center;
   display: flex;
-  margin: 15px;
+  margin: 15px 4px;
   border: 1px solid #ccc;
   box-shadow: inset 0 5px 20px rgb(0 9 128 / 4%), 0 7px 18px rgb(0 9 128 / 5%);
   cursor: pointer;
@@ -123,7 +124,7 @@ li {
 .item:hover,
 .musicFilterLi:hover {
   box-shadow: 8px 3px 8px rgb(0 9 128 / 4%);
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
 .owlImgContainer {
@@ -141,8 +142,8 @@ li {
 
 .owl-prev span,
 .owl-next span {
-  font-size: 38px;
-  padding: 22px;
+  width: 28px;
+  display: block;
 }
 .owl-prev,
 .owl-next {
@@ -150,7 +151,7 @@ li {
   box-shadow: inset 0 5px 20px rgb(0 9 128 / 4%), 0 7px 18px rgb(0 9 128 / 5%);
   transition: 0.8s;
   background: #dbdbdb !important;
-  border-radius: 10px !important;
+  border-radius: 5px !important;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
@@ -290,4 +291,35 @@ button.swal2-confirm.swal2-styled {
 
 .swal2-shown.swal2-height-auto {
   padding-right: 0px !important;
+}
+
+#loaderWrapper {
+  visibility: hidden;
+}
+
+#loader {
+  width: 25px;
+  height: 25px;
+  border: 3px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  background: url("../img/footer-bg.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
