@@ -12,17 +12,22 @@ body {
   color: #35404e !important;
 }
 
-body::-webkit-scrollbar {
-  display: none !important;
-}
-
-#wrapper::-webkit-scrollbar {
+body::-webkit-scrollbar,
+.lyricsContent::-webkit-scrollbar,
+.lyricsBlurBg::-webkit-scrollbar,
+#lyricsView::-webkit-scrollbar,
+.lyricsSearchResults::-webkit-scrollbar,
+#wrapper::-webkit-scrollbar,
+.suggestions::-webkit-scrollbar {
   display: none !important;
 }
 
 #wrapper {
   scroll-behavior: smooth;
   scroll-padding-top: 60px;
+}
+#musicList {
+  scroll-behavior: smooth;
 }
 
 button {
@@ -322,4 +327,22 @@ button.swal2-confirm.swal2-styled {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.lyricsBlurBg {
+  /* background: #e9e1dee0; */
+  background: linear-gradient(
+    63.28deg,
+    rgba(66, 133, 244, 0.1) 16.87%,
+    rgba(155, 114, 203, 0.1) 61.56%,
+    rgba(217, 101, 112, 0.1) 99.37%
+  );
+}
+
+.lyricsWrapper p:nth-child(5n) {
+  margin: 25px 0px;
+}
+
+#lyricsSection {
+  transition: 0.2s;
 }
