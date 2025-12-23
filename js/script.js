@@ -803,7 +803,7 @@ searchBar.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     if (searchBar.value !== "") {
       fetchFunction(searchBar.value);
-
+      musicList.scrollTo(0, 0);
       videos = [...originalVideos];
       isClicked = true;
       initialSetup(
@@ -1023,7 +1023,7 @@ function initialSetup(btnBg1, btnColor1, btnBg2, btnColor2, menuHeaderText) {
     overlay.style.visibility = "hidden";
     musicSlider.style.visibility = "hidden";
   }
-
+  musicList.scrollTo(0, 0);
   checkFavorites();
   setTimeout(() => {
     message.style.display = videos.length === 0 ? "block" : "none";
@@ -1225,3 +1225,252 @@ search.onclick = function () {
     `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
   );
 };
+let currentLyrics = null;
+let typingTimer = null;
+
+/* ---------- VIEW TOGGLE ---------- */
+function showLyricsView() {
+  document.querySelector(".lyricsSearchResults").style.display = "none";
+  document.getElementById("searchView").classList.add("hidden");
+  document.getElementById("lyricsView").classList.remove("hidden");
+}
+
+function showSearchView() {
+  document.querySelector(".lyricsSearchResults").style.display = "none";
+  document.getElementById("lyricsView").classList.add("hidden");
+  document.getElementById("searchView").classList.remove("hidden");
+}
+
+/* ---------- SEARCH INPUT ---------- */
+document.getElementById("searchLyricsBar").addEventListener("input", (e) => {
+  clearTimeout(typingTimer);
+  const query = e.target.value.trim();
+  const list = document.querySelector(".lyricsSearchResults");
+
+  if (!query) {
+    list.innerHTML = "";
+    list.style.display = "none";
+    return;
+  }
+
+  list.style.display = "block";
+  list.innerHTML = `
+    <li class="p-3 mt-12 text-gray-400 text-center">
+      <ion-icon name="sync-outline" class="animate-spin"></ion-icon><br>
+      Loading...
+    </li>
+  `;
+
+  typingTimer = setTimeout(() => searchSongs(query), 500);
+});
+
+/* ---------- SEARCH API ---------- */
+async function searchSongs(query) {
+  const list = document.querySelector(".lyricsSearchResults");
+
+  try {
+    const res = await fetch(
+      `https://lrclib.net/api/search?track_name=${encodeURIComponent(query)}`
+    );
+    const data = await res.json();
+
+    list.innerHTML = "";
+
+    if (!Array.isArray(data) || data.length === 0) {
+      list.innerHTML = `<li class="p-3 mt-12 text-gray-400 text-center">No result found</li>`;
+      return;
+    }
+
+    data.forEach((song) => {
+      const li = document.createElement("li");
+      li.className =
+        "p-3 cursor-pointer hover:bg-gray-100 flex justify-between items-center";
+
+      li.innerHTML = `
+        <span>${song.trackName} - ${song.artistName}</span>
+        <ion-icon name="chevron-forward-sharp"></ion-icon>
+      `;
+
+      li.onclick = () => {
+        // set lyrics image
+        const lyrImg = document.getElementById("lyrImg");
+        lyrImg.innerHTML = `
+    <img
+      class="
+         w-[180px] h-[100px]
+         md:w-[220px] md:h-[180px]
+         rounded-md shadow-md
+         object-cover"
+      src="https://lyrics.lyricfind.com/SongPlaceHolder.svg"
+      alt="Lyrics Cover"
+    />
+  `;
+
+        // fetch lyrics
+        fetchLyrics(song);
+      };
+
+      list.appendChild(li);
+    });
+  } catch {
+    list.innerHTML = `<li class="p-3 text-red-400 text-center">Failed to load</li>`;
+  }
+}
+
+/* ---------- CHART SONGS ARRAY ---------- */
+const chartSongs = [
+  {
+    id: "8245591",
+    song: "Khola Janala",
+    artists: "Tahsin Ahmed, Ahmed Shakib",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaUppCToUrxo91agZeO1W7joytQRkn3U2j6w&s",
+  },
+  {
+    id: "21935191",
+    song: "Pal Pal",
+    artists: "Afusic and Ali Soomro Music",
+    img: "https://i.scdn.co/image/ab67616d0000b27385c5968be0d0d9c545241124",
+  },
+
+  {
+    id: "22123983",
+    song: "Shaky",
+    artists: "Sanju Rathod And G-SPXRK",
+    img: "https://source.boomplaymusic.com/group10/M00/06/30/4b234bb9b4b34eb3863d884715b8f20eH3000W3000_320_320.jpg",
+  },
+
+  {
+    id: "22530723",
+    song: "Saiyaara",
+    artists: "Tanishk Bagchi, Faheem Abdullah",
+    img: "https://upload.wikimedia.org/wikipedia/en/4/40/Saiyaara_title_track.png",
+  },
+  {
+    id: "23913530",
+    song: "Sahiba",
+    artists: "Aditya Rikhari",
+    img: "https://a10.gaanacdn.com/gn_img/albums/w4MKPObojg/MKPDBlBrKo/size_m.jpg",
+  },
+  {
+    id: "23594560",
+    song: "Kobitar Gaan",
+    artists: "Hasan Joy",
+    img: "https://i.scdn.co/image/ab67616d00001e023ad4fc61cbf1d6ba1228b9dc",
+  },
+];
+
+/* ---------- RENDER CHART ---------- */
+const chartList = document.getElementById("chartList");
+
+chartSongs.forEach((item, index) => {
+  const li = document.createElement("li");
+
+  li.className =
+    "bg-gray-50 m-2 md:flex items-center gap-3 p-3 border border-gray-200 shadow-sm rounded-md cursor-pointer text-xs text-center md:text-left hover:bg-gray-100";
+
+  li.innerHTML = `
+    <img src="${item.img}"
+      class="w-[44px] h-[44px] border border-gray-400 shadow rounded mb-2 md:mb-0 mx-auto md:mx-0" />
+    <div>
+      <h1>${item.song}</h1>
+      <p class="text-gray-400 mt-1 text-[9px] sm:text-xs">${item.artists}</p>
+    </div>
+  `;
+
+  li.onclick = () => handleChartSelect(index);
+  chartList.appendChild(li);
+});
+
+/* ---------- CHART CLICK ---------- */
+function handleChartSelect(index) {
+  const item = chartSongs[index];
+  if (!item) return;
+
+  fetch(`https://lrclib.net/api/get/${item.id}`)
+    .then((res) => res.json())
+    .then((data) => {
+      const lines = data?.plainLyrics
+        ? data.plainLyrics.split("\n").filter(Boolean)
+        : ["Lyrics not available"];
+
+      currentLyrics = {
+        title: item.song,
+        artist: item.artists,
+        lines,
+      };
+      let lyrImg = document.getElementById("lyrImg");
+      lyrImg.innerHTML = `<img
+                      class="
+         w-[100px] h-[100px]8         md:w-[220px] md:h-[180px]
+         rounded-md shadow-md
+         object-cover"
+                      src=${item.img}
+                      alt=""
+                    />`;
+      renderLyrics();
+      showLyricsView();
+    })
+    .catch(() => alert("Lyrics not available"));
+}
+
+/* ---------- FETCH SEARCH LYRICS ---------- */
+async function fetchLyrics(song) {
+  try {
+    const res = await fetch(`https://lrclib.net/api/get/${song.id}`);
+    const data = await res.json();
+
+    const lines = data?.plainLyrics
+      ? data.plainLyrics.split("\n").filter(Boolean)
+      : ["Lyrics not available"];
+
+    currentLyrics = {
+      title: song.trackName,
+      artist: song.artistName,
+      lines,
+    };
+
+    renderLyrics();
+    showLyricsView();
+  } catch {
+    alert("Lyrics not available");
+  }
+}
+
+/* ---------- RENDER LYRICS ---------- */
+function renderLyrics() {
+  const box = document.getElementById("lyricsBox");
+  const song = document.getElementById("song");
+  const artists = document.getElementById("artists");
+
+  song.textContent = currentLyrics.title;
+  artists.textContent = ` Artists : ${currentLyrics.artist}`;
+
+  box.innerHTML = `
+    <h2 class="font-semibold mb-1">${currentLyrics.title}</h2>
+    <p class="text-xs text-gray-500">${currentLyrics.artist}</p>
+    <hr class="mt-4 mb-6 text-gray-200" />
+  `;
+
+  currentLyrics.lines.forEach((line, i) => {
+    const p = document.createElement("p");
+    p.className = "text-sm text-gray-600";
+    p.textContent = line;
+    p.style.marginBottom = (i + 1) % 4 === 0 ? "18px" : "6px";
+    box.appendChild(p);
+  });
+
+  box.innerHTML += `
+    <hr class="mt-6 text-gray-200" />
+    <p class="text-xs text-gray-400 mt-2">Lyrics provided by LRCLIB</p>
+  `;
+}
+
+/* ---------- DOWNLOAD ---------- */
+function downloadLyrics() {
+  html2canvas(document.getElementById("lyricsBox")).then((canvas) => {
+    const link = document.createElement("a");
+    link.href = canvas.toDataURL("image/png");
+    link.download = currentLyrics.title + ".png";
+    link.click();
+  });
+}
