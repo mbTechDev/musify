@@ -486,6 +486,7 @@ let originalVideos = [
     videoId: "JnsdxAZel-Y",
   },
 ];
+originalVideos.sort(() => Math.random() - 0.5);
 
 let fav = JSON.parse(localStorage.getItem("fav")) || [];
 let isPlaying = false;
