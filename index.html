@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/res.css" />
     <link rel="icon" href="./img/fav.png" type="image/icon" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -15,7 +13,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
@@ -23,15 +20,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <title>mb Tech - Musify</title>
-
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
   <body>
     <!-- Whole-Container-Div -->
-
     <div class="flex">
       <div
         id="modalOfSpeach"
@@ -95,9 +89,7 @@
           <option value="bn">Bangla</option>
         </select>
       </div>
-
       <!-- Side-Bar -->
-
       <div
         id="sideBar"
         class="relative block h-screen bg-white z-[99] w-[340px] flex-none shadow-lg overflow-hidden border-r border-gray-200"
@@ -119,26 +111,23 @@
               id="submit"
               class="absolute top-[14px] right-[10px] text-[#007f92]"
             >
-              <ion-icon name="search-outline"></ion-icon>
+              <ion-icon name="search-outline"> </ion-icon>
             </button>
             <button
               id="micBtn"
               class="speak absolute top-[14px] right-[30px] text-gray-500"
             >
-              <ion-icon name="mic-outline"></ion-icon>
+              <ion-icon name="mic-outline"> </ion-icon>
             </button>
           </div>
-
           <button
             id="closeMenu"
             class="hidden mt-[8px] text-[20px] text-gray-500"
           >
-            <ion-icon name="arrow-back-circle-outline"></ion-icon>
+            <ion-icon name="arrow-back-circle-outline"> </ion-icon>
           </button>
         </div>
-
         <!-- Menu Header -->
-
         <div>
           <div class="flex justify-between items-center mb-[15px] mx-3">
             <h5 id="menuHeader" class="text-xs flex items-center">
@@ -167,7 +156,6 @@
               </li>
             </ul>
           </div>
-
           <div
             id="message"
             style="transform: translate(-50%, -50%)"
@@ -175,28 +163,195 @@
           >
             <img width="150px" class="mx-auto" src="./img/sadFace.png" alt="" />
             <h3 class="font-bold">
-              Sorry! <br />
+              Sorry!
+              <br />
               You have no musics
             </h3>
           </div>
-
           <ul
             id="musicList"
             class="h-[83vh] overflow-x-hidden overflow-y-scroll"
           ></ul>
         </div>
       </div>
-
       <!-- Wrapper -->
-
       <div
         id="wrapper"
         class="bg-white w-screen h-screen overflow-x-hidden overflow-y-scroll flex-auto"
       >
         <div id="player" class="hidden"></div>
         <div>
+          <div
+            style="width: -webkit-fill-available"
+            class="fixed top-0 z-[99] bg-white scale-[0]"
+            id="lyricsSection"
+          >
+            <!-- Search UI -->
+            <div class="h-screen pb-[100px] overflow-y-scroll lyricsBlurBg">
+              <!-- Header -->
+              <div
+                class="flex justify-between items-center w-full text-end pb-4 md:pb-10"
+              >
+                <img class="w-[60px] ml-3" src="./img/logo.jpg" alt="Logo" />
+                <button
+                  class="m-3 py-[5px] px-[8px] border border-gray-200 bg-white rounded-full text-sm text-gray-700 hover:text-gray-600 shadow-sm"
+                  onclick="
+                                let lyricsSection = document.getElementById('lyricsSection');
+                                lyricsSection.classList.add('scale-[0]');
+                                lyricsSection.classList.remove('scale-[1]');
+                                "
+                >
+                  <ion-icon name="close-sharp" style="margin-bottom: -2px">
+                  </ion-icon>
+                </button>
+              </div>
+              <!-- Search Area -->
+              <div
+                class="container px-2 md:px-0 max-w-xl relative w-full md:w-fit mx-auto"
+              >
+                <div class="text-center font-[poppins]">
+                  <h1
+                    class="text-[#404852] md:mb-2 text-[20px] sm:text-2xl md:text-4xl font-light"
+                  >
+                    Find your song lyrics here!
+                  </h1>
+                  <p
+                    class="w-[200px] mx-auto sm:w-full text-xs md:text-sm font-light sm:font-extralight text-gray-500 sm:text-gray-600 mt-3 mb-8"
+                  >
+                    Search lyrics by song name or artist name.
+                  </p>
+                </div>
+                <!-- Search Input -->
+                <div id="searchView">
+                  <div class="max-w-xl mx-auto px-3">
+                    <div class="relative">
+                      <input
+                        id="searchLyricsBar"
+                        type="search"
+                        autocomplete="off"
+                        placeholder="Search songs or artists..."
+                        class="w-full outline-none border border-gray-200 pl-4 pr-[32px] py-3 text-xs bg-white"
+                      />
+                      <ion-icon
+                        name="search-outline"
+                        class="absolute right-3 top-3 text-lg text-gray-500"
+                      >
+                      </ion-icon>
+                    </div>
+                    <ul
+                      class="lyricsSearchResults bg-white border border-gray-200 border-t-0 h-[260px] overflow-y-auto text-xs text-gray-500 hidden"
+                    ></ul>
+                  </div>
+                </div>
+                <!-- Top Charting -->
+                <div>
+                  <div
+                    class="bg-white shadow-xs mt-12 border border-gray-200 rounded-xl px-[10px] md:px-[14px] py-[8px] md:py-[12px]"
+                  >
+                    <h1 class="ml-2 text-md sm:text-xl my-4 font-semibold">
+                      Top Charting In Bangladesh
+                    </h1>
+                    <ul
+                      id="chartList"
+                      class="grid grid-cols-2 md:grid-cols-3 items-center"
+                    ></ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Lyrics Content -->
+              <div
+                id="lyricsView"
+                style="width: -webkit-fill-available"
+                class="hidden bg-white fixed top-0 overflow-y-scroll h-screen pb-5"
+              >
+                <div class="lyricsBlurBg py-4 px-2 md:px-0">
+                  <div
+                    id="lrcWrap"
+                    class="relative container flex flex-nowrap items-center gap-4 md:gap-5"
+                  >
+                    <!-- Song Image -->
+                    <div id="lyrImg"></div>
+                    <!-- Back Button (mobile) -->
+                    <button
+                      class="block sm:hidden absolute right-1 top-0 py-[5px] px-[8px] border border-gray-200 bg-white rounded-full text-sm text-gray-700 hover:text-gray-600 shadow-sm"
+                      onclick="showSearchView()"
+                    >
+                      <ion-icon
+                        style="margin-bottom: -2px"
+                        name="arrow-back-sharp"
+                      >
+                      </ion-icon>
+                    </button>
+                    <div class="w-full">
+                      <div
+                        class="flex flex-wrap justify-between items-start gap-3"
+                      >
+                        <div>
+                          <!-- Song Name -->
+                          <h1
+                            id="song"
+                            class="text-xs sm:text-lg md:text-[32px] font-semibold font-sans"
+                          ></h1>
+                          <!-- Artist Name -->
+                          <p
+                            id="artists"
+                            class="w-[300px] text-[9px] sm:text-sm text-[#8e8e93] mt-1 md:mt-2 mb-4 md:mb-6"
+                          ></p>
+                        </div>
+                        <!-- Back Button (desktop) -->
+                        <button
+                          class="hidden sm:block py-[5px] px-[8px] border border-gray-200 bg-white rounded-full text-sm text-gray-700 hover:text-gray-600 shadow-sm"
+                          onclick="showSearchView()"
+                        >
+                          <ion-icon
+                            style="margin-bottom: -2px"
+                            name="arrow-back-sharp"
+                          >
+                          </ion-icon>
+                        </button>
+                      </div>
+                      <!-- Action Buttons -->
+                      <div class="flex flex-wrap items-center gap-4">
+                        <button
+                          style="
+                            background: linear-gradient(
+                              90deg,
+                              #00d3f3 0%,
+                              #97eeff 100%
+                            );
+                            box-shadow: 0 6px 16px #00d3f359;
+                          "
+                          class="border border-cyan-400 hover:text-white text-gray-700 px-4 py-2 md:px-5 md:py-3 rounded-full text-[9px] md:text-xs transition-all"
+                        >
+                          Search and Play
+                        </button>
+                        <button
+                          class="bg-white border border-cyan-400 text-gray-700 hover:text-cyan-400 px-4 py-2 md:px-5 md:py-3 rounded-full text-[9px] md:text-xs transition-all shadow-lg"
+                          onclick="downloadLyrics()"
+                        >
+                          <ion-icon
+                            style="
+                              margin-bottom: -3px;
+                              margin-right: 7px;
+                              font-size: 15px;
+                            "
+                            name="cloud-download-outline"
+                          >
+                          </ion-icon>
+                          Download Lyrics
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="lyricsBox"
+                  class="max-w-xl mx-auto mt-4 border border-gray-200 shadow rounded-lg p-4 bg-[#eef2ffab]"
+                ></div>
+              </div>
+            </div>
+          </div>
           <!-- Header -->
-
           <header
             style="width: -webkit-fill-available"
             id="header"
@@ -206,37 +361,39 @@
               <a href="#">
                 <img class="w-[60px] mb-[3px]" src="./img/logo.jpg" alt="" />
               </a>
-
               <ul id="nav" class="flex items-center">
                 <span class="flex">
                   <li
                     class="hover:text-cyan-500 transition my-[5px] ml-[15px] cursor-pointer"
+                    onclick="
+                                    let el = document.getElementById('lyricsSection');
+                                    el.classList.remove('scale-[0]');
+                                    el.classList.add('scale-[1]');
+                                    "
                   >
-                    <a href="">Lyrics</a>
+                    Lyrics
                   </li>
                   <li
                     class="hover:text-cyan-500 transition my-[5px] ml-[15px] cursor-pointer"
                   >
-                    <a href="#genres">Genres</a>
+                    <a href="#genres"> Genres </a>
                   </li>
                   <li
                     class="hover:text-cyan-500 transition my-[5px] ml-[15px] cursor-pointer"
                   >
-                    <a href="#artists">Artists</a>
+                    <a href="#artists"> Artists </a>
                   </li>
                 </span>
                 <li
                   id="menu"
                   class="hover:text-cyan-500 transition hidden mt-[8px] text-[21px] ml-[15px] cursor-pointer"
                 >
-                  <ion-icon name="options-outline"></ion-icon>
+                  <ion-icon name="options-outline"> </ion-icon>
                 </li>
               </ul>
             </div>
           </header>
-
           <!-- Home -->
-
           <section id="home">
             <div
               class="container w-full h-screen flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between overflow-hidden"
@@ -248,7 +405,8 @@
                   <h1
                     class="text-[#404852] text-shadow-lg sm:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold"
                   >
-                    Hear What You <span class="text-cyan-400">Love</span>
+                    Hear What You
+                    <span class="text-cyan-400"> Love </span>
                   </h1>
                   <h2
                     class="text-base md:text-lg font-semibold text-gray-600 mt-2"
@@ -256,14 +414,12 @@
                     Discover music that matches your vibe!
                   </h2>
                 </div>
-
                 <p
                   class="text-gray-400 text-xs sm:text-sm max-w-md mx-auto lg:mx-0 leading-relaxed font-light"
                 >
                   Stream unlimited songs, create playlists, and explore trending
                   artists from around the world — all in one place.
                 </p>
-
                 <button
                   style="
                     background: linear-gradient(
@@ -279,7 +435,6 @@
                   Start Listening
                 </button>
               </div>
-
               <img
                 class="headphone max-w-[550px] mx-auto lg:mx-8 animate-float"
                 src="./img/headphone.png"
@@ -287,13 +442,10 @@
               />
             </div>
           </section>
-
           <br />
           <br />
           <br />
-
           <!-- nowPlayingSection -->
-
           <section id="nowPlayingSection" class="container hidden">
             <div
               class="px-2 lg:px-0 grid grid-cols-1 md:grid-cols-2 items-center mb-[85px]"
@@ -307,7 +459,6 @@
                   <img class="mt-[-20px]" src="./img/wave.gif" alt="" />
                 </div>
               </div>
-
               <div class="mt-[60px] md:mt-[20px] text-gray-600">
                 <div class="flex items-center space-x-3">
                   <span class="text-white text-2xl">
@@ -333,40 +484,42 @@
                           z-index: 9;
                           animation: animatedplayicon 4s infinite;
                         "
-                      ></ion-icon>
+                      >
+                      </ion-icon>
                     </button>
                   </span>
-
                   <h2
                     class="text-cyan-950 text-shadow-2xs text-3xl font-semibold leading-tight"
                   >
                     Now Playing
                   </h2>
                 </div>
-
                 <br />
-
                 <p class="max-w-2xl text-xs leading-relaxed">
-                  <b class="mr-1">Song :</b>
-                  <span id="song" class="text-gray-500"></span>
-                  <br /><br />
-                  <b class="mr-1">Description :</b>
-                  <span id="description" class="text-gray-500"></span>
-                  <br /><br />
-                  <b class="mr-1">From :</b>
-                  <span id="from" class="underline text-cyan-500 cursor-pointer"
-                    >AI beat fusion studio</span
+                  <b class="mr-1"> Song : </b>
+                  <span id="song" class="text-gray-500"> </span>
+                  <br />
+                  <br />
+                  <b class="mr-1"> Description : </b>
+                  <span id="description" class="text-gray-500"> </span>
+                  <br />
+                  <br />
+                  <b class="mr-1"> From : </b>
+                  <span
+                    id="from"
+                    class="underline text-cyan-500 cursor-pointer"
                   >
-                  <br /><br />
-                  <b class="mr-1">Publish Time :</b>
-                  <span id="publishedAt" class="text-gray-500"></span>
+                    AI beat fusion studio
+                  </span>
+                  <br />
+                  <br />
+                  <b class="mr-1"> Publish Time : </b>
+                  <span id="publishedAt" class="text-gray-500"> </span>
                 </p>
               </div>
             </div>
           </section>
-
           <!-- Bottom playerSection -->
-
           <section id="playerSection" class="hidden">
             <div
               style="width: -webkit-fill-available"
@@ -377,36 +530,34 @@
                   href="#nowPlayingSection"
                   id="playBox"
                   class="w-[260px] flex"
-                ></a>
-
+                >
+                </a>
                 <div class="ml-0 md:ml-[-100px] lg:mt-4">
                   <input type="range" id="musicSlider" value="0" />
-
                   <div
                     id="musicBox"
                     class="playOptions flex items-center text-[20px]"
                   >
                     <button id="favorite" class="favorite w-[50px] h-[50px]">
-                      <ion-icon name="heart-outline"></ion-icon>
+                      <ion-icon name="heart-outline"> </ion-icon>
                     </button>
                     <button id="previous" class="w-[50px] h-[50px]">
-                      <ion-icon name="play-skip-back-sharp"></ion-icon>
+                      <ion-icon name="play-skip-back-sharp"> </ion-icon>
                     </button>
                     <button id="playOrPause" class="w-[50px] h-[50px]">
-                      <ion-icon name="play-circle"></ion-icon>
+                      <ion-icon name="play-circle"> </ion-icon>
                     </button>
                     <button id="next" class="w-[50px] h-[50px]">
-                      <ion-icon name="play-skip-forward-sharp"></ion-icon>
+                      <ion-icon name="play-skip-forward-sharp"> </ion-icon>
                     </button>
                     <button id="loop" class="w-[50px] h-[50px] text-[23px]">
-                      <ion-icon name="infinite-outline"></ion-icon>
+                      <ion-icon name="infinite-outline"> </ion-icon>
                     </button>
                   </div>
                 </div>
-
                 <div class="volumeBar">
                   <button id="muteOrUnmute" class="text-lg mr-[8px]">
-                    <ion-icon name="volume-high" class="mb-[-6px]"></ion-icon>
+                    <ion-icon name="volume-high" class="mb-[-6px]"> </ion-icon>
                   </button>
                   <input
                     id="volume"
@@ -417,7 +568,6 @@
               </div>
             </div>
           </section>
-
           <!-- Genres -->
           <br />
           <section id="genres" class="container">
@@ -427,11 +577,11 @@
               id="musicFilterUl"
             ></ul>
           </section>
-
-          <br /><br /><br /><br />
-
+          <br />
+          <br />
+          <br />
+          <br />
           <!-- Artists -->
-
           <section id="artists" class="container">
             <h2 class="container heading">Popular Artists</h2>
             <div
@@ -439,11 +589,9 @@
               class="owl-carousel owl-theme flex flex-wrap justify-center lg:justify-start"
             ></div>
           </section>
-
-          <br /><br />
-
-          <!-- Footer  -->
-
+          <br />
+          <br />
+          <!-- Footer -->
           <footer class="footer shadow-inner mt-8">
             <div class="container">
               <div
@@ -461,57 +609,51 @@
                     explore genres, and enjoy endless beats.
                   </p>
                 </div>
-
                 <!-- Quick Links -->
-
                 <div>
                   <h3 class="text-gray-900 text-sm font-semibold mb-3">
                     Quick Links
                   </h3>
                   <ul class="space-y-2 text-xs">
                     <li>
-                      <a href="#home" class="hover:text-cyan-500 transition"
-                        >Home</a
-                      >
+                      <a href="#home" class="hover:text-cyan-500 transition">
+                        Home
+                      </a>
                     </li>
                     <li>
-                      <a href="#genres" class="hover:text-cyan-500 transition"
-                        >Genres</a
-                      >
+                      <a href="#genres" class="hover:text-cyan-500 transition">
+                        Genres
+                      </a>
                     </li>
                     <li>
-                      <a href="#artists" class="hover:text-cyan-500 transition"
-                        >Artists</a
-                      >
+                      <a href="#artists" class="hover:text-cyan-500 transition">
+                        Artists
+                      </a>
                     </li>
                   </ul>
                 </div>
-
                 <!-- Social Media -->
-
                 <div>
                   <h3 class="text-gray-900 text-sm font-semibold mb-3">
                     Follow
                   </h3>
                   <div class="flex space-x-4 text-lg text-gray-600">
-                    <a href="#" class="hover:text-cyan-500 transition"
-                      ><ion-icon name="logo-facebook"></ion-icon
-                    ></a>
-                    <a href="#" class="hover:text-cyan-500 transition"
-                      ><ion-icon name="logo-google"></ion-icon
-                    ></a>
-                    <a href="#" class="hover:text-cyan-500 transition"
-                      ><ion-icon name="logo-github"></ion-icon
-                    ></a>
-
-                    <a href="#" class="hover:text-cyan-500 transition"
-                      ><ion-icon name="logo-youtube"></ion-icon
-                    ></a>
+                    <a href="#" class="hover:text-cyan-500 transition">
+                      <ion-icon name="logo-facebook"> </ion-icon>
+                    </a>
+                    <a href="#" class="hover:text-cyan-500 transition">
+                      <ion-icon name="logo-google"> </ion-icon>
+                    </a>
+                    <a href="#" class="hover:text-cyan-500 transition">
+                      <ion-icon name="logo-github"> </ion-icon>
+                    </a>
+                    <a href="#" class="hover:text-cyan-500 transition">
+                      <ion-icon name="logo-youtube"> </ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-
             <br />
             <div
               class="border-t border-gray-200 text-center py-4 text-xs text-gray-400"
@@ -522,43 +664,34 @@
         </div>
       </div>
     </div>
-
     <!-- Ionicons -->
-
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
-
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-
     <!-- YouTube IFrame API -->
-
     <script src="https://www.youtube.com/iframe_api"></script>
-
     <!-- Your Script -->
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/transliteration@2.3.5/dist/browser/bundle.min.js"></script>
     <script src="./js/script.js"></script>
-
     <script>
       $(".owl-carousel").owlCarousel({
         loop: true,
@@ -569,10 +702,18 @@
         dots: false,
         autoplayHoverilause: false,
         responsive: {
-          0: { items: 2 },
-          430: { items: 3 },
-          1280: { items: 4 },
-          1920: { items: 5 },
+          0: {
+            items: 2,
+          },
+          430: {
+            items: 3,
+          },
+          1280: {
+            items: 4,
+          },
+          1920: {
+            items: 5,
+          },
         },
       });
     </script>
