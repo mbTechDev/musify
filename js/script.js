@@ -833,7 +833,7 @@ function nowPlay() {
     />
   `;
 
-  song.innerHTML = `${videos[current].title}`;
+  Nowsong.innerHTML = `${videos[current].title}`;
   description.innerHTML = `${videos[current].description}`;
   from.innerHTML = `${videos[current].channelTitle}`;
 
