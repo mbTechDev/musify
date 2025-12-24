@@ -618,6 +618,8 @@ function LoadVideo() {
     musicsLi.onclick = function () {
       current = index;
       sideBar.classList.remove("sideActive");
+      bottomPlay.classList.add("z-[99]");
+      bottomPlay.classList.remove("z-10");
 
       selectedSongs();
 
@@ -787,7 +789,8 @@ function createPlayer(videoId, loopType = "off") {
 submit.onclick = function () {
   if (searchBar.value !== "") {
     fetchFunction(searchBar.value);
-
+    bottomPlay.classList.add("z-[99]");
+    bottomPlay.classList.remove("z-10");
     videos = [...originalVideos];
     isClicked = true;
     initialSetup(
@@ -805,6 +808,8 @@ searchBar.addEventListener("keydown", (e) => {
     if (searchBar.value !== "") {
       fetchFunction(searchBar.value);
       musicList.scrollTo(0, 0);
+      bottomPlay.classList.add("z-[99]");
+      bottomPlay.classList.remove("z-10");
       videos = [...originalVideos];
       isClicked = true;
       initialSetup(
@@ -1095,11 +1100,15 @@ window.addEventListener("scroll", function () {
 // Menu open button
 menu.onclick = function () {
   sideBar.classList.add("sideActive");
+  bottomPlay.classList.remove("z-[99]");
+  bottomPlay.classList.add("z-10");
 };
 
 // Menu close button
 closeMenu.onclick = function () {
   sideBar.classList.remove("sideActive");
+  bottomPlay.classList.add("z-[99]");
+  bottomPlay.classList.remove("z-10");
 };
 
 // Recognition
