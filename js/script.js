@@ -237,14 +237,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/hzZkJaKUHRo/mqdefault.jpg",
     videoId: "hzZkJaKUHRo",
   },
-  {
-    title: "Warriyo - Mortals (feat. Laura Brehm)",
-    channelTitle: "NoCopyrightSounds",
-    description: "Copyright free NCS music.",
-    publishedAt: "2016-12-15T17:48:20Z",
-    thumbnail: "https://i.ytimg.com/vi/yJg-Y5byMMw/mqdefault.jpg",
-    videoId: "yJg-Y5byMMw",
-  },
+
   {
     title: "MILLIONAIRE SONG",
     channelTitle: "T-Series",
@@ -506,13 +499,82 @@ let originalVideos = [
   },
   {
     title:
-      "Teri Baaton Mein Aisa Uljha Jiya (Title Track): Shahid Kapoor, Kriti Sanon | Raghav, Tanishk, Asees",
+      "Lyrical | Humsafar Song | Saiyaara | Ahaan, Aneet | Sachet Tandon, Parampara Tandon, Irshad Kamil",
+    channelTitle: "YRF",
+    description:
+      "Two souls. One journey. A love that feels like home. Hit play and feel everything ❤️ ▻ Subscribe Now: https://goo.gl/xs3mrY ...",
+    publishedAt: "2025-07-16T11:30:17Z",
+    thumbnail: "https://i.ytimg.com/vi/0NXnRmoILSs/mqdefault.jpg",
+    videoId: "0NXnRmoILSs",
+  },
+  {
+    title:
+      "Pottala Muttaye | Thalaivan Thalaivii | Vijay Sethupathi,Nithya Menen |Pandiraaj |Santhosh Narayanan",
+    channelTitle: "Think Music India",
+    description:
+      'Presenting the Video Song of "Pottala Muttaye" from "Thalaivan Thalaivii", Sung by Santhosh Narayanan & Sublahshini, Lyrics ...',
+    publishedAt: "2025-08-05T11:30:02Z",
+    thumbnail: "https://i.ytimg.com/vi/sWT7S6T0Qzw/mqdefault.jpg",
+    videoId: "sWT7S6T0Qzw",
+  },
+  {
+    title:
+      "Arz Kiya Hai - Anuv Jain X Lost Stories | (Lyrics) | Coke Studio Bharat",
+    channelTitle: "THE LYRICIST",
+    description:
+      "Audio Credits: Song: Arz Kiya Hai Singer: Anuv Jain Written: Anuv Jain Composed: Anuv Jain Additional Production & Additional ...",
+    publishedAt: "2025-08-27T11:58:09Z",
+    thumbnail: "https://i.ytimg.com/vi/wgSTTkpVTmM/mqdefault.jpg",
+    videoId: "wgSTTkpVTmM",
+  },
+  {
+    title: "Anuv Jain - HUSN (Official Video)",
+    channelTitle: "Anuv Jain",
+    description:
+      "The eleventh studio recorded single, written, sung and composed by #AnuvJain is here! Listen to 'Husn' on all streaming ...",
+    publishedAt: "2023-11-30T14:30:08Z",
+    thumbnail: "https://i.ytimg.com/vi/gJLVTKhTnog/mqdefault.jpg",
+    videoId: "gJLVTKhTnog",
+  },
+  {
+    title:
+      "AADAT (Official Video): YO YO HONEY SINGH | AP DHILLON | VAANI KAPOOR | 51 GLORIOUS DAYS | BHUSHAN K",
     channelTitle: "T-Series",
     description:
-      "Presenting the Title Track from the Movie 'Teri Baaton Mein Aisa Uljha Jiya'. Listen and Groove!! Song Credits: Song: Teri Baaton ...",
-    publishedAt: "2024-01-29T08:47:42Z",
-    thumbnail: "https://i.ytimg.com/vi/XLqmL9cPN1E/mqdefault.jpg",
-    videoId: "XLqmL9cPN1E",
+      "Presenting The Official Video Song “Aadat” From The Year's Biggest Musical Phenomenon - “51 Glorious Days”, by Yo Yo Honey ...",
+    publishedAt: "2025-12-22T05:30:08Z",
+    thumbnail: "https://i.ytimg.com/vi/lcw4TDMBjZA/mqdefault.jpg",
+    videoId: "lcw4TDMBjZA",
+  },
+  {
+    title:
+      "Ehsaas (Video) Faheem Abdullah | Duha Shah | Vaibhav Pani | Muzammil Ibrahim | Vinali Bhatnagar",
+    channelTitle: "Universal Music India",
+    description:
+      "Fresh off the chart-busting success of Ishq, Faheem Abdullah is back with yet another heartfelt melody - “Ehsaas”. Presenting the ...",
+    publishedAt: "2025-04-16T05:30:04Z",
+    thumbnail: "https://i.ytimg.com/vi/C3njz8sf4aM/mqdefault.jpg",
+    videoId: "C3njz8sf4aM",
+  },
+  {
+    title:
+      "Majboor | Sheheryar Rehan x Zoha Waseem | Music Video 2025 | Aap ka he kehna banta",
+    channelTitle: "Sheheryar Rehan",
+    description:
+      "Aap Ka Hee Kehna Banta, Keh Do Na Spotify - https://tinyurl.com/spotifymajboor বাংলাদেশের সকল ...",
+    publishedAt: "2025-09-12T10:30:54Z",
+    thumbnail: "https://i.ytimg.com/vi/zaFGQEIcetM/mqdefault.jpg",
+    videoId: "zaFGQEIcetM",
+  },
+  {
+    title:
+      "Finding Her - Kushagra & Vanshika Kashyap (Lyrics) | Lyrical Bam Hindi",
+    channelTitle: "LYRICAL BAM HINDI",
+    description:
+      "Finding Her - Kushagra & Vanshika Kashyap (Lyrics) | Lyrical Bam Hindi Lyrics: Jaana Tu Aata Nahi Sapno Se Jata Nahi Mil Jaye ...",
+    publishedAt: "2025-03-07T10:30:19Z",
+    thumbnail: "https://i.ytimg.com/vi/jsqJ0v2tQw8/mqdefault.jpg",
+    videoId: "jsqJ0v2tQw8",
   },
   {
     title: "Nahin Milta - Bayaan | Lyrics | Retro Harmonics",
