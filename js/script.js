@@ -485,6 +485,44 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/JnsdxAZel-Y/mqdefault.jpg",
     videoId: "JnsdxAZel-Y",
   },
+  {
+    title:
+      "Sahiba (Music Video) Jasleen Royal | Vijay Deverakonda Radhikka Madan | Stebin | Priya | Aditya | Sudhanshu",
+    channelTitle: "Jasleen Royal",
+    description:
+      "Sahiba #JasleenRoyal #VijayDeverakonda #RadhikkaMadan #SudhanshuSaria #StebinBen SAHIBA - A Journey of ...",
+    publishedAt: "2024-11-15T06:30:58Z",
+    thumbnail: "https://i.ytimg.com/vi/NW6Dgax2d6I/mqdefault.jpg",
+    videoId: "NW6Dgax2d6I",
+  },
+  {
+    title: "Heer (Lyrics) - Ali Raza & Shjr | AdaaVibes",
+    channelTitle: "AdaaVibes",
+    description:
+      "Heer · Ali & Shjr · Haider Ali · Ali Raza ℗ 2025 Ali & Shjr under exclusive distribution to Warner Music South Asia Producer: Haider ...",
+    publishedAt: "2025-02-10T15:30:13Z",
+    thumbnail: "https://i.ytimg.com/vi/JUjV7TcqPdU/mqdefault.jpg",
+    videoId: "JUjV7TcqPdU",
+  },
+  {
+    title:
+      "Teri Baaton Mein Aisa Uljha Jiya (Title Track): Shahid Kapoor, Kriti Sanon | Raghav, Tanishk, Asees",
+    channelTitle: "T-Series",
+    description:
+      "Presenting the Title Track from the Movie 'Teri Baaton Mein Aisa Uljha Jiya'. Listen and Groove!! Song Credits: Song: Teri Baaton ...",
+    publishedAt: "2024-01-29T08:47:42Z",
+    thumbnail: "https://i.ytimg.com/vi/XLqmL9cPN1E/mqdefault.jpg",
+    videoId: "XLqmL9cPN1E",
+  },
+  {
+    title: "Nahin Milta - Bayaan | Lyrics | Retro Harmonics",
+    channelTitle: "Retro Harmonics",
+    description:
+      "Original song's link https://www.youtube.com/watch?v=umsrQSA2iOM Note: All credit goes to the original artist.",
+    publishedAt: "2020-07-09T21:39:50Z",
+    thumbnail: "https://i.ytimg.com/vi/8zCvgWeDqf4/mqdefault.jpg",
+    videoId: "8zCvgWeDqf4",
+  },
 ];
 originalVideos.sort(() => Math.random() - 0.5);
 
