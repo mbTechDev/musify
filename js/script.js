@@ -358,37 +358,57 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/44jQh6vAl-4/mqdefault.jpg",
     videoId: "44jQh6vAl-4",
   },
+
   {
-    title: "Fa9la - Rehman Dakait",
-    channelTitle: "Soul Music",
-    description: "Full song & dance video.",
-    publishedAt: "2025-12-16T08:30:03Z",
-    thumbnail: "https://i.ytimg.com/vi/6owX3FBXz1M/mqdefault.jpg",
-    videoId: "6owX3FBXz1M",
+    title:
+      "O Sajna (Official Video) - Badshah X DIVINE X Nikhita Gandhi | Ek THA RAJA",
+    channelTitle: "Badshah",
+    description:
+      "Listen Now On Spotify : https://open.spotify.com/track/3YVbYgFSd2Whua4QUiIjUc Jiosaavn ...",
+    favorite:
+      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
+    isfavorite: true,
+    publishedAt: "2024-04-23T05:30:05Z",
+    thumbnail: "https://i.ytimg.com/vi/JRKk7gxcpMc/mqdefault.jpg",
+    videoId: "JRKk7gxcpMc",
   },
   {
-    title: "Nucleya - Bhayanak Atma",
-    channelTitle: "EDM Beaterz",
-    description: "Bass boosted EDM track.",
-    publishedAt: "2017-03-01T06:17:23Z",
-    thumbnail: "https://i.ytimg.com/vi/Cf5w-Yk6jTg/mqdefault.jpg",
-    videoId: "Cf5w-Yk6jTg",
+    title:
+      "sajna tere liye sajna (official video) Badshah ft. Payal Dev | Aditya Dev Studios | new wedding song",
+    channelTitle: "Gaurav Singh",
+    description:
+      "sajna tere liye sajna (official video) Badshah ft. Payal Dev Put on your dancing shoes and get ready to groove to the wedding ...",
+    favorite:
+      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
+    isfavorite: true,
+    publishedAt: "2021-12-10T14:55:00Z",
+    thumbnail: "https://i.ytimg.com/vi/YSWpWmu_zvE/mqdefault.jpg",
+    videoId: "YSWpWmu_zvE",
   },
   {
-    title: "MAKHNA - Drive (Slowed + Reverb)",
-    channelTitle: "Suman Morning",
-    description: "Slowed & reverb mix.",
-    publishedAt: "2022-04-13T20:05:28Z",
-    thumbnail: "https://i.ytimg.com/vi/KFj7DSjsYNw/mqdefault.jpg",
-    videoId: "KFj7DSjsYNw",
+    title:
+      "নাচের ছন্দে ছন্দে। Nacher chondhe chondhe Bangla gaan। new music video",
+    channelTitle: " Just Motivation彡",
+    description:
+      "New_Song_2022, #lyrics_tune_point ,Official Music Video,Bangla Songs, Bangla Music, Bengali Songs, Bangla Gaan, Bangla ...",
+    favorite:
+      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
+    isfavorite: true,
+    publishedAt: "2022-02-20T14:03:57Z",
+    thumbnail: "https://i.ytimg.com/vi/QFuoog00wvI/mqdefault.jpg",
+    videoId: "QFuoog00wvI",
   },
   {
-    title: "MAKHNA - Yo Yo Honey Singh",
-    channelTitle: "T-Series",
-    description: "Official video song.",
-    publishedAt: "2018-12-21T08:00:20Z",
-    thumbnail: "https://i.ytimg.com/vi/1bvYHkQxWmg/mqdefault.jpg",
-    videoId: "1bvYHkQxWmg",
+    title: "MITRAZ - Muskurahat | Lyrical Video | Unied Studios",
+    channelTitle: "Unied Studios",
+    description:
+      "MITRAZ - Muskurahat | Lyrical Video | Unied Studios Hit the to join the notification squad! Lets get this video to 100 likes !",
+    favorite:
+      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
+    isfavorite: true,
+    publishedAt: "2022-06-28T08:24:24Z",
+    thumbnail: "https://i.ytimg.com/vi/G068mtnQeyw/mqdefault.jpg",
+    videoId: "G068mtnQeyw",
   },
   {
     title: "Aram Aata Hai Deedar Se Tere",
