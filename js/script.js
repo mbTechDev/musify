@@ -45,7 +45,7 @@ musicFilter.forEach((item) => {
         "#fff",
         "#fff",
         "#000",
-        `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+        `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
       );
       musicFilterAndSingerDiv(item);
     }
@@ -130,7 +130,7 @@ singerArray.forEach((item) => {
       "#fff",
       "#fff",
       "#000",
-      `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+      `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
     );
     musicFilterAndSingerDiv(item);
   };
@@ -247,14 +247,6 @@ let originalVideos = [
     videoId: "XO8wew38VM8",
   },
   {
-    title: "Raghav - Desperado",
-    channelTitle: "Raghav",
-    description: "Official music video.",
-    publishedAt: "2023-05-01T04:00:09Z",
-    thumbnail: "https://i.ytimg.com/vi/_BWhdHDN8HY/mqdefault.jpg",
-    videoId: "_BWhdHDN8HY",
-  },
-  {
     title: "Shaky",
     channelTitle: "Sanju Rathod SR",
     description: "Marathi pop anthem.",
@@ -303,14 +295,6 @@ let originalVideos = [
     videoId: "XfXgUZDCAoA",
   },
   {
-    title: "Akhiyaan Gulaab",
-    channelTitle: "T-Series",
-    description: "8K full song.",
-    publishedAt: "2025-09-10T09:01:17Z",
-    thumbnail: "https://i.ytimg.com/vi/eSa_BvEisEc/mqdefault.jpg",
-    videoId: "eSa_BvEisEc",
-  },
-  {
     title: "Shibu - 10 E 10",
     channelTitle: "Shibu",
     description: "Official visualizer.",
@@ -351,28 +335,6 @@ let originalVideos = [
     videoId: "ipfrW9jYGwI",
   },
   {
-    title: "Tu Ishq Hai Toh Main Hoon",
-    channelTitle: "Good Vibes",
-    description: "Lyrics video.",
-    publishedAt: "2025-01-31",
-    thumbnail: "https://i.ytimg.com/vi/44jQh6vAl-4/mqdefault.jpg",
-    videoId: "44jQh6vAl-4",
-  },
-
-  {
-    title:
-      "O Sajna (Official Video) - Badshah X DIVINE X Nikhita Gandhi | Ek THA RAJA",
-    channelTitle: "Badshah",
-    description:
-      "Listen Now On Spotify : https://open.spotify.com/track/3YVbYgFSd2Whua4QUiIjUc Jiosaavn ...",
-    favorite:
-      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
-    isfavorite: true,
-    publishedAt: "2024-04-23T05:30:05Z",
-    thumbnail: "https://i.ytimg.com/vi/JRKk7gxcpMc/mqdefault.jpg",
-    videoId: "JRKk7gxcpMc",
-  },
-  {
     title:
       "sajna tere liye sajna (official video) Badshah ft. Payal Dev | Aditya Dev Studios | new wedding song",
     channelTitle: "Gaurav Singh",
@@ -384,19 +346,6 @@ let originalVideos = [
     publishedAt: "2021-12-10T14:55:00Z",
     thumbnail: "https://i.ytimg.com/vi/YSWpWmu_zvE/mqdefault.jpg",
     videoId: "YSWpWmu_zvE",
-  },
-  {
-    title:
-      "নাচের ছন্দে ছন্দে। Nacher chondhe chondhe Bangla gaan। new music video",
-    channelTitle: " Just Motivation彡",
-    description:
-      "New_Song_2022, #lyrics_tune_point ,Official Music Video,Bangla Songs, Bangla Music, Bengali Songs, Bangla Gaan, Bangla ...",
-    favorite:
-      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
-    isfavorite: true,
-    publishedAt: "2022-02-20T14:03:57Z",
-    thumbnail: "https://i.ytimg.com/vi/QFuoog00wvI/mqdefault.jpg",
-    videoId: "QFuoog00wvI",
   },
   {
     title: "MITRAZ - Muskurahat | Lyrical Video | Unied Studios",
@@ -419,22 +368,6 @@ let originalVideos = [
     videoId: "uilRUXA4FS4",
   },
   {
-    title: "Dukkho Bilash",
-    channelTitle: "6 AM",
-    description: "Bangla lyrics song.",
-    publishedAt: "2025-05-31T03:24:05Z",
-    thumbnail: "https://i.ytimg.com/vi/QvzdN6Se7Js/mqdefault.jpg",
-    videoId: "QvzdN6Se7Js",
-  },
-  {
-    title: "Ek Jibon 2",
-    channelTitle: "TRENDING MUSIC RG",
-    description: "Bangla lofi song.",
-    publishedAt: "2025-02-08T08:48:12Z",
-    thumbnail: "https://i.ytimg.com/vi/MkrUCRpIYsY/mqdefault.jpg",
-    videoId: "MkrUCRpIYsY",
-  },
-  {
     title: "Sahana Sahana Song",
     channelTitle: "T-Series",
     description: "The RajaSaab movie song.",
@@ -443,28 +376,12 @@ let originalVideos = [
     videoId: "Gp0QGBbo0CQ",
   },
   {
-    title: "Night lofi song 🌆😴",
-    channelTitle: "Fusion x song",
-    description: "Night lofi playlist.",
-    publishedAt: "2025-08-07T02:40:40Z",
-    thumbnail: "https://i.ytimg.com/vi/q7_5YD5XLLk/mqdefault.jpg",
-    videoId: "q7_5YD5XLLk",
-  },
-  {
     title: "Amar Dehokhan",
     channelTitle: "LYRICS FORMATION",
     description: "Bangla lyrics video.",
     publishedAt: "2022-08-08T16:01:36Z",
     thumbnail: "https://i.ytimg.com/vi/xKyiddqgbxg/mqdefault.jpg",
     videoId: "xKyiddqgbxg",
-  },
-  {
-    title: "Dhun Song | Saiyaara",
-    channelTitle: "YRF",
-    description: "Romantic Bollywood song.",
-    publishedAt: "2025-07-01",
-    thumbnail: "https://i.ytimg.com/vi/cUmUOb7j3dc/mqdefault.jpg",
-    videoId: "cUmUOb7j3dc",
   },
   {
     title: "Barbaad Song | Saiyaara",
@@ -497,16 +414,6 @@ let originalVideos = [
     publishedAt: "2022-02-15",
     thumbnail: "https://i.ytimg.com/vi/JnsdxAZel-Y/mqdefault.jpg",
     videoId: "JnsdxAZel-Y",
-  },
-  {
-    title:
-      "Sahiba (Music Video) Jasleen Royal | Vijay Deverakonda Radhikka Madan | Stebin | Priya | Aditya | Sudhanshu",
-    channelTitle: "Jasleen Royal",
-    description:
-      "Sahiba #JasleenRoyal #VijayDeverakonda #RadhikkaMadan #SudhanshuSaria #StebinBen SAHIBA - A Journey of ...",
-    publishedAt: "2024-11-15T06:30:58Z",
-    thumbnail: "https://i.ytimg.com/vi/NW6Dgax2d6I/mqdefault.jpg",
-    videoId: "NW6Dgax2d6I",
   },
   {
     title: "Heer (Lyrics) - Ali Raza & Shjr | AdaaVibes",
@@ -546,15 +453,6 @@ let originalVideos = [
     publishedAt: "2025-08-27T11:58:09Z",
     thumbnail: "https://i.ytimg.com/vi/wgSTTkpVTmM/mqdefault.jpg",
     videoId: "wgSTTkpVTmM",
-  },
-  {
-    title: "Anuv Jain - HUSN (Official Video)",
-    channelTitle: "Anuv Jain",
-    description:
-      "The eleventh studio recorded single, written, sung and composed by #AnuvJain is here! Listen to 'Husn' on all streaming ...",
-    publishedAt: "2023-11-30T14:30:08Z",
-    thumbnail: "https://i.ytimg.com/vi/gJLVTKhTnog/mqdefault.jpg",
-    videoId: "gJLVTKhTnog",
   },
   {
     title:
@@ -604,6 +502,124 @@ let originalVideos = [
     publishedAt: "2020-07-09T21:39:50Z",
     thumbnail: "https://i.ytimg.com/vi/8zCvgWeDqf4/mqdefault.jpg",
     videoId: "8zCvgWeDqf4",
+  },
+  {
+    title:
+      "Diamond Ni Official Music Video | Jigar Saraiya | Aditya Gadhvi | Sukhmani Gambhir",
+    channelTitle: "Sony Music India",
+    description:
+      "Thank you for giving so much love to Diamond Ni. Here's a sweet surprise for you. Watch the video and let us know your favourite ...",
+    publishedAt: "2024-10-14T12:00:04Z",
+    thumbnail: "https://i.ytimg.com/vi/adGR0QNxs0w/mqdefault.jpg",
+    videoId: "adGR0QNxs0w",
+  },
+  {
+    title:
+      "Tere Sang Ishq Hua - Arijit Singh (Lyrics) | Yodha | Lyrical Bam Hindi",
+    channelTitle: "LYRICAL BAM HINDI",
+    description:
+      "Tere Sang Ishq Hua - Arijit Singh (Lyrics) | Yodha | Siddharth Malhotra, Tanishk Bagchi | Lyrical Bam Hindi SONG CREDIT :- Song ...",
+    publishedAt: "2024-03-18T10:30:08Z",
+    thumbnail: "https://i.ytimg.com/vi/M_dp64YRI5I/mqdefault.jpg",
+    videoId: "M_dp64YRI5I",
+  },
+  {
+    title:
+      "Ke ab kuch hosh nahi hai Tu mujhko pila degi kya (Lyrics) Paaro - Aditya Rikhari",
+    channelTitle: "Good Vibes",
+    description:
+      "Good Vibes – Your go-to channel for uplifting and positive music! Enjoy lyric videos of feel-good songs across genres that spread ...",
+    publishedAt: "2025-04-08T04:38:05Z",
+    thumbnail: "https://i.ytimg.com/vi/nUUnndYpneE/mqdefault.jpg",
+    videoId: "nUUnndYpneE",
+  },
+  {
+    title: "Aditya Rikhari - FAASLE",
+    channelTitle: "Aditya Rikhari",
+    description:
+      "Download Now: https://apple.co/3ltDJMD Spotify: https://spoti.fi/3BWOYCS #Faasle #AdityaRikhari Instagram- ...",
+    publishedAt: "2021-07-31T06:31:16Z",
+    thumbnail: "https://i.ytimg.com/vi/EiiOYwqk3A0/mqdefault.jpg",
+    videoId: "EiiOYwqk3A0",
+  },
+  {
+    title:
+      "Aaj ami sob harano ( আজ আমি সব হারানো ) Neshar Bojha Lyrics (নেশার বোঝা) Popeye | Copy Unlimited",
+    channelTitle: "Copy Unlimited",
+    description:
+      "Aaj ami sob harano ( আজ আমি সব হারানো ) Neshar Bojha Lyrics (নেশার বোঝা) Popeye | Copy Unlimited Please ...",
+    publishedAt: "2022-05-30T17:31:09Z",
+    thumbnail: "https://i.ytimg.com/vi/myWgnBVxHFA/mqdefault.jpg",
+    videoId: "myWgnBVxHFA",
+  },
+  {
+    title:
+      "ধার ধারিনা - SHEZAN X HANNAN X RT RAHAT X GUNSHOT PLAYER | M MASTER | Remix 2024",
+    channelTitle: "M Master",
+    description:
+      "Subscribe & Like for More Daily Remixes! Hit the notification bell to hear Remixes First! #rap #remix #music #hiphop #song ...",
+    publishedAt: "2024-12-15T09:01:56Z",
+    thumbnail: "https://i.ytimg.com/vi/10qAossx8jA/mqdefault.jpg",
+    videoId: "10qAossx8jA",
+  },
+  {
+    title:
+      "Dil Lagana Mana Tha (Official MV) Krish & Kishore Mondal | Kunaal V, Devv S | Sanam Johar Ashi Singh",
+    channelTitle: "RDC Melodies",
+    description:
+      "Dil Lagana Mana Tha (Official MV) Krish & Kishore Mondal | Kunaal V, Devv S | Sanam Johar Ashi Singh About the ...",
+    publishedAt: "2026-01-16T12:00:18Z",
+    thumbnail: "https://i.ytimg.com/vi/55BS8QO5C9o/mqdefault.jpg",
+    videoId: "55BS8QO5C9o",
+  },
+  {
+    title: "Guru Randhawa - SIRRA ( Official Video )",
+    channelTitle: "Guru Randhawa",
+    description:
+      "WITHOUT PREJUDICE” Full Album available everywhere now. Spotify ...",
+    publishedAt: "2025-07-01T05:31:15Z",
+    thumbnail: "https://i.ytimg.com/vi/knGCfzm4jWs/mqdefault.jpg",
+    videoId: "knGCfzm4jWs",
+  },
+  {
+    title:
+      "Kabir Singh : Kaise Hua Song | Shahid K, Kiara A, Sandeep V | Vishal Mishra, Manoj Muntashir",
+    channelTitle: "T-Series",
+    description:
+      "Take a glimpse into the journey of Kabir & Preeti. A song that portrays the phase of love and affection and Presenting, 'Kaise Hua', ...",
+    publishedAt: "2019-06-13T10:34:11Z",
+    thumbnail: "https://i.ytimg.com/vi/_P9YXESg5Es/mqdefault.jpg",
+    videoId: "_P9YXESg5Es",
+  },
+  {
+    title:
+      "Coke Studio Season 9| Afreen Afreen| Rahat Fateh Ali Khan & Momina Mustehsan",
+    channelTitle: "Coke Studio Pakistan",
+    description:
+      "Coke Studio Season 9| Episode 2 Song Name: Afreen Afreen Nusrat Fateh Ali Khan was one of the shining lights of Pakistan, ...",
+    publishedAt: "2016-08-19T14:01:21Z",
+    thumbnail: "https://i.ytimg.com/vi/kw4tT7SCmaY/mqdefault.jpg",
+    videoId: "kw4tT7SCmaY",
+  },
+  {
+    title:
+      "Hai Tamanna Humen Tumhen Dulhan Banaye Kahani Suno 2.0 | Kaifi Khalil Official Video",
+    channelTitle: "Golden Superstar",
+    description:
+      "Written, Composed & Music by Kaifi Khalil Directed by Muhammad Baloch Mixed & Mastered by Lil AK 100 & Dijay Khalifa kahani ...",
+    publishedAt: "2023-03-06T18:00:14Z",
+    thumbnail: "https://i.ytimg.com/vi/6c-10LBzsIk/mqdefault.jpg",
+    videoId: "6c-10LBzsIk",
+  },
+  {
+    title:
+      "Shorbonash | সর্বনাশ | Nobel Mahmud | Shuvo Hamim | Official Lyrics Video | Smoke Tube",
+    channelTitle: "Smoke Tube",
+    description:
+      "Shorbonash | সর্বনাশ | Nobel Mahmud | Shuvo Hamim | Official Lyrics Video | Bangla Rap 2024 | Smoke Tube Thanks for ...",
+    publishedAt: "2024-04-28T15:59:58Z",
+    thumbnail: "https://i.ytimg.com/vi/7osi8mh-ad0/mqdefault.jpg",
+    videoId: "7osi8mh-ad0",
   },
 ];
 originalVideos.sort(() => Math.random() - 0.5);
@@ -810,7 +826,7 @@ function boxPlayer() {
             title: "Song Added Successfully",
             icon: "success",
           }),
-        100
+        100,
       );
     } else {
       video.favorite = `<ion-icon name="heart-outline"></ion-icon>`;
@@ -821,7 +837,7 @@ function boxPlayer() {
             title: "Song Removed",
             icon: "warning",
           }),
-        100
+        100,
       );
 
       videos = [...originalVideos];
@@ -831,7 +847,7 @@ function boxPlayer() {
         "#fff",
         "#fff",
         "#000",
-        `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+        `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
       );
     }
 
@@ -918,7 +934,7 @@ submit.onclick = function () {
       "#fff",
       "#fff",
       "#000",
-      `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+      `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
     );
   }
 };
@@ -937,7 +953,7 @@ searchBar.addEventListener("keydown", (e) => {
         "#fff",
         "#fff",
         "#000",
-        `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+        `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
       );
     }
   }
@@ -983,7 +999,7 @@ from.onclick = function () {
     "#fff",
     "#fff",
     "#000",
-    `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+    `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
   );
 };
 
@@ -996,7 +1012,7 @@ initialSetup(
   "#fff",
   "#fff",
   "#000",
-  `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+  `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
 );
 
 checkFavorites();
@@ -1176,7 +1192,7 @@ allMusics.onclick = function () {
       "#fff",
       "#fff",
       "#000",
-      `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+      `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
     );
   }
 };
@@ -1191,7 +1207,7 @@ favoriteMusics.onclick = function () {
       "#000",
       "#262626",
       "#fff",
-      `<img src="./img/favorite.gif" class="w-[24px] mr-[7px]"/> Favorite`
+      `<img src="./img/favorite.gif" class="w-[24px] mr-[7px]"/> Favorite`,
     );
   }
 };
@@ -1352,7 +1368,7 @@ search.onclick = function () {
     "#fff",
     "#fff",
     "#000",
-    `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`
+    `<img class="w-[24px] mr-[7px]" src="./img/music.gif" /> All Musics`,
   );
 };
 let currentLyrics = null;
@@ -1400,7 +1416,7 @@ async function searchSongs(query) {
 
   try {
     const res = await fetch(
-      `https://lrclib.net/api/search?track_name=${encodeURIComponent(query)}`
+      `https://lrclib.net/api/search?track_name=${encodeURIComponent(query)}`,
     );
     const data = await res.json();
 
