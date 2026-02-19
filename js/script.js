@@ -190,12 +190,13 @@ let originalVideos = [
     videoId: "g3LUXKOiaKc",
   },
   {
-    title: "Afusic - Pal Pal (Official Music Video)",
-    channelTitle: "AFUSIC",
-    description: "Official music video by AFUSIC.",
-    publishedAt: "2025-02-18",
-    thumbnail: "https://i.ytimg.com/vi/KkIxm6TQdzU/mqdefault.jpg",
-    videoId: "KkIxm6TQdzU",
+    title: "Pal Pal Lyrics - Afusic prod. by AliSoomroMusic",
+    channelTitle: "Vibe Bird",
+    description:
+      "Pal Pal Lyrics - Afusic prod. by AliSoomroMusic Credits: Song name: Pal Pal Album: Pal Pal Singer: Afusic Lyrics: Afusic Music: ...",
+    publishedAt: "4/1/2025",
+    thumbnail: "https://i.ytimg.com/vi/HdZK0uJyfqM/mqdefault.jpg",
+    videoId: "HdZK0uJyfqM",
   },
   {
     title: "Nishobdo Bristy 🌧️ | AI BeatFusion Studio",
