@@ -161,15 +161,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/UghMf59vDJM/mqdefault.jpg",
     videoId: "UghMf59vDJM",
   },
-  {
-    title:
-      "Sahiba aaye ghar kaahe na aise toh sataye na (Lyrics) Sahiba - Aditya Rikhari",
-    channelTitle: "Good Vibes",
-    description: "(Lyrics) Sahiba - Aditya Rikhari",
-    publishedAt: "2025-08-06",
-    thumbnail: "https://i.ytimg.com/vi/ozxvFqLKquo/mqdefault.jpg",
-    videoId: "ozxvFqLKquo",
-  },
+
   {
     title:
       "Long Distance Love | Coke Studio Bangla | Season 3 | Ankan X Afrin | Shuvendu",
@@ -198,22 +190,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/HdZK0uJyfqM/mqdefault.jpg",
     videoId: "HdZK0uJyfqM",
   },
-  {
-    title: "Nishobdo Bristy 🌧️ | AI BeatFusion Studio",
-    channelTitle: "AI BeatFusion Studio",
-    description: "Heartfelt Bengali song capturing silent rain and lost love.",
-    publishedAt: "2025-09-10T18:14:40Z",
-    thumbnail: "https://i.ytimg.com/vi/k068wfVRqr4/mqdefault.jpg",
-    videoId: "k068wfVRqr4",
-  },
-  {
-    title: "Aaina (Official Hindi Song)",
-    channelTitle: "AI BeatFusion Studio",
-    description: "Hindi–English fusion track.",
-    publishedAt: "2025-08-27T15:46:19Z",
-    thumbnail: "https://i.ytimg.com/vi/WQga7KMqwHE/mqdefault.jpg",
-    videoId: "WQga7KMqwHE",
-  },
+
   {
     title: "Srotoshinni | ENCORE | Lyrics | স্রোতস্বিনী",
     channelTitle: "ENCORE",
@@ -221,22 +198,6 @@ let originalVideos = [
     publishedAt: "2024-04-15",
     thumbnail: "https://i.ytimg.com/vi/F0_jwKzCDC0/mqdefault.jpg",
     videoId: "F0_jwKzCDC0",
-  },
-  {
-    title: "Thik na beThik | ঠিক না বেঠিক",
-    channelTitle: "AI BeatFusion Studio",
-    description: "Fun, flirty Bangla track.",
-    publishedAt: "2025-12-09T08:29:48Z",
-    thumbnail: "https://i.ytimg.com/vi/sqWL0pp6910/mqdefault.jpg",
-    videoId: "sqWL0pp6910",
-  },
-  {
-    title: "BENI KHULEY LYRICS BY MUZA AND HABIB WAHID",
-    channelTitle: "nature.boy.10__",
-    description: "Viral Bengali lyrics video.",
-    publishedAt: "2023-03-12T09:33:30Z",
-    thumbnail: "https://i.ytimg.com/vi/hzZkJaKUHRo/mqdefault.jpg",
-    videoId: "hzZkJaKUHRo",
   },
 
   {
@@ -368,14 +329,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/uilRUXA4FS4/mqdefault.jpg",
     videoId: "uilRUXA4FS4",
   },
-  {
-    title: "Sahana Sahana Song",
-    channelTitle: "T-Series",
-    description: "The RajaSaab movie song.",
-    publishedAt: "2025-12-17T13:59:09Z",
-    thumbnail: "https://i.ytimg.com/vi/Gp0QGBbo0CQ/mqdefault.jpg",
-    videoId: "Gp0QGBbo0CQ",
-  },
+
   {
     title: "Amar Dehokhan",
     channelTitle: "LYRICS FORMATION",
@@ -435,16 +389,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/0NXnRmoILSs/mqdefault.jpg",
     videoId: "0NXnRmoILSs",
   },
-  {
-    title:
-      "Pottala Muttaye | Thalaivan Thalaivii | Vijay Sethupathi,Nithya Menen |Pandiraaj |Santhosh Narayanan",
-    channelTitle: "Think Music India",
-    description:
-      'Presenting the Video Song of "Pottala Muttaye" from "Thalaivan Thalaivii", Sung by Santhosh Narayanan & Sublahshini, Lyrics ...',
-    publishedAt: "2025-08-05T11:30:02Z",
-    thumbnail: "https://i.ytimg.com/vi/sWT7S6T0Qzw/mqdefault.jpg",
-    videoId: "sWT7S6T0Qzw",
-  },
+
   {
     title:
       "Arz Kiya Hai - Anuv Jain X Lost Stories | (Lyrics) | Coke Studio Bharat",
@@ -573,15 +518,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/55BS8QO5C9o/mqdefault.jpg",
     videoId: "55BS8QO5C9o",
   },
-  {
-    title: "Guru Randhawa - SIRRA ( Official Video )",
-    channelTitle: "Guru Randhawa",
-    description:
-      "WITHOUT PREJUDICE” Full Album available everywhere now. Spotify ...",
-    publishedAt: "2025-07-01T05:31:15Z",
-    thumbnail: "https://i.ytimg.com/vi/knGCfzm4jWs/mqdefault.jpg",
-    videoId: "knGCfzm4jWs",
-  },
+
   {
     title:
       "Kabir Singh : Kaise Hua Song | Shahid K, Kiara A, Sandeep V | Vishal Mishra, Manoj Muntashir",
@@ -621,6 +558,89 @@ let originalVideos = [
     publishedAt: "2024-04-28T15:59:58Z",
     thumbnail: "https://i.ytimg.com/vi/7osi8mh-ad0/mqdefault.jpg",
     videoId: "7osi8mh-ad0",
+  },
+  {
+    title: "Bedona by Shunno",
+    channelTitle: "PINHOLE FILMS",
+    description:
+      "Song : Bedona Band : Shunno Direction : Asraful Alam Rubel Editing : Sazal Alok D.O.P : Asraful Alam Rubel AD : Zayed ...",
+    publishedAt: "2014-09-27T11:19:49Z",
+    thumbnail: "https://i.ytimg.com/vi/vOIqVQ76Iug/mqdefault.jpg",
+    videoId: "vOIqVQ76Iug",
+  },
+  {
+    title:
+      "বেলতলী সুলেমান লেংটা দুহায় লেংটা দুহায় লেংটা | Beltoli Suleman Lengta Duhay Lengta Duhay Lengta",
+    channelTitle: "Soitan Soitan",
+    description:
+      "বেলতলী সুলেমান লেংটা দুহায় লেংটা দুহায় লেংটা | Beltoli Suleman Lengta Duhay ...",
+    publishedAt: "2026-02-11T16:36:31Z",
+    thumbnail: "https://i.ytimg.com/vi/Sp12Ap0iIqU/mqdefault.jpg",
+    videoId: "Sp12Ap0iIqU",
+  },
+  {
+    title: "Mon Amar Pagol Hoye Poddo Patay Bose",
+    channelTitle: "Arianal Karimil - Topic",
+    description:
+      "Provided to YouTube by OffStep Mon Amar Pagol Hoye Poddo Patay Bose · Arianal Karimil ...",
+    publishedAt: "2026-02-14T21:23:10Z",
+    thumbnail: "https://i.ytimg.com/vi/91BelLgopyA/mqdefault.jpg",
+    videoId: "91BelLgopyA",
+  },
+  {
+    title:
+      "Khola Janala (Lyrics) | Tahsin Ahmed | SWAT Band | খোলা জানালা | Lyrics Video",
+    channelTitle: "Band Lost Lyrics",
+    description:
+      "Khola Janala (Lyrics) | Tahsin Ahmed | খোলা জানালা | Slowed Reverb | Lyrics Video ...",
+    publishedAt: "2022-12-26T14:14:12Z",
+    thumbnail: "https://i.ytimg.com/vi/bzsWmfFCqQk/mqdefault.jpg",
+    videoId: "bzsWmfFCqQk",
+  },
+  {
+    title:
+      "Fa9la, Rehman Dakait Entry Song Dhurandhar | Rackstar Ft. Akshaye Khanna Ranveer Singh | new song",
+    channelTitle: "SubAtomic BEATS",
+    description:
+      "RehmanDakait #Flipperachi #Fa9la Fa9la - Rehman Dakait Full Song & Dance Video ...",
+    publishedAt: "2026-02-16T07:16:21Z",
+    thumbnail: "https://i.ytimg.com/vi/-cZBEwN2C-E/mqdefault.jpg",
+    videoId: "-cZBEwN2C-E",
+  },
+  {
+    title:
+      "Ektukhani Mon | Full Song | Daagi | Afran Nisho,Tama | Tahsan,Masha | Shihab S | SVF Alpha-i | Chorki",
+    channelTitle: "Chorki",
+    description:
+      "আমায় ছেড়ে কোথায় যাবে তুমি বলবে কে আর এমন করে তোমায় ভালোবাসি?",
+    publishedAt: "2025-06-17T04:58:14Z",
+    thumbnail: "https://i.ytimg.com/vi/PNS2JFYP0ws/mqdefault.jpg",
+    videoId: "PNS2JFYP0ws",
+  },
+  {
+    title:
+      "DIDHA - দ্বিধা | BORBAAD | SHAKIB KHAN | PRITOM HASAN | IDHIKA PAUL",
+    channelTitle: "Pritom Hasan",
+    description: "কখনো রোদ তুমি, কখনো জোৎস্না...",
+    publishedAt: "2025-03-14T13:01:05Z",
+    thumbnail: "https://i.ytimg.com/vi/jFHnz-B2Kas/mqdefault.jpg",
+    videoId: "jFHnz-B2Kas",
+  },
+  {
+    title: "Baarish Mein Phir - Saahel (Visualiser) | #DhunHub",
+    channelTitle: "Dhun Hub",
+    description: "Baarish Mein Phir - Saahel | Saahell Music ...",
+    publishedAt: "2025-12-16T03:00:06Z",
+    thumbnail: "https://i.ytimg.com/vi/OMPHhaJFPQo/mqdefault.jpg",
+    videoId: "OMPHhaJFPQo",
+  },
+  {
+    title: "Beni Khuley বেণী খুলে habib wahid New Video Song",
+    channelTitle: "Ovijit Dey",
+    description: "music #bangla #2023 #habibwahid Beni Khuley ...",
+    publishedAt: "2023-04-05T06:24:45Z",
+    thumbnail: "https://i.ytimg.com/vi/v6KFnWap6rY/mqdefault.jpg",
+    videoId: "v6KFnWap6rY",
   },
 ];
 originalVideos.sort(() => Math.random() - 0.5);
