@@ -302,9 +302,7 @@ let originalVideos = [
     channelTitle: "Gaurav Singh",
     description:
       "sajna tere liye sajna (official video) Badshah ft. Payal Dev Put on your dancing shoes and get ready to groove to the wedding ...",
-    favorite:
-      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
-    isfavorite: true,
+
     publishedAt: "2021-12-10T14:55:00Z",
     thumbnail: "https://i.ytimg.com/vi/YSWpWmu_zvE/mqdefault.jpg",
     videoId: "YSWpWmu_zvE",
@@ -314,9 +312,6 @@ let originalVideos = [
     channelTitle: "Unied Studios",
     description:
       "MITRAZ - Muskurahat | Lyrical Video | Unied Studios Hit the to join the notification squad! Lets get this video to 100 likes !",
-    favorite:
-      '<ion-icon style="color: rgb(0 197 197);" name="heart-outline"></ion-icon>',
-    isfavorite: true,
     publishedAt: "2022-06-28T08:24:24Z",
     thumbnail: "https://i.ytimg.com/vi/G068mtnQeyw/mqdefault.jpg",
     videoId: "G068mtnQeyw",
@@ -597,16 +592,65 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/bzsWmfFCqQk/mqdefault.jpg",
     videoId: "bzsWmfFCqQk",
   },
+
+  {
+    title: "Saahel - Baarish Mein Phir (Official Music Video)",
+    channelTitle: "Saahel",
+    description:
+      "For inquiries - saahellmusic@gmail.com Instagram - @saahellmusic Stream 'Baarish Mein Phir\" Here ...",
+    publishedAt: "2025-08-12T06:30:32Z",
+    thumbnail: "https://i.ytimg.com/vi/BOT2xL1-p6Q/mqdefault.jpg",
+    videoId: "BOT2xL1-p6Q",
+  },
+  {
+    title: "AUR - Tu hai kahan (Lyrics)",
+    channelTitle: "Vibe Music",
+    description:
+      "AUR - Tu hai kahan Stream/Download: https://spotify.link/Vx27hu2KUDb • AUR • • https://www.instagram.com/aurmusic_ (Lyrics): ...",
+    publishedAt: "2023-10-18T14:04:42Z",
+    thumbnail: "https://i.ytimg.com/vi/8GkPMG8IwBQ/mqdefault.jpg",
+    videoId: "8GkPMG8IwBQ",
+  },
   {
     title:
-      "Fa9la, Rehman Dakait Entry Song Dhurandhar | Rackstar Ft. Akshaye Khanna Ranveer Singh | new song",
-    channelTitle: "SubAtomic BEATS",
+      "Bilet Raja (বিলেত রাজা) Full Video Song | Ki Nesha Daila Dili Galase | Rakshas Movie Item Song 2026",
+    channelTitle: "Haunted Vibes Music",
     description:
-      "RehmanDakait #Flipperachi #Fa9la Fa9la - Rehman Dakait Full Song & Dance Video ...",
-    publishedAt: "2026-02-16T07:16:21Z",
-    thumbnail: "https://i.ytimg.com/vi/-cZBEwN2C-E/mqdefault.jpg",
-    videoId: "-cZBEwN2C-E",
+      "Apr 4, 2026 Bilet Raja (বিলেত রাজা) Full Video Song from Rakshas (রাক্ষস) Movie Starring Siam Ahmed ...",
+    publishedAt: "2026-04-04T10:12:24Z",
+    thumbnail: "https://i.ytimg.com/vi/Xx6LnLXmTa4/mqdefault.jpg",
+    videoId: "Xx6LnLXmTa4",
   },
+  {
+    title: "Likhe Jo Khat Tujhe - Trending",
+    channelTitle: "Gurpreet Marwah - Topic",
+    description:
+      "Provided to YouTube by Saregama India Ltd Likhe Jo Khat Tujhe - Trending · Gurpreet Marwah Likhe Jo Khat Tujhe - Trending ...",
+    publishedAt: "2023-06-21T08:30:19Z",
+    thumbnail: "https://i.ytimg.com/vi/lASu02dETKA/mqdefault.jpg",
+    videoId: "lASu02dETKA",
+  },
+  {
+    title:
+      "MERI ZINDAGI HAI TU - OST | BILAL ABBAS | HANIA AAMIR | ASIM AZHAR | SABRI SISTERS | ARY DIGITAL",
+    channelTitle: "ARY Digital HD",
+    description:
+      "AUDIO: MERI ZINDAGI HAI TU - OST | BILAL ABBAS | HANIA AAMIR | ASIM AZHAR | SABRI SISTERS | ARY DIGITAL Watch all ...",
+    publishedAt: "2025-11-18T11:17:13Z",
+    thumbnail: "https://i.ytimg.com/vi/myJ7x029Ves/mqdefault.jpg",
+    videoId: "myJ7x029Ves",
+  },
+  {
+    title:
+      "JALA JALA | জ্বালা জ্বালা | PRINCE VIDEO SONG| SHAKIB KHAN | TASNIA FARIN |RUNA LAILA & PRITOM HASAN",
+    channelTitle: "Pritom Hasan",
+    description:
+      "Turn up the heat this Eid with the electrifying song “Jala Jala” from the upcoming Bangla film Prince! ✨ A high-energy item track ...",
+    publishedAt: "2026-03-20T17:00:05Z",
+    thumbnail: "https://i.ytimg.com/vi/yxz4FQCtXgA/mqdefault.jpg",
+    videoId: "yxz4FQCtXgA",
+  },
+
   {
     title:
       "Ektukhani Mon | Full Song | Daagi | Afran Nisho,Tama | Tahsan,Masha | Shihab S | SVF Alpha-i | Chorki",
