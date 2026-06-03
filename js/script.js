@@ -172,15 +172,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/sqJ2QhjBQaw/mqdefault.jpg",
     videoId: "sqJ2QhjBQaw",
   },
-  {
-    title:
-      "Na Na Na Ta Hobe Na - RASEL REMIX | Arfin Rumey Ft. Sayera Reza | Club Mix.",
-    channelTitle: "RASEL Music.",
-    description: "Welcome To RASEL Music.",
-    publishedAt: "2024-01-08T14:44:28Z",
-    thumbnail: "https://i.ytimg.com/vi/g3LUXKOiaKc/mqdefault.jpg",
-    videoId: "g3LUXKOiaKc",
-  },
+
   {
     title: "Pal Pal Lyrics - Afusic prod. by AliSoomroMusic",
     channelTitle: "Vibe Bird",
@@ -256,14 +248,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/XfXgUZDCAoA/mqdefault.jpg",
     videoId: "XfXgUZDCAoA",
   },
-  {
-    title: "Shibu - 10 E 10",
-    channelTitle: "Shibu",
-    description: "Official visualizer.",
-    publishedAt: "2025-04-09T18:15:06Z",
-    thumbnail: "https://i.ytimg.com/vi/pd1flClqNPc/mqdefault.jpg",
-    videoId: "pd1flClqNPc",
-  },
+
   {
     title: "Morni Lyrics",
     channelTitle: "Vibe Bird",
@@ -325,14 +310,6 @@ let originalVideos = [
     videoId: "uilRUXA4FS4",
   },
 
-  {
-    title: "Amar Dehokhan",
-    channelTitle: "LYRICS FORMATION",
-    description: "Bangla lyrics video.",
-    publishedAt: "2022-08-08T16:01:36Z",
-    thumbnail: "https://i.ytimg.com/vi/xKyiddqgbxg/mqdefault.jpg",
-    videoId: "xKyiddqgbxg",
-  },
   {
     title: "Barbaad Song | Saiyaara",
     channelTitle: "YRF",
@@ -454,16 +431,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/adGR0QNxs0w/mqdefault.jpg",
     videoId: "adGR0QNxs0w",
   },
-  {
-    title:
-      "Tere Sang Ishq Hua - Arijit Singh (Lyrics) | Yodha | Lyrical Bam Hindi",
-    channelTitle: "LYRICAL BAM HINDI",
-    description:
-      "Tere Sang Ishq Hua - Arijit Singh (Lyrics) | Yodha | Siddharth Malhotra, Tanishk Bagchi | Lyrical Bam Hindi SONG CREDIT :- Song ...",
-    publishedAt: "2024-03-18T10:30:08Z",
-    thumbnail: "https://i.ytimg.com/vi/M_dp64YRI5I/mqdefault.jpg",
-    videoId: "M_dp64YRI5I",
-  },
+
   {
     title:
       "Ke ab kuch hosh nahi hai Tu mujhko pila degi kya (Lyrics) Paaro - Aditya Rikhari",
@@ -483,16 +451,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/EiiOYwqk3A0/mqdefault.jpg",
     videoId: "EiiOYwqk3A0",
   },
-  {
-    title:
-      "Aaj ami sob harano ( আজ আমি সব হারানো ) Neshar Bojha Lyrics (নেশার বোঝা) Popeye | Copy Unlimited",
-    channelTitle: "Copy Unlimited",
-    description:
-      "Aaj ami sob harano ( আজ আমি সব হারানো ) Neshar Bojha Lyrics (নেশার বোঝা) Popeye | Copy Unlimited Please ...",
-    publishedAt: "2022-05-30T17:31:09Z",
-    thumbnail: "https://i.ytimg.com/vi/myWgnBVxHFA/mqdefault.jpg",
-    videoId: "myWgnBVxHFA",
-  },
+
   {
     title:
       "ধার ধারিনা - SHEZAN X HANNAN X RT RAHAT X GUNSHOT PLAYER | M MASTER | Remix 2024",
@@ -516,36 +475,6 @@ let originalVideos = [
 
   {
     title:
-      "Kabir Singh : Kaise Hua Song | Shahid K, Kiara A, Sandeep V | Vishal Mishra, Manoj Muntashir",
-    channelTitle: "T-Series",
-    description:
-      "Take a glimpse into the journey of Kabir & Preeti. A song that portrays the phase of love and affection and Presenting, 'Kaise Hua', ...",
-    publishedAt: "2019-06-13T10:34:11Z",
-    thumbnail: "https://i.ytimg.com/vi/_P9YXESg5Es/mqdefault.jpg",
-    videoId: "_P9YXESg5Es",
-  },
-  {
-    title:
-      "Coke Studio Season 9| Afreen Afreen| Rahat Fateh Ali Khan & Momina Mustehsan",
-    channelTitle: "Coke Studio Pakistan",
-    description:
-      "Coke Studio Season 9| Episode 2 Song Name: Afreen Afreen Nusrat Fateh Ali Khan was one of the shining lights of Pakistan, ...",
-    publishedAt: "2016-08-19T14:01:21Z",
-    thumbnail: "https://i.ytimg.com/vi/kw4tT7SCmaY/mqdefault.jpg",
-    videoId: "kw4tT7SCmaY",
-  },
-  {
-    title:
-      "Hai Tamanna Humen Tumhen Dulhan Banaye Kahani Suno 2.0 | Kaifi Khalil Official Video",
-    channelTitle: "Golden Superstar",
-    description:
-      "Written, Composed & Music by Kaifi Khalil Directed by Muhammad Baloch Mixed & Mastered by Lil AK 100 & Dijay Khalifa kahani ...",
-    publishedAt: "2023-03-06T18:00:14Z",
-    thumbnail: "https://i.ytimg.com/vi/6c-10LBzsIk/mqdefault.jpg",
-    videoId: "6c-10LBzsIk",
-  },
-  {
-    title:
       "Shorbonash | সর্বনাশ | Nobel Mahmud | Shuvo Hamim | Official Lyrics Video | Smoke Tube",
     channelTitle: "Smoke Tube",
     description:
@@ -554,54 +483,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/7osi8mh-ad0/mqdefault.jpg",
     videoId: "7osi8mh-ad0",
   },
-  {
-    title: "Bedona by Shunno",
-    channelTitle: "PINHOLE FILMS",
-    description:
-      "Song : Bedona Band : Shunno Direction : Asraful Alam Rubel Editing : Sazal Alok D.O.P : Asraful Alam Rubel AD : Zayed ...",
-    publishedAt: "2014-09-27T11:19:49Z",
-    thumbnail: "https://i.ytimg.com/vi/vOIqVQ76Iug/mqdefault.jpg",
-    videoId: "vOIqVQ76Iug",
-  },
-  {
-    title:
-      "বেলতলী সুলেমান লেংটা দুহায় লেংটা দুহায় লেংটা | Beltoli Suleman Lengta Duhay Lengta Duhay Lengta",
-    channelTitle: "Soitan Soitan",
-    description:
-      "বেলতলী সুলেমান লেংটা দুহায় লেংটা দুহায় লেংটা | Beltoli Suleman Lengta Duhay ...",
-    publishedAt: "2026-02-11T16:36:31Z",
-    thumbnail: "https://i.ytimg.com/vi/Sp12Ap0iIqU/mqdefault.jpg",
-    videoId: "Sp12Ap0iIqU",
-  },
-  {
-    title: "Mon Amar Pagol Hoye Poddo Patay Bose",
-    channelTitle: "Arianal Karimil - Topic",
-    description:
-      "Provided to YouTube by OffStep Mon Amar Pagol Hoye Poddo Patay Bose · Arianal Karimil ...",
-    publishedAt: "2026-02-14T21:23:10Z",
-    thumbnail: "https://i.ytimg.com/vi/91BelLgopyA/mqdefault.jpg",
-    videoId: "91BelLgopyA",
-  },
-  {
-    title:
-      "Khola Janala (Lyrics) | Tahsin Ahmed | SWAT Band | খোলা জানালা | Lyrics Video",
-    channelTitle: "Band Lost Lyrics",
-    description:
-      "Khola Janala (Lyrics) | Tahsin Ahmed | খোলা জানালা | Slowed Reverb | Lyrics Video ...",
-    publishedAt: "2022-12-26T14:14:12Z",
-    thumbnail: "https://i.ytimg.com/vi/bzsWmfFCqQk/mqdefault.jpg",
-    videoId: "bzsWmfFCqQk",
-  },
 
-  {
-    title: "Saahel - Baarish Mein Phir (Official Music Video)",
-    channelTitle: "Saahel",
-    description:
-      "For inquiries - saahellmusic@gmail.com Instagram - @saahellmusic Stream 'Baarish Mein Phir\" Here ...",
-    publishedAt: "2025-08-12T06:30:32Z",
-    thumbnail: "https://i.ytimg.com/vi/BOT2xL1-p6Q/mqdefault.jpg",
-    videoId: "BOT2xL1-p6Q",
-  },
   {
     title: "AUR - Tu hai kahan (Lyrics)",
     channelTitle: "Vibe Music",
@@ -611,16 +493,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/8GkPMG8IwBQ/mqdefault.jpg",
     videoId: "8GkPMG8IwBQ",
   },
-  {
-    title:
-      "Bilet Raja (বিলেত রাজা) Full Video Song | Ki Nesha Daila Dili Galase | Rakshas Movie Item Song 2026",
-    channelTitle: "Haunted Vibes Music",
-    description:
-      "Apr 4, 2026 Bilet Raja (বিলেত রাজা) Full Video Song from Rakshas (রাক্ষস) Movie Starring Siam Ahmed ...",
-    publishedAt: "2026-04-04T10:12:24Z",
-    thumbnail: "https://i.ytimg.com/vi/Xx6LnLXmTa4/mqdefault.jpg",
-    videoId: "Xx6LnLXmTa4",
-  },
+
   {
     title: "Likhe Jo Khat Tujhe - Trending",
     channelTitle: "Gurpreet Marwah - Topic",
@@ -642,17 +515,6 @@ let originalVideos = [
   },
   {
     title:
-      "JALA JALA | জ্বালা জ্বালা | PRINCE VIDEO SONG| SHAKIB KHAN | TASNIA FARIN |RUNA LAILA & PRITOM HASAN",
-    channelTitle: "Pritom Hasan",
-    description:
-      "Turn up the heat this Eid with the electrifying song “Jala Jala” from the upcoming Bangla film Prince! ✨ A high-energy item track ...",
-    publishedAt: "2026-03-20T17:00:05Z",
-    thumbnail: "https://i.ytimg.com/vi/yxz4FQCtXgA/mqdefault.jpg",
-    videoId: "yxz4FQCtXgA",
-  },
-
-  {
-    title:
       "Ektukhani Mon | Full Song | Daagi | Afran Nisho,Tama | Tahsan,Masha | Shihab S | SVF Alpha-i | Chorki",
     channelTitle: "Chorki",
     description:
@@ -671,20 +533,244 @@ let originalVideos = [
     videoId: "jFHnz-B2Kas",
   },
   {
-    title: "Baarish Mein Phir - Saahel (Visualiser) | #DhunHub",
-    channelTitle: "Dhun Hub",
-    description: "Baarish Mein Phir - Saahel | Saahell Music ...",
-    publishedAt: "2025-12-16T03:00:06Z",
-    thumbnail: "https://i.ytimg.com/vi/OMPHhaJFPQo/mqdefault.jpg",
-    videoId: "OMPHhaJFPQo",
-  },
-  {
     title: "Beni Khuley বেণী খুলে habib wahid New Video Song",
     channelTitle: "Ovijit Dey",
     description: "music #bangla #2023 #habibwahid Beni Khuley ...",
     publishedAt: "2023-04-05T06:24:45Z",
     thumbnail: "https://i.ytimg.com/vi/v6KFnWap6rY/mqdefault.jpg",
     videoId: "v6KFnWap6rY",
+  },
+  {
+    title:
+      "Shibu, Hasan Raheem & Umair - 10 E 10 (Official Lyrics Video) | #freshsound",
+    channelTitle: "#freshsound",
+    description:
+      "Shibu, Hasan Raheem & Umair - 10 E 10 (Official Lyrics Video) | #freshsound Beat Produced by Umair & Shibu Written by Shibu ...",
+    publishedAt: "2026-05-07T17:59:06Z",
+    thumbnail: "https://i.ytimg.com/vi/ZiRRCrju_jE/mqdefault.jpg",
+    videoId: "ZiRRCrju_jE",
+  },
+  {
+    title: "Tanveer Evan - Akash (আকাশ) | Official Music Video",
+    channelTitle: "Tanveer Evan.",
+    description:
+      "Akash - a feeling you can't hold, but can't let go of. In this deeply emotional journey, Tanveer Evan paints a picture of longing, ...",
+    publishedAt: "2026-04-24T06:00:25Z",
+    thumbnail: "https://i.ytimg.com/vi/VNA-Ujp-opI/mqdefault.jpg",
+    videoId: "VNA-Ujp-opI",
+  },
+  {
+    title:
+      "Jaane Kyun (Lyrics) | Tanveer Evan | @TanveerEvan | Broken | Lyrics Video",
+    channelTitle: "Band Lost Lyrics",
+    description:
+      "Jaane Kyun (Lyrics) | Tanveer Evan | Lyrics Video @BandLostLyrics @TanveerEvan ...",
+    publishedAt: "2024-07-07T09:00:06Z",
+    thumbnail: "https://i.ytimg.com/vi/BmjeIftRgzU/mqdefault.jpg",
+    videoId: "BmjeIftRgzU",
+  },
+  {
+    title:
+      "Mon Bojhe na || Bangla new sad song || Tanveer Evan er song || It's FAHIM ꨄ World ツ",
+    channelTitle: "It's FAHIM ꨄ World ツ",
+    description:
+      "bangla_lyrical_song #It'sFAHIMꨄWorldツ #mon_bojhena#tanveerevan #bangla_lofi_remix #bangla_song #bangla_newsong ...",
+    publishedAt: "2021-09-22T03:59:46Z",
+    thumbnail: "https://i.ytimg.com/vi/xgN-QkJNOMc/mqdefault.jpg",
+    videoId: "xgN-QkJNOMc",
+  },
+  {
+    title:
+      "Avijog (Lyrics) | Tanveer Evan | অভিযোগ | Piran Khan | Official Lyrics Video",
+    channelTitle: "Band Lost Lyrics",
+    description:
+      "Avijog (Lyrics) | Tanveer Evan | অভিযোগ | Piran Khan| Best Friend | Lyrics Video @BandLostLyrics @TanveerEvan ...",
+    publishedAt: "2025-08-15T08:30:06Z",
+    thumbnail: "https://i.ytimg.com/vi/9XrCeDlrgNI/mqdefault.jpg",
+    videoId: "9XrCeDlrgNI",
+  },
+  {
+    title:
+      "Sheesha (Official Music Video) | Mitta Ror ft. Swara Verma | Sorab Bedi | Niharika Tiwari",
+    channelTitle: "Sony Music India",
+    description:
+      "The internet has spoken and we have listened. The real owners of the song have all assembled together! Watch Sorab Bedi and ...",
+    publishedAt: "2026-03-19T04:30:07Z",
+    thumbnail: "https://i.ytimg.com/vi/aRNfSqsgrgE/mqdefault.jpg",
+    videoId: "aRNfSqsgrgE",
+  },
+  {
+    title: "Tu to mere surmey jaisa Tu to mere sapne jaisa",
+    channelTitle: "SACHIN THAKOR.",
+    description:
+      "Sang tere rehna khayal banke, Aati mujhe duji tarqeeb koi na! Presenting the first song release 'Koi Naa' from 'Bhool Chuk Maaf', ...",
+    publishedAt: "2025-04-27T06:17:55Z",
+    thumbnail: "https://i.ytimg.com/vi/UR5r_Dw18O8/mqdefault.jpg",
+    videoId: "UR5r_Dw18O8",
+  },
+  {
+    title:
+      "Tumi Chara Shunno Shunno Lage | তুমি ছাড়া শূন্য শূন্য লাগে | Shunno | শুন্য | Tanveer Evan (Lyrics)",
+    channelTitle: "@x7 lofi",
+    description:
+      "Tumi Chara Shunno Shunno Lage | তুমি ছাড়া শূন্য শূন্য লাগে | Shunno (Lyrics) শুন্য | Tanveer ...",
+    publishedAt: "2025-05-30T13:00:06Z",
+    thumbnail: "https://i.ytimg.com/vi/okOKOl901Dc/mqdefault.jpg",
+    videoId: "okOKOl901Dc",
+  },
+  {
+    title: "Keh de - Banjaare I (Official Video)",
+    channelTitle: "MindvsHeart Music",
+    description:
+      "Singer name : Ankhit Shivam Back vocal : Manika Siddiqui Music : Raag Priyom Distributed by MindvsHeart Music through ...",
+    publishedAt: "2026-04-12T15:30:15Z",
+    thumbnail: "https://i.ytimg.com/vi/WX2uG8TkrGg/mqdefault.jpg",
+    videoId: "WX2uG8TkrGg",
+  },
+  {
+    title:
+      "JALA JALA | জ্বালা জ্বালা | PRINCE VIDEO SONG| SHAKIB KHAN | TASNIA FARIN |RUNA LAILA & PRITOM HASAN",
+    channelTitle: "Pritom Hasan",
+    description:
+      "Turn up the heat this Eid with the electrifying song 'Jala Jala' from the upcoming Bangla film Prince! ✨ A high-energy item track ...",
+    publishedAt: "2026-03-20T17:00:05Z",
+    thumbnail: "https://i.ytimg.com/vi/yxz4FQCtXgA/mqdefault.jpg",
+    videoId: "yxz4FQCtXgA",
+  },
+  {
+    title: "Saahel - Baarish Mein Phir (Official Music Video)",
+    channelTitle: "Saahel",
+    description:
+      "For inquiries - saahellmusic@gmail.com Instagram - @saahellmusic Stream 'Baarish Mein Phir' Here ...",
+    publishedAt: "2025-08-12T06:30:32Z",
+    thumbnail: "https://i.ytimg.com/vi/BOT2xL1-p6Q/mqdefault.jpg",
+    videoId: "BOT2xL1-p6Q",
+  },
+  {
+    title: "Anuv Jain - BAARISHEIN (ACOUSTIC)",
+    channelTitle: "Anuv Jain",
+    description:
+      "Baarishein has crossed more than 200 million streams across all platforms and I wanted to celebrate this HUGE milestone and ...",
+    publishedAt: "2023-07-13T14:30:10Z",
+    thumbnail: "https://i.ytimg.com/vi/NLKwRW2y-sg/mqdefault.jpg",
+    videoId: "NLKwRW2y-sg",
+  },
+  {
+    title: 'GURU RANDHAWA - "AZUL" MV',
+    channelTitle: "Guru Randhawa",
+    description:
+      "Official Video for AZUL perfomed by Guru Randhawa and Anshika Pandey Song - AZUL Singer - Guru Randhawa Lyrics - Guru ...",
+    publishedAt: "2025-08-06T05:30:04Z",
+    thumbnail: "https://i.ytimg.com/vi/vB0V3iCSzQw/mqdefault.jpg",
+    videoId: "vB0V3iCSzQw",
+  },
+  {
+    title:
+      "MAIN ROYAAN - Rohit Zinjurke & Akaisha Vats | Tanveer Evan & Yasser Desai | Rajat Nagpal | Rana | AG",
+    channelTitle: "Desi Music Factory",
+    description:
+      "Anshul Garg presents Main Royaan by Tanveer Evan & Yasser Desai ft. Rohit Zinjurke & Akaisha Vats. A perfect song for your ...",
+    publishedAt: "2022-04-09T06:30:12Z",
+    thumbnail: "https://i.ytimg.com/vi/7Z5E-PcWb18/mqdefault.jpg",
+    videoId: "7Z5E-PcWb18",
+  },
+  {
+    title:
+      "Humnava Mere Full Song | Jubin Nautiyal | Manoj Muntashir | Rocky - Shiv | Bhushan Kumar",
+    channelTitle: "T-Series",
+    description:
+      'Gulshan Kumar and T-Series present Bhushan Kumar\'s full audio of the song "Humnava Mere". Featuring Jubin Nautiyal ...',
+    publishedAt: "2018-05-29T06:25:38Z",
+    thumbnail: "https://i.ytimg.com/vi/M4GzdR-Fnxo/mqdefault.jpg",
+    videoId: "M4GzdR-Fnxo",
+  },
+  {
+    title:
+      "Klanto Shorir | ক্লান্ত শরীর | Shamiul Shezan | New Bangla Song 2024 | Official Lyric Video",
+    channelTitle: "Shamiul Shezan",
+    description:
+      'Shamiul Shezan Presents New bangla sad Song 2024 "Klanto Shorir (ক্লান্ত শরীর)" . Hope You all love it.',
+    publishedAt: "2024-07-30T13:16:40Z",
+    thumbnail: "https://i.ytimg.com/vi/m_UygJMlY4g/mqdefault.jpg",
+    videoId: "m_UygJMlY4g",
+  },
+  {
+    title: "Anuv Jain - Husn (Lyrics)",
+    channelTitle: "THE LYRICIST",
+    description:
+      "Audio Credits: Song - Husn Singer - Anuv Jain Music production - Angad Bahra, PUNA Recorded, Mixed and Mastered - Angad ...",
+    publishedAt: "2023-12-02T07:10:00Z",
+    thumbnail: "https://i.ytimg.com/vi/tzSXjwkFnVc/mqdefault.jpg",
+    videoId: "tzSXjwkFnVc",
+  },
+  {
+    title:
+      "Room Jhoom | Coke Studio Bangla | Season 4 | Hande x Mustafa x Mahtim X Nusrat | Shuvendu",
+    channelTitle: "Coke Studio Bangla",
+    description:
+      "Two melodies, born miles apart, return to each other through rain. Üsküdar'a Gider İken, the timeless Turkish folk song that once ...",
+    publishedAt: "2026-05-23T13:50:32Z",
+    thumbnail: "https://i.ytimg.com/vi/tehuE1VuPAs/mqdefault.jpg",
+    videoId: "tehuE1VuPAs",
+  },
+  {
+    title:
+      "Suhashini~Lyrics || সুহাসিনী || Arfat Faisal || Prayangshu || Music Cover",
+    channelTitle: "Music Cover",
+    description:
+      "Suhashini~Lyrics || সুহাসিনী || Arfat Faisal || Prayangshu || Music Cover Use Headphones For ...",
+    publishedAt: "2023-03-12T06:46:53Z",
+    thumbnail: "https://i.ytimg.com/vi/XldOk0A3410/mqdefault.jpg",
+    videoId: "XldOk0A3410",
+  },
+  {
+    title:
+      "Arijit Singh, White Noise Collectives, Amitabh Bhattacharya - Sitaare (Lyric Video)",
+    channelTitle: "SonyMusicIndiaVEVO",
+    description:
+      "Sitaare Sitaare, Mile hain Sitaare! ⭐ Some stories are meant to be – celebrating one of those stories frozen in time, 'Sitaare' is ...",
+    publishedAt: "2026-01-08T06:30:34Z",
+    thumbnail: "https://i.ytimg.com/vi/cpDyLJkhg0I/mqdefault.jpg",
+    videoId: "cpDyLJkhg0I",
+  },
+  {
+    title:
+      "Oyshee ft. Black Zang - ‘Noakhailla Maiya’ | নোয়াখাইল্লা মাইয়া | Official Music Video",
+    channelTitle: "Oyshee",
+    description:
+      'Oyshee presents the new song, "Noakhailla Maiya". Lyrics by Oyshee & Black Zang. Artists: Oyshee ft. Black Zang. Directed by ...',
+    publishedAt: "2026-05-25T13:00:30Z",
+    thumbnail: "https://i.ytimg.com/vi/IqMYoiKbOPo/mqdefault.jpg",
+    videoId: "IqMYoiKbOPo",
+  },
+  {
+    title:
+      "Ban Ja Tu Official Video | Charan Preet x Badshah ft Ahsii | One for your playlist and drives",
+    channelTitle: "Badshah",
+    description:
+      "Ban Ja Tu by Charan & Badshah ft. Ahsii is here to set new trends. A track made for your playlists, late-night drives & party vibes.",
+    publishedAt: "2026-05-25T05:30:12Z",
+    thumbnail: "https://i.ytimg.com/vi/mCKbvedLakE/mqdefault.jpg",
+    videoId: "mCKbvedLakE",
+  },
+  {
+    title: "ISHQ - Faheem Abdullah, Rauhan Malik (Lyrics) | #trending",
+    channelTitle: "Axjuu",
+    description:
+      "Lyrics - Main aa likkhoon tu aa jaaye Main baith likkhoon tu aa baithe Mere shaane par sar rakhe tu Main neend kahoon tu so ...",
+    publishedAt: "2024-08-01T11:30:19Z",
+    thumbnail: "https://i.ytimg.com/vi/gKD1AhmpOoU/mqdefault.jpg",
+    videoId: "gKD1AhmpOoU",
+  },
+  {
+    title:
+      "CHAND MAMA - চাঁদ মামা | BORBAAD | SHAKIB KHAN | PRITOM HASAN | NUSRAT JAHAN | DOLA RAHMAN",
+    channelTitle: "Pritom Hasan",
+    description:
+      "Presenting the most awaited SONG OF THE YEAR 'CHAND MAMA - চাঁদ মামা' Lyrics, Composition & Music: Pritom ...",
+    publishedAt: "2025-03-28T13:49:57Z",
+    thumbnail: "https://i.ytimg.com/vi/qznaQ8dJC2s/mqdefault.jpg",
+    videoId: "qznaQ8dJC2s",
   },
 ];
 originalVideos.sort(() => Math.random() - 0.5);
