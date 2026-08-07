@@ -16,7 +16,7 @@ let musicFilter = [
     category: `Love Mashup ${new Date().getFullYear()}`,
     icon: "./img/in-love.gif",
   },
-  { category: "pop Songs", icon: "./img/hipHop.gif" },
+  { category: "Rap Songs", icon: "./img/hipHop.gif" },
   { category: "Lo-Fi", icon: "./img/relaxed.gif" },
   { category: "New Tranding Songs", icon: "./img/crown.gif" },
   {
@@ -73,6 +73,11 @@ let singerArray = [
     img: "https://yt3.googleusercontent.com/XthcxR-kx7i1klhmf93n9mJvVpml6DRL_75iBcfghsaW99V8hTMAS0KIxijBFIE_aCWWZSfMug=s900-c-k-c0x00ffffff-no-rj",
     singer: "Habib Wahid",
     category: "Best Songs of Habib Wahid",
+  },
+  {
+    img: "https://i.pinimg.com/736x/7b/7f/65/7b7f654e5179df025975027e1958577e.jpg",
+    singer: "MC STAN",
+    category: "Best Songs of MC STAN",
   },
   {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxsbI54ktokVplA0TyHavrhVOeXMXD7uihCH-ABRGX8C7yHGy-",
@@ -153,17 +158,6 @@ let originalVideos = [
 
   {
     title:
-      "Moha Jadu | Coke Studio Bangla | Season 3 | Habib Wahid X Mehrnigori Rustam",
-    channelTitle: "Coke Studio Bangla",
-    description:
-      "A mesmerizing blend of Bangla mysticism and Farsi poetry, where love becomes a force that moves the heart and pulls the soul ...",
-    publishedAt: "2025-09-25T13:30:26Z",
-    thumbnail: "https://i.ytimg.com/vi/UghMf59vDJM/mqdefault.jpg",
-    videoId: "UghMf59vDJM",
-  },
-
-  {
-    title:
       "Long Distance Love | Coke Studio Bangla | Season 3 | Ankan X Afrin | Shuvendu",
     channelTitle: "Coke Studio Bangla",
     description:
@@ -190,6 +184,44 @@ let originalVideos = [
     publishedAt: "2024-04-15",
     thumbnail: "https://i.ytimg.com/vi/F0_jwKzCDC0/mqdefault.jpg",
     videoId: "F0_jwKzCDC0",
+  },
+  {
+    title:
+      "Patar Bashori | Coke Studio Bangla | Season 4 | Ishaan x Sunidhi | Adit Rahman",
+    channelTitle: "Coke Studio Bangla",
+    description:
+      "Melodies travel farther than words ever can. Though they fade with time, their echoes remain. Panam Nagar is one such echo, ...",
+    publishedAt: "2026-07-25",
+    thumbnail: "https://i.ytimg.com/vi/YxJjFjP0crs/mqdefault.jpg",
+    videoId: "YxJjFjP0crs",
+  },
+  {
+    title: "Ariyan - Amay Kadao | Official Lyric Video",
+    channelTitle: "Ariyan Chowdhury",
+    description:
+      '"Amay Kadao" OUT NOW EVERYWHERE (Spotify, Apple Music, SoundCloud, iTunes, etc.). Official debut lyric video.',
+    publishedAt: "2023-01-12",
+    thumbnail: "https://i.ytimg.com/vi/BvlX-BriY9M/mqdefault.jpg",
+    videoId: "BvlX-BriY9M",
+  },
+  {
+    title:
+      "Tomar Obhishare (Lyrics) | Arifur Rahman Jony | তোমার অভিসারে | Lyrics Video",
+    channelTitle: "Fahad Mahmud 3.0",
+    description: "Lyrics video of Tomar Obhishare by Arifur Rahman Jony.",
+    publishedAt: "2026-07-28",
+    thumbnail: "https://i.ytimg.com/vi/z3CYgwLdFzo/mqdefault.jpg",
+    videoId: "z3CYgwLdFzo",
+  },
+  {
+    title:
+      "Sawari si surat jo tanne tadpaye re thumak thumak matke (Lyrics) Udi Udi - Aneesh Poojari, Sarkar",
+    channelTitle: "Good Vibes",
+    description:
+      "Good Vibes – Your go-to channel for uplifting and positive music! Enjoy lyric videos of feel-good songs across genres that spread ...",
+    publishedAt: "2026-06-04",
+    thumbnail: "https://i.ytimg.com/vi/45Xxav1jaJ0/mqdefault.jpg",
+    videoId: "45Xxav1jaJ0",
   },
 
   {
@@ -241,23 +273,6 @@ let originalVideos = [
     videoId: "spl0PfQDRjk",
   },
   {
-    title: "Shubh - One Love (Lyrics)",
-    channelTitle: "ChillPind",
-    description: "Punjabi lyrics video.",
-    publishedAt: "2023-08-25T07:09:31Z",
-    thumbnail: "https://i.ytimg.com/vi/XfXgUZDCAoA/mqdefault.jpg",
-    videoId: "XfXgUZDCAoA",
-  },
-
-  {
-    title: "Morni Lyrics",
-    channelTitle: "Vibe Bird",
-    description: "Lyrics video.",
-    publishedAt: "2024-11-15T07:16:45Z",
-    thumbnail: "https://i.ytimg.com/vi/wX0csBGIabk/mqdefault.jpg",
-    videoId: "wX0csBGIabk",
-  },
-  {
     title: "PHURR Official Song",
     channelTitle: "Ishtar Music",
     description: "Party anthem of 2025.",
@@ -272,25 +287,6 @@ let originalVideos = [
     publishedAt: "2024-07-25T13:10:25Z",
     thumbnail: "https://i.ytimg.com/vi/G-FjwlwvK24/mqdefault.jpg",
     videoId: "G-FjwlwvK24",
-  },
-  {
-    title: "Ishq Hai Mashup",
-    channelTitle: "Naresh Parmar",
-    description: "Romantic mashup.",
-    publishedAt: "2025-01-12",
-    thumbnail: "https://i.ytimg.com/vi/ipfrW9jYGwI/mqdefault.jpg",
-    videoId: "ipfrW9jYGwI",
-  },
-  {
-    title:
-      "sajna tere liye sajna (official video) Badshah ft. Payal Dev | Aditya Dev Studios | new wedding song",
-    channelTitle: "Gaurav Singh",
-    description:
-      "sajna tere liye sajna (official video) Badshah ft. Payal Dev Put on your dancing shoes and get ready to groove to the wedding ...",
-
-    publishedAt: "2021-12-10T14:55:00Z",
-    thumbnail: "https://i.ytimg.com/vi/YSWpWmu_zvE/mqdefault.jpg",
-    videoId: "YSWpWmu_zvE",
   },
   {
     title: "MITRAZ - Muskurahat | Lyrical Video | Unied Studios",
@@ -319,47 +315,12 @@ let originalVideos = [
     videoId: "0v5eHPfy5Lk",
   },
   {
-    title: "ONUVOBE | অনুভবে",
-    channelTitle: "SHAKIR ZN",
-    description: "Bangla lyrical song.",
-    publishedAt: "2019-11-17",
-    thumbnail: "https://i.ytimg.com/vi/hoHwaDSnxjE/mqdefault.jpg",
-    videoId: "hoHwaDSnxjE",
-  },
-  {
-    title: "Alingone Lyrics",
-    channelTitle: "Lyrics Media",
-    description: "Habib Wahid Bangla song.",
-    publishedAt: "2020-04-04",
-    thumbnail: "https://i.ytimg.com/vi/9HQiANh8soI/mqdefault.jpg",
-    videoId: "9HQiANh8soI",
-  },
-  {
     title: "Samjho Na",
     channelTitle: "Aditya Rikhari",
     description: "Indie Hindi song.",
     publishedAt: "2022-02-15",
     thumbnail: "https://i.ytimg.com/vi/JnsdxAZel-Y/mqdefault.jpg",
     videoId: "JnsdxAZel-Y",
-  },
-  {
-    title: "Heer (Lyrics) - Ali Raza & Shjr | AdaaVibes",
-    channelTitle: "AdaaVibes",
-    description:
-      "Heer · Ali & Shjr · Haider Ali · Ali Raza ℗ 2025 Ali & Shjr under exclusive distribution to Warner Music South Asia Producer: Haider ...",
-    publishedAt: "2025-02-10T15:30:13Z",
-    thumbnail: "https://i.ytimg.com/vi/JUjV7TcqPdU/mqdefault.jpg",
-    videoId: "JUjV7TcqPdU",
-  },
-  {
-    title:
-      "Lyrical | Humsafar Song | Saiyaara | Ahaan, Aneet | Sachet Tandon, Parampara Tandon, Irshad Kamil",
-    channelTitle: "YRF",
-    description:
-      "Two souls. One journey. A love that feels like home. Hit play and feel everything ❤️ ▻ Subscribe Now: https://goo.gl/xs3mrY ...",
-    publishedAt: "2025-07-16T11:30:17Z",
-    thumbnail: "https://i.ytimg.com/vi/0NXnRmoILSs/mqdefault.jpg",
-    videoId: "0NXnRmoILSs",
   },
 
   {
@@ -421,16 +382,6 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/8zCvgWeDqf4/mqdefault.jpg",
     videoId: "8zCvgWeDqf4",
   },
-  {
-    title:
-      "Diamond Ni Official Music Video | Jigar Saraiya | Aditya Gadhvi | Sukhmani Gambhir",
-    channelTitle: "Sony Music India",
-    description:
-      "Thank you for giving so much love to Diamond Ni. Here's a sweet surprise for you. Watch the video and let us know your favourite ...",
-    publishedAt: "2024-10-14T12:00:04Z",
-    thumbnail: "https://i.ytimg.com/vi/adGR0QNxs0w/mqdefault.jpg",
-    videoId: "adGR0QNxs0w",
-  },
 
   {
     title:
@@ -442,26 +393,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/nUUnndYpneE/mqdefault.jpg",
     videoId: "nUUnndYpneE",
   },
-  {
-    title: "Aditya Rikhari - FAASLE",
-    channelTitle: "Aditya Rikhari",
-    description:
-      "Download Now: https://apple.co/3ltDJMD Spotify: https://spoti.fi/3BWOYCS #Faasle #AdityaRikhari Instagram- ...",
-    publishedAt: "2021-07-31T06:31:16Z",
-    thumbnail: "https://i.ytimg.com/vi/EiiOYwqk3A0/mqdefault.jpg",
-    videoId: "EiiOYwqk3A0",
-  },
 
-  {
-    title:
-      "ধার ধারিনা - SHEZAN X HANNAN X RT RAHAT X GUNSHOT PLAYER | M MASTER | Remix 2024",
-    channelTitle: "M Master",
-    description:
-      "Subscribe & Like for More Daily Remixes! Hit the notification bell to hear Remixes First! #rap #remix #music #hiphop #song ...",
-    publishedAt: "2024-12-15T09:01:56Z",
-    thumbnail: "https://i.ytimg.com/vi/10qAossx8jA/mqdefault.jpg",
-    videoId: "10qAossx8jA",
-  },
   {
     title:
       "Dil Lagana Mana Tha (Official MV) Krish & Kishore Mondal | Kunaal V, Devv S | Sanam Johar Ashi Singh",
@@ -495,15 +427,6 @@ let originalVideos = [
   },
 
   {
-    title: "Likhe Jo Khat Tujhe - Trending",
-    channelTitle: "Gurpreet Marwah - Topic",
-    description:
-      "Provided to YouTube by Saregama India Ltd Likhe Jo Khat Tujhe - Trending · Gurpreet Marwah Likhe Jo Khat Tujhe - Trending ...",
-    publishedAt: "2023-06-21T08:30:19Z",
-    thumbnail: "https://i.ytimg.com/vi/lASu02dETKA/mqdefault.jpg",
-    videoId: "lASu02dETKA",
-  },
-  {
     title:
       "MERI ZINDAGI HAI TU - OST | BILAL ABBAS | HANIA AAMIR | ASIM AZHAR | SABRI SISTERS | ARY DIGITAL",
     channelTitle: "ARY Digital HD",
@@ -513,16 +436,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/myJ7x029Ves/mqdefault.jpg",
     videoId: "myJ7x029Ves",
   },
-  {
-    title:
-      "Ektukhani Mon | Full Song | Daagi | Afran Nisho,Tama | Tahsan,Masha | Shihab S | SVF Alpha-i | Chorki",
-    channelTitle: "Chorki",
-    description:
-      "আমায় ছেড়ে কোথায় যাবে তুমি বলবে কে আর এমন করে তোমায় ভালোবাসি?",
-    publishedAt: "2025-06-17T04:58:14Z",
-    thumbnail: "https://i.ytimg.com/vi/PNS2JFYP0ws/mqdefault.jpg",
-    videoId: "PNS2JFYP0ws",
-  },
+
   {
     title:
       "DIDHA - দ্বিধা | BORBAAD | SHAKIB KHAN | PRITOM HASAN | IDHIKA PAUL",
@@ -599,25 +513,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/aRNfSqsgrgE/mqdefault.jpg",
     videoId: "aRNfSqsgrgE",
   },
-  {
-    title: "Tu to mere surmey jaisa Tu to mere sapne jaisa",
-    channelTitle: "SACHIN THAKOR.",
-    description:
-      "Sang tere rehna khayal banke, Aati mujhe duji tarqeeb koi na! Presenting the first song release 'Koi Naa' from 'Bhool Chuk Maaf', ...",
-    publishedAt: "2025-04-27T06:17:55Z",
-    thumbnail: "https://i.ytimg.com/vi/UR5r_Dw18O8/mqdefault.jpg",
-    videoId: "UR5r_Dw18O8",
-  },
-  {
-    title:
-      "Tumi Chara Shunno Shunno Lage | তুমি ছাড়া শূন্য শূন্য লাগে | Shunno | শুন্য | Tanveer Evan (Lyrics)",
-    channelTitle: "@x7 lofi",
-    description:
-      "Tumi Chara Shunno Shunno Lage | তুমি ছাড়া শূন্য শূন্য লাগে | Shunno (Lyrics) শুন্য | Tanveer ...",
-    publishedAt: "2025-05-30T13:00:06Z",
-    thumbnail: "https://i.ytimg.com/vi/okOKOl901Dc/mqdefault.jpg",
-    videoId: "okOKOl901Dc",
-  },
+
   {
     title: "Keh de - Banjaare I (Official Video)",
     channelTitle: "MindvsHeart Music",
@@ -647,15 +543,6 @@ let originalVideos = [
     videoId: "BOT2xL1-p6Q",
   },
   {
-    title: "Anuv Jain - BAARISHEIN (ACOUSTIC)",
-    channelTitle: "Anuv Jain",
-    description:
-      "Baarishein has crossed more than 200 million streams across all platforms and I wanted to celebrate this HUGE milestone and ...",
-    publishedAt: "2023-07-13T14:30:10Z",
-    thumbnail: "https://i.ytimg.com/vi/NLKwRW2y-sg/mqdefault.jpg",
-    videoId: "NLKwRW2y-sg",
-  },
-  {
     title: 'GURU RANDHAWA - "AZUL" MV',
     channelTitle: "Guru Randhawa",
     description:
@@ -664,26 +551,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/vB0V3iCSzQw/mqdefault.jpg",
     videoId: "vB0V3iCSzQw",
   },
-  {
-    title:
-      "MAIN ROYAAN - Rohit Zinjurke & Akaisha Vats | Tanveer Evan & Yasser Desai | Rajat Nagpal | Rana | AG",
-    channelTitle: "Desi Music Factory",
-    description:
-      "Anshul Garg presents Main Royaan by Tanveer Evan & Yasser Desai ft. Rohit Zinjurke & Akaisha Vats. A perfect song for your ...",
-    publishedAt: "2022-04-09T06:30:12Z",
-    thumbnail: "https://i.ytimg.com/vi/7Z5E-PcWb18/mqdefault.jpg",
-    videoId: "7Z5E-PcWb18",
-  },
-  {
-    title:
-      "Humnava Mere Full Song | Jubin Nautiyal | Manoj Muntashir | Rocky - Shiv | Bhushan Kumar",
-    channelTitle: "T-Series",
-    description:
-      'Gulshan Kumar and T-Series present Bhushan Kumar\'s full audio of the song "Humnava Mere". Featuring Jubin Nautiyal ...',
-    publishedAt: "2018-05-29T06:25:38Z",
-    thumbnail: "https://i.ytimg.com/vi/M4GzdR-Fnxo/mqdefault.jpg",
-    videoId: "M4GzdR-Fnxo",
-  },
+
   {
     title:
       "Klanto Shorir | ক্লান্ত শরীর | Shamiul Shezan | New Bangla Song 2024 | Official Lyric Video",
@@ -703,26 +571,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/tzSXjwkFnVc/mqdefault.jpg",
     videoId: "tzSXjwkFnVc",
   },
-  {
-    title:
-      "Room Jhoom | Coke Studio Bangla | Season 4 | Hande x Mustafa x Mahtim X Nusrat | Shuvendu",
-    channelTitle: "Coke Studio Bangla",
-    description:
-      "Two melodies, born miles apart, return to each other through rain. Üsküdar'a Gider İken, the timeless Turkish folk song that once ...",
-    publishedAt: "2026-05-23T13:50:32Z",
-    thumbnail: "https://i.ytimg.com/vi/tehuE1VuPAs/mqdefault.jpg",
-    videoId: "tehuE1VuPAs",
-  },
-  {
-    title:
-      "Suhashini~Lyrics || সুহাসিনী || Arfat Faisal || Prayangshu || Music Cover",
-    channelTitle: "Music Cover",
-    description:
-      "Suhashini~Lyrics || সুহাসিনী || Arfat Faisal || Prayangshu || Music Cover Use Headphones For ...",
-    publishedAt: "2023-03-12T06:46:53Z",
-    thumbnail: "https://i.ytimg.com/vi/XldOk0A3410/mqdefault.jpg",
-    videoId: "XldOk0A3410",
-  },
+
   {
     title:
       "Arijit Singh, White Noise Collectives, Amitabh Bhattacharya - Sitaare (Lyric Video)",
