@@ -551,16 +551,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/vB0V3iCSzQw/mqdefault.jpg",
     videoId: "vB0V3iCSzQw",
   },
-  {
-    title:
-      "Ishqa Ve - Zeeshan Ali | Yuvraj Tung | Seerat Mast | Sandeep Aulakh | Latest Punjabi Songs 2025",
-    channelTitle: "OpenMic Studios",
-    description:
-      "A soulful, heart-wrenching ballad that captures the beauty of falling in love and the quiet sorrow of being torn apart by life's cruel ...",
-    publishedAt: "2025-08-20T01:30:11Z",
-    thumbnail: "https://i.ytimg.com/vi/j18MRhEfmPk/mqdefault.jpg",
-    videoId: "j18MRhEfmPk",
-  },
+
   {
     title:
       "Klanto Shorir | ক্লান্ত শরীর | Shamiul Shezan | New Bangla Song 2024 | Official Lyric Video",
