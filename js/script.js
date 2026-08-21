@@ -601,6 +601,171 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/IqMYoiKbOPo/mqdefault.jpg",
     videoId: "IqMYoiKbOPo",
   },
+
+  {
+    title: "MC STΔN - EK DIN PYAAR | TADIPAAR | 2K20",
+    channelTitle: "MC STAN",
+    description:
+      "PYAAR KAR TRACK : Singer / performer: MC Stan Music Composer: MC Stan Author / Lyrics: MC Stan STAY CONNECTED ...",
+    publishedAt: "2020-10-14T03:30:11Z",
+    thumbnail: "https://i.ytimg.com/vi/gU74mNz64VU/mqdefault.jpg",
+    videoId: "gU74mNz64VU",
+  },
+  {
+    title:
+      "EMIWAY BANTAI - BADSHAH | (PROD BY TONY JAMES ) | OFFICIAL MUSIC VIDEO",
+    channelTitle: "Emiway Bantai",
+    description:
+      "Badshah is a tribute by Emiway to Shahrukh Khan, the Badshah of Bollywood. From singing along to performing Badshah, this ...",
+    publishedAt: "2025-02-02T18:30:07Z",
+    thumbnail: "https://i.ytimg.com/vi/SP-lxS8viGU/mqdefault.jpg",
+    videoId: "SP-lxS8viGU",
+  },
+  {
+    title: "EMIWAY - FIRSE MACHAYENGE (OFFICIAL MUSIC VIDEO)",
+    channelTitle: "Emiway Bantai",
+    description:
+      "Music - Tony James Artist & lyrics - Emiway Bantai Starring - SWAALINA K Filmed/Visuals/Edited by - Nishan Bhujel Brolls ...",
+    publishedAt: "2020-02-14T09:42:42Z",
+    thumbnail: "https://i.ytimg.com/vi/zaCbuB3w0kg/mqdefault.jpg",
+    videoId: "zaCbuB3w0kg",
+  },
+  {
+    title:
+      "Ishqa Ve - Zeeshan Ali | Yuvraj Tung | Seerat Mast | Sandeep Aulakh | Latest Punjabi Songs 2025",
+    channelTitle: "OpenMic Studios",
+    description:
+      "A soulful, heart-wrenching ballad that captures the beauty of falling in love and the quiet sorrow of being torn apart by life's cruel ...",
+    publishedAt: "2025-08-20T01:30:11Z",
+    thumbnail: "https://i.ytimg.com/vi/j18MRhEfmPk/mqdefault.jpg",
+    videoId: "j18MRhEfmPk",
+  },
+  {
+    title:
+      "Bhool Na Jaana – भूल ना जाना | Lyrics | Tanveer Evan | MEMORIES ARE FOREVER [EP] | Minar Abra",
+    channelTitle: "Minar Abra",
+    description:
+      "Bhool Na Jaana – भूल ना जाना | Lyrics | Tanveer Evan | MEMORIES ARE FOREVER [EP] | Minar Abra @TanveerEvan ...",
+    publishedAt: "2025-06-20T04:37:55Z",
+    thumbnail: "https://i.ytimg.com/vi/YD4cOM3mjMQ/mqdefault.jpg",
+    videoId: "YD4cOM3mjMQ",
+  },
+  {
+    title:
+      "Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir",
+    channelTitle: "Jasleen Royal",
+    description:
+      "Heeriye #JasleenRoyal #ArijitSingh #DulquerSalmaan We re-wrote our forever - HEERIYE - is all yours now! ❤️ Out Now on all ...",
+    publishedAt: "2023-07-25T07:41:09Z",
+    thumbnail: "https://i.ytimg.com/vi/RLzC55ai0eo/mqdefault.jpg",
+    videoId: "RLzC55ai0eo",
+  },
+  {
+    title:
+      "Illuminati (Music Video) | Sushin Shyam | Dabzee | Vinayak Sasikumar | Think Originals",
+    channelTitle: "Think Music India",
+    description:
+      'Illuminati #FahadhFaasil #SushinShyam #Dabzee #VinayakSasikumar #ThinkOriginals Here\'s the Music Video of "Illuminati", ...',
+    publishedAt: "2024-05-09T15:30:02Z",
+    thumbnail: "https://i.ytimg.com/vi/yH7eDWTH5iM/mqdefault.jpg",
+    videoId: "yH7eDWTH5iM",
+  },
+  {
+    title:
+      "Ishq De Fanniyar - Female | Fukrey Returns | Pulkit Samrat & Priya Anand | Jyotica Tangri | Lyrical",
+    channelTitle: "Zee Music Company",
+    description:
+      "To Stream & Download Full Song: Spotify - https://bit.ly/4vDcvV8 JioSaavn - https://bit.ly/4vEjz3V Gaana - https://bit.ly/4tnRgFy ...",
+    publishedAt: "2026-04-17T13:49:38Z",
+    thumbnail: "https://i.ytimg.com/vi/7SEFsalTzHQ/mqdefault.jpg",
+    videoId: "7SEFsalTzHQ",
+  },
+  {
+    title:
+      "JAWAN: Chaleya (Hindi) | Shah Rukh Khan | Nayanthara | Atlee | Anirudh | Arijit S, Shilpa R | Kumaar",
+    channelTitle: "T-Series",
+    description:
+      "Witness the love with Chaleya, presenting the second song from the highly-awaited film Jawan directed by Atlee. The film stars ...",
+    publishedAt: "2023-08-14T06:19:10Z",
+    thumbnail: "https://i.ytimg.com/vi/VAdGW7QDJiU/mqdefault.jpg",
+    videoId: "VAdGW7QDJiU",
+  },
+  {
+    title: "Shakira & Burna Boy - Dai Dai (Lyrics) World Cup Song 2026",
+    channelTitle: "DeepFrequency",
+    description:
+      "Shakira & Burna Boy - Dai Dai (Lyric Video) World Cup Song 2026 Stream/Download: Shakira ...",
+    publishedAt: "2026-07-10T12:46:50Z",
+    thumbnail: "https://i.ytimg.com/vi/jkY4w7e1D4c/mqdefault.jpg",
+    videoId: "jkY4w7e1D4c",
+  },
+  {
+    title: "KALYANI [LYRICS] - SHREYA GHOSHAL | ARJN | KDS | FIFTY4 | RONN",
+    channelTitle: "Bullz Edit",
+    description:
+      "SONG CREDITS: STARRING SANIYA IYAPPAN FT SHREYA GHOSHAL WRITTEN BY: FIFTY4, SUHAS MOIDEEN, PULKIT ...",
+    publishedAt: "2026-07-05T11:27:23Z",
+    thumbnail: "https://i.ytimg.com/vi/v5LlVB3fqjY/mqdefault.jpg",
+    videoId: "v5LlVB3fqjY",
+  },
+  {
+    title:
+      "Keno Je Toke (কেন যে তোকে) | Mon Jaane Na | Yash | Mimi | Raj Barman | Dabbu | Prasen | SVF Music",
+    channelTitle: "SVF Music",
+    description:
+      "ভালবাসার মানুষকে চোখে হারায় মন, তাই তাকে আগলে রাখার কথা বলে এই গান!",
+    publishedAt: "2026-02-10T12:35:27Z",
+    thumbnail: "https://i.ytimg.com/vi/jfKS_jtdNMo/mqdefault.jpg",
+    videoId: "jfKS_jtdNMo",
+  },
+  {
+    title:
+      "Tumi Bristi Cheyecho Bole | ( তুমি বৃষ্টি চেয়েছো বলে ) | Mahtim sakib | New Lyrical Song 2024",
+    channelTitle: "ABACUS ORIGINALS",
+    description:
+      'Today, we have brought to you a beautiful song "Tumi bristi cheyecho bole" ( তুমি বৃষ্টি চেয়েছো বলে ) from ...',
+    publishedAt: "2024-08-01T06:36:16Z",
+    thumbnail: "https://i.ytimg.com/vi/4vPKLGz0bU4/mqdefault.jpg",
+    videoId: "4vPKLGz0bU4",
+  },
+  {
+    title: "Tanveer Evan - Royaa Main (रोया मैं) | Official Music Video",
+    channelTitle: "Tanveer Evan.",
+    description:
+      "Royaa Main (रोया मैं | رویا میں) — a story of love that stayed, even when the person didn't. Some people leave, but their ...",
+    publishedAt: "2026-08-08T08:00:01Z",
+    thumbnail: "https://i.ytimg.com/vi/Q0AY6086U2Y/mqdefault.jpg",
+    videoId: "Q0AY6086U2Y",
+  },
+  {
+    title:
+      "Churi Cham Cham (চুরি ছম ছম) new Bangla song | music full video ♥️ new song 2025 #luipa #viral",
+    channelTitle: "Torikul digital",
+    description:
+      "Churi Cham Cham (চুরি ছম ছম) new Bangla song | music full video ♥️ new song 2025 #luipa #viral #luipa ...",
+    publishedAt: "2025-11-18T15:02:44Z",
+    thumbnail: "https://i.ytimg.com/vi/CfrE3Cqx0i8/mqdefault.jpg",
+    videoId: "CfrE3Cqx0i8",
+  },
+  {
+    title: "Shunno - শূন্য | Tanveer Evan | @TanveerEvan | Lyrics Video",
+    channelTitle: "Band Lost Lyrics",
+    description:
+      "Shunno (Lyrics) | Tanveer Evan | শূন্য | Lyrics Video @BandLostLyrics @TanveerEvan ♫ Use Headphones To Better ...",
+    publishedAt: "2025-05-30T08:00:06Z",
+    thumbnail: "https://i.ytimg.com/vi/sckGEX88MPg/mqdefault.jpg",
+    videoId: "sckGEX88MPg",
+  },
+  {
+    title: "DESIRE (Lyrics) - JalRaj | 7Alfaaz | New Hindi Song 2026",
+    channelTitle: "7Alfaaz",
+    description:
+      "DESIRE (Lyrics) - JalRaj | 7Alfaaz | New Hindi Song 2026 Put on your headphones and feel every word of Desire. This beautiful ...",
+    publishedAt: "2026-06-23T07:45:38Z",
+    thumbnail: "https://i.ytimg.com/vi/_y7uKHR6zpY/mqdefault.jpg",
+    videoId: "_y7uKHR6zpY",
+  },
+
   {
     title:
       "Ban Ja Tu Official Video | Charan Preet x Badshah ft Ahsii | One for your playlist and drives",
