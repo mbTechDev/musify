@@ -806,16 +806,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/TSttuuXoSdc/mqdefault.jpg",
     videoId: "TSttuuXoSdc",
   },
-  {
-    title:
-      "Kudmayi Full Song | Rocky Aur Rani Kii Prem Kahaani | Ranveer Singh, Alia Bhatt | Pritam | Amitabh B",
-    channelTitle: "Verse Music",
-    description:
-      "Experience the beautiful romantic song Kudmayi from Rocky Aur Rani Kii Prem Kahaani, featuring Ranveer Singh and Alia Bhatt.",
-    publishedAt: "2026-08-04T11:30:17Z",
-    thumbnail: "https://i.ytimg.com/vi/umQgXC2X1HY/mqdefault.jpg",
-    videoId: "umQgXC2X1HY",
-  },
+
   {
     title: "LEVEL FIVE - TUMI (Official Lyric Video)",
     channelTitle: "LEVELFIVEtheband",
