@@ -786,6 +786,65 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/qznaQ8dJC2s/mqdefault.jpg",
     videoId: "qznaQ8dJC2s",
   },
+  {
+    title:
+      "BORBAAD - NISSHASH || প্রতি নিঃশ্বাসে নাম তোমার || Borbaad full movie || Borbaad movie song || 2025",
+    channelTitle: "Sound Clode",
+    description:
+      "BORBAAD - NISSHASH || প্রতি নিঃশ্বাসে নাম তোমার || Borbaad full movie || Borbaad movie song || 2025 ...",
+    publishedAt: "2025-05-27T13:15:36Z",
+    thumbnail: "https://i.ytimg.com/vi/92iENGPRDNw/mqdefault.jpg",
+    videoId: "92iENGPRDNw",
+  },
+  {
+    title:
+      "Shitom Ahmed - Chorabali (Lyrics) || কেন লাগে শূন্য শূন্য বলো || Lyrical Music By Farzan​",
+    channelTitle: "Lyrical Music By 𝒇𝒂𝒓𝒛𝒂𝒏",
+    description:
+      "Subscribe my Channel And Like This Videos And Everyone Support Me.",
+    publishedAt: "2022-09-01T14:23:17Z",
+    thumbnail: "https://i.ytimg.com/vi/TSttuuXoSdc/mqdefault.jpg",
+    videoId: "TSttuuXoSdc",
+  },
+  {
+    title:
+      "Kudmayi Full Song | Rocky Aur Rani Kii Prem Kahaani | Ranveer Singh, Alia Bhatt | Pritam | Amitabh B",
+    channelTitle: "Verse Music",
+    description:
+      "Experience the beautiful romantic song Kudmayi from Rocky Aur Rani Kii Prem Kahaani, featuring Ranveer Singh and Alia Bhatt.",
+    publishedAt: "2026-08-04T11:30:17Z",
+    thumbnail: "https://i.ytimg.com/vi/umQgXC2X1HY/mqdefault.jpg",
+    videoId: "umQgXC2X1HY",
+  },
+  {
+    title: "LEVEL FIVE - TUMI (Official Lyric Video)",
+    channelTitle: "LEVELFIVEtheband",
+    description:
+      "Level Five | Tumi | Single Lyrics by Aiedid Rashid Produced By Razin Halim and Ashiqul Alam Ashiq Drums Recorded at Studio ...",
+    publishedAt: "2022-11-22T15:30:08Z",
+    thumbnail: "https://i.ytimg.com/vi/NQp3cbSkqbo/mqdefault.jpg",
+    videoId: "NQp3cbSkqbo",
+  },
+  {
+    title:
+      "Tera Mera Rishta - New Version | Awarapan 2 | Emraan, Disha | Mithoon, Saaj, Sayeed, Mustafa",
+    channelTitle: "Sony Music India",
+    description:
+      "Zakhmi parinda hai.. Phir bhi tu zinda hai.. Maanle kehna mera..❤️ Tune into 'Tera Mera Rishta - New Version' from 'Awarapan ...",
+    publishedAt: "2026-08-06T10:03:11Z",
+    thumbnail: "https://i.ytimg.com/vi/6rvUyBiBtik/mqdefault.jpg",
+    videoId: "6rvUyBiBtik",
+  },
+  {
+    title:
+      "Tumse Mohabbat Hai - JalRaj | Safar | Latest hindi song 2020 original",
+    channelTitle: "JalRaj",
+    description:
+      "We all have been in love with someone at one point. Some get a chance to confess their feelings and some don't. \"Tumse ...",
+    publishedAt: "2020-10-25T05:30:11Z",
+    thumbnail: "https://i.ytimg.com/vi/ClRjTtga8rg/mqdefault.jpg",
+    videoId: "ClRjTtga8rg",
+  },
 ];
 originalVideos.sort(() => Math.random() - 0.5);
 
