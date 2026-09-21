@@ -806,7 +806,27 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/TSttuuXoSdc/mqdefault.jpg",
     videoId: "TSttuuXoSdc",
   },
+  {
+    title:
+      "দু হাতে মুঠো ভরে | Du Haatey Mutho Bhorey | Debraj Bhattacharya | Lyrics video",
+    channelTitle: "LOFI 12X",
+    description:
+      "দু হাতে মুঠো ভরে | Du Haatey Mutho Bhorey | Debraj Bhattacharya | Lyrics video © SONG CREDITS : Song Name ...",
+    publishedAt: "2026-05-20T12:59:54Z",
+    thumbnail: "https://i.ytimg.com/vi/YB7evBqjD-s/mqdefault.jpg",
+    videoId: "YB7evBqjD-s",
+  },
 
+  {
+    title:
+      "Zulfein - Mehul Mahesh Prod By Dj AYnik (Official Visualizer Video) Latest Hindi Romantic Song 2025",
+    channelTitle: "BEATOP RECORDS",
+    description:
+      "Beatop Records Presents 'Zulfein' by Mehul Mahesh & Dj Aynik. Listen to the full song & don't forget to subscribe to the channel.",
+    publishedAt: "2025-09-06T07:16:50Z",
+    thumbnail: "https://i.ytimg.com/vi/NVMa86cxU-k/mqdefault.jpg",
+    videoId: "NVMa86cxU-k",
+  },
   {
     title: "LEVEL FIVE - TUMI (Official Lyric Video)",
     channelTitle: "LEVELFIVEtheband",
