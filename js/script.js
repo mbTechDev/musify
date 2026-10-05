@@ -563,16 +563,6 @@ let originalVideos = [
   },
 
   {
-    title:
-      "Klanto Shorir | ক্লান্ত শরীর | Shamiul Shezan | New Bangla Song 2024 | Official Lyric Video",
-    channelTitle: "Shamiul Shezan",
-    description:
-      'Shamiul Shezan Presents New bangla sad Song 2024 "Klanto Shorir (ক্লান্ত শরীর)" . Hope You all love it.',
-    publishedAt: "2024-07-30T13:16:40Z",
-    thumbnail: "https://i.ytimg.com/vi/m_UygJMlY4g/mqdefault.jpg",
-    videoId: "m_UygJMlY4g",
-  },
-  {
     title: "Anuv Jain - Husn (Lyrics)",
     channelTitle: "THE LYRICIST",
     description:
@@ -613,14 +603,107 @@ let originalVideos = [
     videoId: "gU74mNz64VU",
   },
   {
-    title:
-      "EMIWAY BANTAI - BADSHAH | (PROD BY TONY JAMES ) | OFFICIAL MUSIC VIDEO",
-    channelTitle: "Emiway Bantai",
+    title: "Kavkaz - Starly (Lyrics)",
+    channelTitle: "The Penguins' Lyrics",
     description:
-      "Badshah is a tribute by Emiway to Shahrukh Khan, the Badshah of Bollywood. From singing along to performing Badshah, this ...",
-    publishedAt: "2025-02-02T18:30:07Z",
-    thumbnail: "https://i.ytimg.com/vi/SP-lxS8viGU/mqdefault.jpg",
-    videoId: "SP-lxS8viGU",
+      'Kavkaz - Starly (Lyrics) "Alright, I got a starly" For more lyrics videos of the best songs on our channel Don\'t forget to like, ...',
+    publishedAt: "2026-04-30T14:01:12Z",
+    thumbnail: "https://i.ytimg.com/vi/bz9ebK7q254/mqdefault.jpg",
+    videoId: "bz9ebK7q254",
+  },
+
+  {
+    title:
+      "Mothura | Coke Studio Bangla | Season 4 | Ankan x Nandita | Shuvendu",
+    channelTitle: "Coke Studio Bangla",
+    description:
+      "Some stories end because two people, no matter how deeply they belong to each other, end up walking in different directions.",
+    publishedAt: "2026-09-24T13:00:35Z",
+    thumbnail: "https://i.ytimg.com/vi/mT9Z0nYP70I/mqdefault.jpg",
+    videoId: "mT9Z0nYP70I",
+  },
+
+  {
+    title: "Alina Baraz feat. Khalid - Floating (Lyrics) filous Remix",
+    channelTitle: "7clouds",
+    description:
+      "Alina Baraz feat. Khalid - Floating (Lyrics) filous Remix ⏬ Download / Stream: http://smarturl.it/FloatingFilousRemix Turn on ...",
+    publishedAt: "2019-02-27T17:18:00Z",
+    thumbnail: "https://i.ytimg.com/vi/GDnje-bISJo/mqdefault.jpg",
+    videoId: "GDnje-bISJo",
+  },
+
+  {
+    title:
+      "Tanveer Evan - Tum Bin lyrics (তুম বিন) | Memories Are Forever | EP #tanveerevan #masudtoons #mt",
+    channelTitle: "MasudToonS",
+    description:
+      "Tanveer Evan - Tum Bin (তুম বিন) | Memories Are Forever | From the EP #tumbin #masudtoons @1am_masud [ Use ...",
+    publishedAt: "2025-12-29T14:37:01Z",
+    thumbnail: "https://i.ytimg.com/vi/7Ga5hfe9fd0/mqdefault.jpg",
+    videoId: "7Ga5hfe9fd0",
+  },
+
+  {
+    title: "Eki Chowa - Hridoy khan.flv",
+    channelTitle: "BadBoy Limon",
+    description: "",
+    publishedAt: "2011-10-15T11:47:49Z",
+    thumbnail: "https://i.ytimg.com/vi/pixr4td9SGY/mqdefault.jpg",
+    videoId: "pixr4td9SGY",
+  },
+
+  {
+    title: "Akhil Sachdeva - O Sanam • Lyrics",
+    channelTitle: "NeonLyrics",
+    description:
+      "osanam #AkhilSachdeva #NeonLyrics *Akhil Sachdeva - O Sanam* • *Lyrics* *Official Video:* ...",
+    publishedAt: "2026-06-22T15:58:19Z",
+    thumbnail: "https://i.ytimg.com/vi/C1c08UL9-AM/mqdefault.jpg",
+    videoId: "C1c08UL9-AM",
+  },
+
+  {
+    title: '"dudka beat" - фрози (frozy), whyslow',
+    channelTitle: "фрози",
+    description:
+      "frozy & whyslow - dudka beat Listen everywhere: https://lnk.to/frozy-dudkabeat frozy: https://linktr.ee/frozy808 bigmike: ...",
+    publishedAt: "2026-08-27T21:20:38Z",
+    thumbnail: "https://i.ytimg.com/vi/35Q9BFl0msE/mqdefault.jpg",
+    videoId: "35Q9BFl0msE",
+  },
+
+  {
+    title:
+      "Raula (Lyrical Audio) | Hashtag Joy | Punjabi Song | Punjabi Gaane #punjabimusic",
+    channelTitle: "White Hill Tunes",
+    description:
+      "White Hill Tunes Presents RAULA – The Punjabi Song by Hashtag Joy is here! A modern-classic vibe, full of swag & energy, ...",
+    publishedAt: "2025-08-29T11:05:10Z",
+    thumbnail: "https://i.ytimg.com/vi/ve_ip5REnhM/mqdefault.jpg",
+    videoId: "ve_ip5REnhM",
+  },
+
+  {
+    title:
+      "Nafrat Official Music Video | Darshan Raval | Sandipa D | Akshay K | Naushad Khan | Indie Music",
+    channelTitle: "Indie Music Label",
+    description:
+      "An emotionally charged composition by Darshan Raval that delves deep into the turmoil of anger, betrayal, and heartbreak.",
+    publishedAt: "2025-10-18T10:30:07Z",
+    thumbnail: "https://i.ytimg.com/vi/25qkuX8qzQo/mqdefault.jpg",
+    videoId: "25qkuX8qzQo",
+  },
+
+  {
+    title:
+      "Ishqa Ve (Lyrical video) - Zeeshan Ali, Yuvraj Tung, Sandeep Aulakh, Honey Dhillon",
+    channelTitle: "OpenMic Studios",
+    description:
+      "Ishqa ve (lyrical video) Check out the full video on our channel. https://youtu.be/j18MRhEfmPk?si=WmR-Z_GQcI4noEhr Singer ...",
+    publishedAt: "2026-03-04T10:00:10Z",
+    thumbnail: "https://i.ytimg.com/vi/6J4UetZWWuM/mqdefault.jpg",
+    videoId: "6J4UetZWWuM",
   },
   {
     title: "EMIWAY - FIRSE MACHAYENGE (OFFICIAL MUSIC VIDEO)",
@@ -631,16 +714,7 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/zaCbuB3w0kg/mqdefault.jpg",
     videoId: "zaCbuB3w0kg",
   },
-  {
-    title:
-      "Ishqa Ve - Zeeshan Ali | Yuvraj Tung | Seerat Mast | Sandeep Aulakh | Latest Punjabi Songs 2025",
-    channelTitle: "OpenMic Studios",
-    description:
-      "A soulful, heart-wrenching ballad that captures the beauty of falling in love and the quiet sorrow of being torn apart by life's cruel ...",
-    publishedAt: "2025-08-20T01:30:11Z",
-    thumbnail: "https://i.ytimg.com/vi/j18MRhEfmPk/mqdefault.jpg",
-    videoId: "j18MRhEfmPk",
-  },
+
   {
     title:
       "Bhool Na Jaana – भूल ना जाना | Lyrics | Tanveer Evan | MEMORIES ARE FOREVER [EP] | Minar Abra",
