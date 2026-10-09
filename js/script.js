@@ -166,15 +166,45 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/sqJ2QhjBQaw/mqdefault.jpg",
     videoId: "sqJ2QhjBQaw",
   },
-
   {
-    title: "Pal Pal Lyrics - Afusic prod. by AliSoomroMusic",
-    channelTitle: "Vibe Bird",
+    title:
+      "Jannat | Ezu | Manpreet Toor | Harshdeep Kaur | Kirat Gill | Official Video | Latest Punjabi Songs",
+    channelTitle: "Organised Rhyme",
     description:
-      "Pal Pal Lyrics - Afusic prod. by AliSoomroMusic Credits: Song name: Pal Pal Album: Pal Pal Singer: Afusic Lyrics: Afusic Music: ...",
-    publishedAt: "4/1/2025",
-    thumbnail: "https://i.ytimg.com/vi/HdZK0uJyfqM/mqdefault.jpg",
-    videoId: "HdZK0uJyfqM",
+      "Official Music Video for Jannat by Ezu & Harshdeep Kaur Listen: https://smarturl.it/Listen.Jannat Instagram Reel ...",
+    publishedAt: "7/8/2021",
+    thumbnail: "https://i.ytimg.com/vi/yf5-LPhepfg/mqdefault.jpg",
+    videoId: "yf5-LPhepfg",
+  },
+  {
+    title:
+      "Lyrical | Saiyaara Title Song | Ahaan, Aneet | Tanishk Bagchi, Faheem Abdullah, Arslan| Irshad Kamil",
+    channelTitle: "YRF Music",
+    description:
+      "This isn't just a song, it's the feeling of love. Watch the lyrical video of Saiyaara title track that captures hearts with every word.",
+    publishedAt: "6/28/2025",
+    thumbnail: "https://i.ytimg.com/vi/jCVjudmnByk/mqdefault.jpg",
+    videoId: "jCVjudmnByk",
+  },
+  {
+    title:
+      "Afusic - Pal Pal (Lyrics)🎶 | Soneya Yun Tera Sharmana Meri Jaan Na Lele 💭🎤",
+    channelTitle: "Trending Vibes",
+    description:
+      "Afusic - Pal Pal (Lyrics) | Soneya Yun Tera Sharmana Meri Jaan Na Lele / Afusic Pal Pal Song Lyrics - main ab kyu hosh ...",
+    publishedAt: "9/23/2025",
+    thumbnail: "https://i.ytimg.com/vi/kVpow60R2R8/mqdefault.jpg",
+    videoId: "kVpow60R2R8",
+  },
+  {
+    title:
+      "Aarzu (Video) - Asim Azhar, Noor, Khan & MADHURXO | Tera Sharmana Meri Jaan Kabhi | Love Song",
+    channelTitle: "iPop Superhits",
+    description:
+      "Lose yourself in the soothing melodies of Aarzu (with Asim Azhar), a beautiful romantic track that captures the emotions of love, ...",
+    publishedAt: "6/11/2026",
+    thumbnail: "https://i.ytimg.com/vi/Sfc3D_oZSew/mqdefault.jpg",
+    videoId: "Sfc3D_oZSew",
   },
 
   {
