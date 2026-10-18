@@ -187,14 +187,40 @@ let originalVideos = [
     videoId: "jCVjudmnByk",
   },
   {
-    title:
-      "Afusic - Pal Pal (Lyrics)🎶 | Soneya Yun Tera Sharmana Meri Jaan Na Lele 💭🎤",
-    channelTitle: "Trending Vibes",
+    title: "Desperado (Lyrics) - Raghav feat. Tesher",
+    channelTitle: "Mu6ic2.5",
     description:
-      "Afusic - Pal Pal (Lyrics) | Soneya Yun Tera Sharmana Meri Jaan Na Lele / Afusic Pal Pal Song Lyrics - main ab kyu hosh ...",
-    publishedAt: "9/23/2025",
-    thumbnail: "https://i.ytimg.com/vi/kVpow60R2R8/mqdefault.jpg",
-    videoId: "kVpow60R2R8",
+      "Desperado (Lyrics) - Raghav feat. Tesher Thanks for watching Subscribe for more videos Turn on notification for latest updates ...",
+    publishedAt: "6/5/2023",
+    thumbnail: "https://i.ytimg.com/vi/vK1nUdBfI2Q/mqdefault.jpg",
+    videoId: "vK1nUdBfI2Q",
+  },
+  {
+    title: "Pal Pal Lyrics - Afusic prod. by AliSoomroMusic",
+    channelTitle: "Vibe Bird",
+    description:
+      "Pal Pal Lyrics - Afusic prod. by AliSoomroMusic Credits: Song name: Pal Pal Album: Pal Pal Singer: Afusic Lyrics: Afusic Music: ...",
+    publishedAt: "4/1/2025",
+    thumbnail: "https://i.ytimg.com/vi/HdZK0uJyfqM/mqdefault.jpg",
+    videoId: "HdZK0uJyfqM",
+  },
+  {
+    title: "Minoti - মিনতি [Lo-Fi Cover]",
+    channelTitle: "AKS MUSIC HUB",
+    description:
+      "Welcome to the Official Music Hub of AKS Every beat, Music and every mashup you hear here is crafted entirely by me ...",
+    publishedAt: "4/27/2026",
+    thumbnail: "https://i.ytimg.com/vi/m1xX_8frLBE/mqdefault.jpg",
+    videoId: "m1xX_8frLBE",
+  },
+  {
+    title: "JUMKO KANER DUL",
+    channelTitle: "AKS MUSIC HUB - Topic",
+    description:
+      "Provided to YouTube by DistroKid JUMKO KANER DUL · AKS MUSIC HUB · A.K.S JUMKO KANER DUL ℗ A.K.S Released on: ...",
+    publishedAt: "6/2/2026",
+    thumbnail: "https://i.ytimg.com/vi/zbqfKmv3RTg/mqdefault.jpg",
+    videoId: "zbqfKmv3RTg",
   },
   {
     title:
