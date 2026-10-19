@@ -205,22 +205,33 @@ let originalVideos = [
     videoId: "HdZK0uJyfqM",
   },
   {
-    title: "Minoti - মিনতি [Lo-Fi Cover]",
-    channelTitle: "AKS MUSIC HUB",
+    title:
+      "Rim Jhim Song | Jubin Nautiyal | Ami Mishra | Parth S, Diksha S | Kunaal V |Ashish P| Bhushan Kumar",
+    channelTitle: "T-Series",
     description:
-      "Welcome to the Official Music Hub of AKS Every beat, Music and every mashup you hear here is crafted entirely by me ...",
-    publishedAt: "4/27/2026",
-    thumbnail: "https://i.ytimg.com/vi/m1xX_8frLBE/mqdefault.jpg",
-    videoId: "m1xX_8frLBE",
+      'Gulshan Kumar & T-Series presents Bhushan Kumar\'s "Rim Jhim" video song, This song is sung by Jubin Nautiyal, music by Ami ...',
+    publishedAt: "9/13/2021",
+    thumbnail: "https://i.ytimg.com/vi/WPQ2R2DjWJY/mqdefault.jpg",
+    videoId: "WPQ2R2DjWJY",
   },
   {
-    title: "JUMKO KANER DUL",
-    channelTitle: "AKS MUSIC HUB - Topic",
+    title: "Duur Ve (Lyrics) | Arshman Naeem x Zoha Waseem",
+    channelTitle: "Lyric's Magic",
     description:
-      "Provided to YouTube by DistroKid JUMKO KANER DUL · AKS MUSIC HUB · A.K.S JUMKO KANER DUL ℗ A.K.S Released on: ...",
-    publishedAt: "6/2/2026",
-    thumbnail: "https://i.ytimg.com/vi/zbqfKmv3RTg/mqdefault.jpg",
-    videoId: "zbqfKmv3RTg",
+      'Presenting the lyrics video of "Duur Ve" by Zoha Waseem & Arshman Naeem. Let the soulful vocals and heartfelt lyrics take you ...',
+    publishedAt: "7/12/2026",
+    thumbnail: "https://i.ytimg.com/vi/f710gVkTBY0/mqdefault.jpg",
+    videoId: "f710gVkTBY0",
+  },
+  {
+    title:
+      "Chuye Dekho Amay (ছুঁয়ে দেখো আমায়) । Tanveer Evan | Official Music Video",
+    channelTitle: "Tanveer Evan.",
+    description:
+      "Chuye Dekho Amay (ছুঁয়ে দেখো আমায়) - Tanveer Evan | Official Music Video. Sometimes, love doesn't always ...",
+    publishedAt: "11/29/2024",
+    thumbnail: "https://i.ytimg.com/vi/e2mUj9rGSmQ/mqdefault.jpg",
+    videoId: "e2mUj9rGSmQ",
   },
   {
     title:
