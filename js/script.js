@@ -205,16 +205,6 @@ let originalVideos = [
     videoId: "HdZK0uJyfqM",
   },
   {
-    title:
-      "Rim Jhim Song | Jubin Nautiyal | Ami Mishra | Parth S, Diksha S | Kunaal V |Ashish P| Bhushan Kumar",
-    channelTitle: "T-Series",
-    description:
-      'Gulshan Kumar & T-Series presents Bhushan Kumar\'s "Rim Jhim" video song, This song is sung by Jubin Nautiyal, music by Ami ...',
-    publishedAt: "9/13/2021",
-    thumbnail: "https://i.ytimg.com/vi/WPQ2R2DjWJY/mqdefault.jpg",
-    videoId: "WPQ2R2DjWJY",
-  },
-  {
     title: "Duur Ve (Lyrics) | Arshman Naeem x Zoha Waseem",
     channelTitle: "Lyric's Magic",
     description:
@@ -222,6 +212,35 @@ let originalVideos = [
     publishedAt: "7/12/2026",
     thumbnail: "https://i.ytimg.com/vi/f710gVkTBY0/mqdefault.jpg",
     videoId: "f710gVkTBY0",
+  },
+  {
+    title:
+      "Main Bhaaga Bhaaga Sadiyon Se Jaaga | Safar | Bayaan | New TikTok Trending Song 2026 | Lyrics Video",
+    channelTitle: "@x7 lofi",
+    description:
+      "Main Bhaaga Bhaaga Sadiyon Se Jaaga | Safar | Bayaan | New TikTok Trending Song 2026 | Lyrics Video @BayaanOfficial ...",
+    publishedAt: "4/16/2026",
+    thumbnail: "https://i.ytimg.com/vi/S2cJN8fUyrQ/mqdefault.jpg",
+    videoId: "S2cJN8fUyrQ",
+  },
+  {
+    title:
+      "Rim Jhim (Lyrical) | Jubin Nautiyal | Ami Mishra | Parth S, Diksha S | Kunaal V | Ashish P",
+    channelTitle: "T-Series",
+    description:
+      'Gulshan Kumar & T-Series presents Bhushan Kumar\'s "Rim Jhim" lyrical video song. This song is sung by Jubin Nautiyal, music ...',
+    publishedAt: "10/14/2021",
+    thumbnail: "https://i.ytimg.com/vi/87x5whfu0Fo/mqdefault.jpg",
+    videoId: "87x5whfu0Fo",
+  },
+  {
+    title: "@XeferRahman x Muza - Jhumka (Official Music Video)",
+    channelTitle: "MUZA",
+    description:
+      "Stream Jhumka!!! https://open.spotify.com/track/2R8e7lqNmsrHJQ7GaDH2SB?si=12a3e147cce24df6 Perfomed By - Xefer ...",
+    publishedAt: "1/27/2023",
+    thumbnail: "https://i.ytimg.com/vi/LolUVl3nSu4/mqdefault.jpg",
+    videoId: "LolUVl3nSu4",
   },
   {
     title:
