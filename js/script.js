@@ -215,6 +215,16 @@ let originalVideos = [
   },
   {
     title:
+      "Sirf Tum (Lyrical) - Darshan Raval | Youngveer | Mir Desai | The Everafter",
+    channelTitle: "DarshanRavalDZ",
+    description:
+      "Chapter 2 of The Everafter — a journey through heartbreak, painful longing, and the feeling of losing a part of yourself when you ...",
+    publishedAt: "10/23/2026",
+    thumbnail: "https://i.ytimg.com/vi/MFaIg8wOYhs/mqdefault.jpg",
+    videoId: "MFaIg8wOYhs",
+  },
+  {
+    title:
       "Mere Mehboob | Vicky Vidya Ka Woh Wala Video | Rajkummar | Triptii Dimri |Sachin-Jigar,Shilpa,Sachet",
     channelTitle: "T-Series",
     description:
