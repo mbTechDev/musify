@@ -768,7 +768,35 @@ let originalVideos = [
     thumbnail: "https://i.ytimg.com/vi/C1c08UL9-AM/mqdefault.jpg",
     videoId: "C1c08UL9-AM",
   },
-
+  {
+    title:
+      "Chalray Chalray Waal - Tu Sanwal Phul Kasturi Song | Female Version |",
+    channelTitle: "MusicWord",
+    description:
+      "viralvideo #punjabisong #chalrechalrewaal #femaleversion Chalrey Chalrey Waal – Acoustic Version | Soothing Punjabi/Saraiki ...",
+    publishedAt: "2026-10-14T10:30:23Z",
+    thumbnail: "https://i.ytimg.com/vi/8GudgjrX1aI/mqdefault.jpg",
+    videoId: "8GudgjrX1aI",
+  },
+  {
+    title: "Alfaaz - Hamza Malik, Zain Zohaib | Lyrics",
+    channelTitle: "ta editor",
+    description:
+      "Best Songs: https://youtu.be/kHzDCllvn7k https://youtu.be/gqVXwyHOhko https://youtu.be/k_RuxihPd1E ...",
+    publishedAt: "2026-07-30T13:45:17Z",
+    thumbnail: "https://i.ytimg.com/vi/vDliUg9gGdA/mqdefault.jpg",
+    videoId: "vDliUg9gGdA",
+  },
+  {
+    title:
+      "Voicenote : Official Video | Hrjs X Saaheal X Sparsh Dangwal | Indie Song 2026 | One Zero Studios",
+    channelTitle: "One Zero",
+    description:
+      "One Zero Studios presents Voicenote A raw, intimate take on feelings left unsaid — honest, melodic and personal. Sung by ...",
+    publishedAt: "2026-09-02T12:45:06Z",
+    thumbnail: "https://i.ytimg.com/vi/Bee356TPLEw/mqdefault.jpg",
+    videoId: "Bee356TPLEw",
+  },
   {
     title: '"dudka beat" - фрози (frozy), whyslow',
     channelTitle: "фрози",
@@ -978,13 +1006,13 @@ let originalVideos = [
   },
   {
     title:
-      "BORBAAD - NISSHASH || প্রতি নিঃশ্বাসে নাম তোমার || Borbaad full movie || Borbaad movie song || 2025",
-    channelTitle: "Sound Clode",
+      "Laage Ura Dhura (লাগে উরা ধুরা)| Toofan | Shakib Khan, Pritom, Mimi, Raihan | Alpha-i | Chorki | SVF",
+    channelTitle: "Chorki",
     description:
-      "BORBAAD - NISSHASH || প্রতি নিঃশ্বাসে নাম তোমার || Borbaad full movie || Borbaad movie song || 2025 ...",
-    publishedAt: "2025-05-27T13:15:36Z",
-    thumbnail: "https://i.ytimg.com/vi/92iENGPRDNw/mqdefault.jpg",
-    videoId: "92iENGPRDNw",
+      "যে গান কেড়ে নেবে সবার রাতের ঘুম The Chorus tune of this song is taken from Late Matal Rajjak ...",
+    publishedAt: "2024-05-28T11:59:56Z",
+    thumbnail: "https://i.ytimg.com/vi/f53nqIBzii8/mqdefault.jpg",
+    videoId: "f53nqIBzii8",
   },
   {
     title:
