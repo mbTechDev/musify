@@ -1015,6 +1015,34 @@ let originalVideos = [
     videoId: "f53nqIBzii8",
   },
   {
+    title: "Shibu - SANAM feat. Pranavi (Official Lyric Video) | #freshsound",
+    channelTitle: "Shibu",
+    description:
+      "Shibu - SANAM feat. Pranavi (Official Lyric Video) | #freshsound Stream now: ...",
+    publishedAt: "1/9/2026",
+    thumbnail: "https://i.ytimg.com/vi/4fx5LUWD2KE/mqdefault.jpg",
+    videoId: "4fx5LUWD2KE",
+  },
+  {
+    title: "Rangeen | Coke Studio Nu.WAV | Hasan Raheem x Izzchughtai x Umair",
+    channelTitle: "Coke Studio Pakistan",
+    description:
+      "Rangeen qisson ko tere… mera lahoo kar gaya #CokeStudioNuWAV Listen on Spotify https://cokeurl.com/CSNu.WAV Executive ...",
+    publishedAt: "9/18/2026",
+    thumbnail: "https://i.ytimg.com/vi/8Ix-ekSoEdY/mqdefault.jpg",
+    videoId: "8Ix-ekSoEdY",
+  },
+  {
+    title:
+      "Meri Banogi Kya - Rito Riba | Prakriti P | Karan J | Rajat Nagpal | Anshul Garg | Gurinder Bawa |",
+    channelTitle: "Play DMF",
+    description:
+      "Anshul Garg presents Meri Banogi Kya by Rito Riba featuring Prakriti Pavani and Karan Jotwani Stream here ...",
+    publishedAt: "3/20/2023",
+    thumbnail: "https://i.ytimg.com/vi/uoLC9u_M-E8/mqdefault.jpg",
+    videoId: "uoLC9u_M-E8",
+  },
+  {
     title:
       "Shitom Ahmed - Chorabali (Lyrics) || কেন লাগে শূন্য শূন্য বলো || Lyrical Music By Farzan​",
     channelTitle: "Lyrical Music By 𝒇𝒂𝒓𝒛𝒂𝒏",
